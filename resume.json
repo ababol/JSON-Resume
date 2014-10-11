@@ -13,7 +13,7 @@
     },
     "right":{
       "img":"assets/img/levi/hocus.png",
-      "text":"Music + programming = <font class='love'></font>"
+      "text":"Music + programming = <i class='fa fa-heart'></i>"
     }
    },
    "skills":[

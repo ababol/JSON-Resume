@@ -912,51 +912,53 @@ a:focus,
     opacity:0.6;
 }
 
-    .bl_form {
-      margin: 0 0 40px;
-    }
+.bl_form {
+  margin: 0 0 40px;
+}
 
-    .bl_form input,
-    .bl_form textarea{
-      padding-top: 15px;
-      background: rgba(255,255,255,0.10);
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-      border: none;
-      color: white;
-      height:44px;
-      max-height:44px;
-      min-height:44px;
-      width:207px;
-      max-width:207px;
-      min-width:207px;
-      padding: 10px 15px;
-      border-radius: 25px;
-      font-size: 16px;
-      outline: none;
-      vertical-align:middle;
-    }
+.bl_form input,
+.bl_form textarea{
+  padding-top: 15px;
+  background: rgba(255,255,255,0.10);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border: none;
+  color: white;
+  height:44px;
+  min-height:44px;
+  width:207px;
+  min-width:207px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  vertical-align:middle;
+}
 
+.noResize {
+  max-width:207px;
+  max-height:44px;
+}
 
-    .lb_wrap .lb_label.top, .lb_wrap .lb_label.bottom {
-      left: 15px;
-	  z-index:1;
-    }
+.lb_wrap .lb_label.top, .lb_wrap .lb_label.bottom {
+  left: 15px;
+z-index:1;
+}
 
-    .lb_wrap .lb_label.left {
-      left: 0;
-	  z-index:1;
-    }
+.lb_wrap .lb_label.left {
+  left: 0;
+z-index:1;
+}
 
-    .lb_label {
-      font-weight: bold;
-      color: #999;
-	  z-index:1;
-    }
+.lb_label {
+  font-weight: bold;
+  color: #999;
+z-index:1;
+}
 
-    .lb_label.active {
-      color: #FFF;
-	  z-index:1;
-    }
+.lb_label.active {
+  color: #FFF;
+z-index:1;
+}
 
 .no-placeholder .lb_label {
 	display:none;
@@ -1263,13 +1265,3 @@ a:focus,
 		padding-bottom: 7px;
 	}
 }
-
-.love:before {
-	font-family: "Fontawesome";
-  content: "\f004";
-}
-// @media (min-width: 1200px) {
-// 	.jumbotron {
-// 		min-height:660px;
-// 	}
-// }
