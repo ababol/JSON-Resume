@@ -3,7 +3,7 @@ $(document).ready(function() {
   $('#home .isTooltip').hover(function () {
   	var title = $(this).attr('data-title-' + lang + '');
   	$(this).data('tipText', title).removeAttr('data-title-' + lang + '');
-  	$('<p class="tooltipDesc"></p>').text(title).appendTo('body').fadeIn('slow');
+  	$('<p class="tooltipDesc"></p>').html(title).appendTo('body').fadeIn('slow');
   }, function () {
   	$(this).attr('data-title-' + lang + '', $(this).data('tipText'));
   	$('.tooltipDesc').remove();
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     if (right) {
       // var width = parseInt($('.tooltipDesc').width(), 10);
-      offsetX = -offsetX - 175;
+      offsetX = -offsetX - 211;
     }
 
   	var mousex = e.pageX + offsetX;

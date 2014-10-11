@@ -2,3 +2,5 @@
 node_modules
 *.pdf
 *.html
+js/bundle.min.js
+assets/styles/bundle.min.css

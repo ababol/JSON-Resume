@@ -3,6 +3,19 @@
       "title":"Arnaud Babol - Developer",
       "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France (I can speak French/English). I major in Computer Science and I am looking for a job or an internship from 2nd March 2015."
    },
+   "levitate":{
+     "top": {
+      "img":"assets/img/levi/firefox.svg",
+    },
+    "left":{
+      "img":"assets/img/levi/grunt.svg",
+      "text":"Grunt is really easy to use.<br/>I love it because it boosts my productivity."
+    },
+    "right":{
+      "img":"assets/img/levi/hocus.png",
+      "text":"Music + programming = <font class='love'></font>"
+    }
+   },
    "skills":[
       {
          "tech":"JavaScript (CoffeeScript)",
@@ -210,8 +223,8 @@
          "tech": ["C#", "Windows Azure", "WPF", "3-Tiers Architecture"],
          "description":"Fun and simple way for children to learn.",
          "descriptionLi":["Challenge your friends","Games and scores automatically synchronized with an SQL Server hosted on the Windows Azure Cloud"],
-         "thumbImg": "assets/img/projects/educationAll/educationAll_thumb.jpg",
-         "images":"assets/img/projects/educationAll/educationAll_0.png, assets/img/projects/educationAll/educationAll_1.png, assets/img/projects/educationAll/educationAll_2.png, assets/img/projects/educationAll/educationAll_3.png",
+         "thumbImg": "assets/img/projects/educationall/educationAll_thumb.jpg",
+         "images":"assets/img/projects/educationall/educationAll_0.png, assets/img/projects/educationall/educationAll_1.png, assets/img/projects/educationall/educationAll_2.png, assets/img/projects/educationall/educationAll_3.png",
          "category": "Software"
       },
       {
