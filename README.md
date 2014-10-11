@@ -9,6 +9,10 @@ I made this little project because in the past it was a pain for me to edit my p
 
 Now, if I want to edit the content of my portfolio/résumé I just have to edit the  [resume.json](https://github.com/ababol/JSON-Resume/blob/master/resume.json) file :tada:.
 
+# How
+
+Run `grunt build`.
+
 # Demo
 
 * Portfolio
