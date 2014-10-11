@@ -224,7 +224,7 @@
          "description":"Fun and simple way for children to learn.",
          "descriptionLi":["Challenge your friends","Games and scores automatically synchronized with an SQL Server hosted on the Windows Azure Cloud"],
          "thumbImg": "assets/img/projects/educationall/educationAll_thumb.jpg",
-         "images":"assets/img/projects/educationall/educationAll_0.png, assets/img/projects/educationall/educationAll_1.png, assets/img/projects/educationall/educationAll_2.png, assets/img/projects/educationall/educationAll_3.png",
+         "images":"assets/img/projects/educationall/educationall_0.png, assets/img/projects/educationall/educationall_1.png, assets/img/projects/educationall/educationall_2.png, assets/img/projects/educationall/educationall_3.png",
          "category": "Software"
       },
       {
