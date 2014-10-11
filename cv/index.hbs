@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arnaud Babol</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div id="text-header" class="row">
+        <div style="width: 25%; float: left; text-align: center; padding-left: 15px;">
+          <div class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="./img/avatar.jpg" alt="avatar">
+            </div>
+          </div>
+        </div>
+        <div id="photo-header" style="width: 40%; float: left; text-align: left; vertical-align: middle;">
+          <h1>Arnaud Babol<br><span>Software</span> Engineer<br><span id='age'>22</span> years old</h1>
+        </div>
+        <div id='contact' style="width: 35%; float: left; text-align: right; padding-right: 15px;">
+          <div class="table box clearfix">
+            <div class="row contact-item">
+              <div class="cell icon"><i class="fa fa-phone fa-fw"></i></div>
+              <div class="cell title only">{{ contact.phone }}</div>
+            </div>
+            <div class="row contact-item">
+              <div class="cell icon"><i class="fa fa-envelope fa-fw"></i></div>
+              <div class="cell title only">{{ contact.mail }}</div>
+            </div>
+            <div class="row contact-item">
+              <div class="cell icon"><i class="fa fa-github fa-fw"></i></div>
+              <div class="cell title only">{{ contact.github }}</div>
+            </div>
+            <div class="row contact-item">
+              <div class="cell icon"><i class="fa fa-twitter fa-fw"></i></div>
+              <div class="cell title only">{{ contact.twitter }}</div>
+            </div>
+            <div class="row contact-item">
+              <div class="cell icon"><i class="fa fa-rocket fa-fw"></i></div>
+              <div class="cell title only">{{ contact.portfolio }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2>About Me</h2>
+            <p>{{ about.description }}</p>
+          </div>
+          <!-- SKILLS -->
+          <div class="box skills">
+            <h2>Skills</h2>
+            <ul>
+              <li><b>Web:</b> {{#each skills}}{{#if this.web}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>Software:</b> {{#each skills}}{{#if this.software}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>Administration:</b> {{#each skills}}{{#if this.admin}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>Testing:</b> {{#each skills}}{{#if this.testing}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>Others:</b> {{#each skills}}{{#if this.others}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+            </ul>
+          </div>
+          <!-- EXPERIENCES -->
+          <div class="box">
+            <h2>Experiences</h2>
+
+            <!-- JOB ITEM -->
+            {{#each experiences}}
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">{{ this.title }}</div>
+                <div class="year tech">{{ this.date }}<br>
+                  {{#each this.tech}}
+                    <span class="label label-default">{{this}}</span>
+                  {{/each}}
+                </div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">{{ this.position }}</div>
+                <div class="description">
+                  {{ this.description }}
+                  <ul>
+                    {{#each this.descriptionLi}}
+                      <li>{{this}}</li>
+                    {{/each}}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+
+          </div>
+          <!-- FEATURED PROJECT -->
+          <div class="box">
+            <h2>Featured Project</h2>
+
+            <!-- JOB ITEM -->
+            {{#each projects}}
+              {{#if this.featured}}
+              <div class="job clearfix">
+                <div class="col-xs-3">
+                  <div class="where">Technology</div>
+                  <div class="tech">
+                    {{#each this.tech}}
+                      <span class="label label-default">{{this}}</span>
+                    {{/each}}
+                  </div>
+                </div>
+                <div class="col-xs-9">
+                  <div class="profession">{{ this.title }}</div>
+                  <div class="date">{{ this.date }}</div>
+                  <div class="description">
+                    {{ this.description }}
+                    <ul>
+                      {{#each this.descriptionLi}}
+                        <li>{{this}}</li>
+                      {{/each}}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {{/if}}
+            {{/each}}
+
+          </div>
+          <!-- FEATURED PROJECT -->
+          <div class="box">
+            <h2>Featured Contribution</h2>
+
+            <!-- JOB ITEM -->
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Technology</div>
+                <div class="tech">
+                  {{#each contribution.tech}}
+                      <span class="label label-default">{{this}}</span>
+                  {{/each}}
+                </div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">{{ contribution.title }}</div>
+                <div class="description">
+                    {{ this.description }}
+                    <ul>
+                      {{#each contribution.descriptionLi}}
+                        <li>{{this}}</li>
+                      {{/each}}
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2>Education</h2>
+            <ul id="education" class="clearfix">
+              {{#each education}}
+                <li>
+                  <div class="year pull-left">{{ this.date }}</div>
+                  <div class="description pull-right">
+                    <h3>{{ this.title }}</h3>
+                    <p>{{ this.description }}</p>
+                  </div>
+                </li>
+              {{/each}}
+            </ul>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2>Hobbies</h2>
+            {{#each hobbies}}<div class="hobby">{{this}}</div>{{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

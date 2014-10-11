@@ -1,0 +1,148 @@
+@blue: #3498DB;
+
+.skills-diagram {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 35em;
+  margin: 2em auto 2em;
+}
+.skills-diagram > dd {
+  /* Hide inner attributes */
+  display: none;
+}
+.skills-diagram dt {
+  display: inline-block;
+  vertical-align: top;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
+  /* set defaults to skill-2 */
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.skills-diagram dt:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* Support vertical mode */
+.skills-diagram-vertical dt {
+  display: block;
+  /* .25em is an equivalent to inline-block's horizontal whitespace margin */
+  margin: .25em auto;
+}
+
+/* Provide 10 different sizes */
+.skills-diagram .skill-2 {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+
+  background-color: fade(@blue, 10%);
+  border-color: fade(@blue, 10%);
+  color: white;
+}
+.skills-diagram .skill-3 {
+  vertical-align: middle;
+
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+
+  background-color: fade(@blue, 20%);
+  border-color: fade(@blue, 20%);
+  color: white;
+}
+.skills-diagram .skill-4 {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+
+
+  background-color: fade(@blue, 30%);
+  border-color: fade(@blue, 30%);
+  color: white;
+}
+.skills-diagram .skill-5 {
+  vertical-align: bottom;
+
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+
+  background-color: fade(@blue, 50%);
+  border-color: fade(@blue, 50%);
+  color: white;
+}
+.skills-diagram .skill-6 {
+  vertical-align: top;
+
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+
+  background-color: fade(@blue, 60%);
+  border-color: fade(@blue, 60%);
+  color: white;
+}
+.skills-diagram .skill-7 {
+  &.multilines {
+    line-height: 1.75em;
+    padding-top: 1.5em;
+  }
+
+  width: 7em;
+  height: 7em;
+  line-height: 7em;
+
+  background-color: fade(@blue, 70%);
+  border-color: fade(@blue, 70%);
+  color: white;
+}
+.skills-diagram .skill-8 {
+  &.multilines {
+    line-height: 2em;
+    padding-top: 1.8em;
+  }
+
+  vertical-align: bottom;
+
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+
+  background-color: fade(@blue, 90%);
+  border-color: fade(@blue, 90%);
+  color: white;
+}
+.skills-diagram .skill-9 {
+  width: 11em;
+  height: 11em;
+  line-height: 11em;
+
+  background-color: fade(@blue, 95%);
+  border-color: fade(@blue, 95%);
+  color: white;
+}
+.skills-diagram .skill-10 {
+  width: 14em;
+  height: 14em;
+  line-height: 14em;
+  background-color: fade(@blue, 100%);
+  border-color: fade(@blue, 100%);
+  color: white;
+}
