@@ -4,6 +4,7 @@
 
 .jedi {
   .head {
+    margin-top: 5px;
     height: 60px;
   }
 
@@ -31,6 +32,9 @@
     -moz-animation:
       fadeInDown 2s 1,
       levitate 2s infinite;
+    animation:
+      fadeInDown 2s 1,
+      levitate 2s infinite;
   }
 
   .levitate.tech {
@@ -38,6 +42,9 @@
       fadeInDown 2.5s 1,
       levitate 2.5s infinite;
     -moz-animation:
+      fadeInDown 2.5s 1,
+      levitate 2.5s infinite;
+    animation:
       fadeInDown 2.5s 1,
       levitate 2.5s infinite;
   }
@@ -62,6 +69,16 @@
       opacity:1;
     }
   }
+  @keyframes fadeInDown {
+    0% {
+      transform: translateY(0px);
+      opacity:0;
+    }
+    100% {
+      transform: translateY(50px);
+      opacity:1;
+    }
+  }
 
   @-webkit-keyframes levitate{
     0% {
@@ -74,7 +91,6 @@
       -webkit-transform: translateY(-5px);
     }
   }
-
   @-moz-keyframes levitate{
     0% {
       -moz-transform: translateY(0px);
@@ -88,6 +104,20 @@
       -moz-transform: translateY(0px);
     }
   }
+  @keyframes levitate{
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(10px);
+    }
+
+    100%{
+      transform: translateY(0px);
+    }
+  }
+
 
   img.arnaud {
   	margin-top: 15px;
@@ -108,6 +138,7 @@
   .shadow{
     -webkit-animation: shadow 2s infinite;
     -moz-animation: shadow 2s infinite;
+    animation: shadow 2s infinite;
     margin-bottom: 20px;
   }
 

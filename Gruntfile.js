@@ -81,7 +81,7 @@ module.exports = function(grunt) {
         stderr: false
       },
       target: {
-        command: 'phantomjs rasterize.js cv/index.html cv/arnaud_babol_en.pdf "827px*1169px"'
+        command: 'phantomjs cv/rasterize.js cv/index.html cv/arnaud_babol_en.pdf "827px*1169px"'
       }
     }
   });

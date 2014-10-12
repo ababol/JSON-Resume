@@ -15,5 +15,5 @@ Run `grunt build`.
 
 # Demo
 
-* Portfolio
-* PDF Résumé
+* [Portfolio](http://babol.me)
+* [PDF Résumé](http://babol.me/cv/arnaud_babol_en.pdf)
