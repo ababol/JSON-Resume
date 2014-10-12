@@ -1,7 +1,8 @@
 {
    "about":{
-      "title":"Arnaud Babol - Developer",
-      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France (I can speak French/English). I major in Computer Science and I am looking for a job or an internship from 2nd March 2015."
+      "title":"Arnaud Babol - Software Engineer",
+      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France (I can speak French/English).<br/>I major in Computer Science and I am looking for a 6 months internship from 2nd March 2015.",
+      "cvLink":"cv/arnaud_babol_en.pdf"
    },
    "levitate":{
      "top": {
@@ -279,6 +280,7 @@
       "phone":"+33 (0) 6 71 70 62 35",
       "mail":"arnaud.babol@gmail.com",
       "github":"https://github.com/ababol",
+      "angellist":"https://angel.co/ababol",
       "twitter":"https://twitter.com/arbabol",
       "linkedin":"http://fr.linkedin.com/pub/arnaud-babol/60/994/741/en",
       "portfolio":"http://babol.me"
