@@ -57,8 +57,8 @@ module.exports = function(grunt) {
     less: {
       production: {
         options: {
-          cleancss: false,
-          compress: false
+          cleancss: true,
+          compress: true
         },
         files: {
           'assets/styles/bundle.min.css': ['assets/styles/*.less']
