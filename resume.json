@@ -1,8 +1,15 @@
 {
    "about":{
-      "title":"Arnaud Babol - Software Engineer",
-      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France (I can speak French/English).<br/>I major in Computer Science and I am looking for a 6 months internship from 2nd March 2015.",
-      "cvLink":"cv/arnaud_babol_en.pdf"
+     "en": {
+        "title":"Arnaud Babol - Full-Stack Developer",
+        "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France (I can speak French/English).<br/>I major in Computer Science and I am looking for a 6 months internship from 2nd March 2015.",
+        "cvLink":"cv/arnaud_babol_en.pdf"
+     },
+     "fr": {
+        "title":"Arnaud Babol - Dévoppeur Full-Stack",
+        "description":"Étudiant à l'ISEN-Lille en dernière année, je suis actuellement à la recherche d'un stage de 6 mois à partir du 2 Mars 2015.<br/>J'aimerais me diriger vers du développement web et plus précisément vers du JavaScript, l'idéal serait un emploi de développeur Full-stack avec par exemple du Node.JS en back-end et un framework récent en front (React/Angular/Backbone...).",
+        "cvLink":"cv/arnaud_babol_fr.pdf"
+     }
    },
    "levitate":{
      "top": {
@@ -138,144 +145,206 @@
          "others": true
       }
    ],
-   "experiences":[
-      {
+   "experiences":{
+      "fr": [{
+         "title":"Geckoboard Londres",
+         "date": "Été 2014 (4mois)",
+         "position":"Software Engineer Intern",
+         "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
+         "description":"Geckoboard est un service permettant aux clients de visualiser leurs données clés grâce à un système de tableau de bord personnalisable.",
+         "descriptionLi":[
+           "Création de nouveaux widgets à l'aide des APIs de différents services tels que Google ou Twitter",
+           "Corriger les bugs sur l'application existante.",
+           "Rédaction d'une documentation pour les futurs stagiaires/employés (Best practices, How-To...)",
+           "Échange avec les clients pour savoir comment améliorer Geckoboard."]
+      }],
+      "en": [{
          "title":"Geckoboard London",
          "date": "Summer 2014 (4Months)",
          "position":"Software Engineer Intern",
-         "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef"],
+         "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
          "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
          "descriptionLi":[
-           "Create widgets using RESTful API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
+           "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
            "Troubleshoot and resolve difficult problems relating to the Geckoboard application.",
            "Avoid regression thanks to unit testing implementation",
-           "Write supporting documents (Best practice, How-To...)",
+           "Write supporting documents (Best practices, How-To...)",
            "Discuss with the customers to improve Geckoboard's products."]
-      }
-   ],
-   "projects":[
-      {
-         "title":"ScaleWS",
-         "subtitle": "Hack a body Scale",
-         "date": "12/2013 - 04/2014",
-         "keys": ["Node.js", "Socket.IO", "MongoDB", "Backbone"],
-         "github": "github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
-         "slides": "Slides,http://ababol.github.io/ScaleWS",
-         "link":"http://babol.me:1337",
-         "tech": ["Node.js", "Express", "Backbone", "MongoDB", "Socket.IO", "Highcharts", "d3.js", "SASS", "Grunt", "Bower", "Require.js", "Wireshark"],
-         "description":"Get, process and visualize data acquired from a wifi body scale (Withings WS50).",
-         "descriptionLi":[
-           "Hack the scale (DNS Spoofing)",
-           "Provide a JSON RESTful API (Node.JS + MongoDB)",
-           "Create a web application",
-           "Shared collections between server/client (like Meteor.js)"],
-         "featured":true,
-         "thumbImg": "assets/img/projects/scalews/scalews_thumb.png",
-         "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
-         "featImg":"assets/img/projects/scalews/scalews.gif",
-         "category": "Web"
-      },
-      {
-         "title":"Github Top Repo",
-         "subtitle": "Geckoboard coding challenge",
-         "date": "03/2014",
-         "keys": ["Backbone", "GitHub API", "Jasmine"],
-         "github": "github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
-         "link":"http://babol.me/works/github-top-repo/",
-         "tech": ["Backbone", "GitHub API", "Jasmine", "Bower"],
-         "description":"Little coding challenge given by Geckoboard to check \"my skills\", I was finally hired and I did my internship with them during the summer of 2014.<br/><br/> They gave me a design and the requirements were:",
-         "descriptionLi":["A main page which shows a list of up to 20 repositories sorted by the number of stars/watchers (highest first)", "Each item displays the repo title, the number of stars/watchers and the number of forks", "Clicking on the title shows a more detailed description of the repository containing the description, homepage URL and any other relevant information."],
-         "thumbImg": "assets/img/projects/github-top-repo/github_thumb.png",
-         "images":"assets/img/projects/github-top-repo/github_0.png, assets/img/projects/github-top-repo/github_1.png, assets/img/projects/github-top-repo/github_2.png",
-         "category": "Web"
-      },
-      {
-         "title":"Babol.me v1",
-         "subtitle": "My old portfolio",
-         "date": "2012",
-         "keys": ["1st Flat Design Experience", "Vanilla Responsive"],
-         "link":"http://babol.me/old/v1",
-         "description":"Use of Flat Design techniques to make a responsive website. I was really proud of myself back in 2012 ^^.",
-         "thumbImg": "assets/img/projects/babol.me/babolme_thumb.png",
-         "images":"assets/img/projects/babol.me/babolme_0.png, assets/img/projects/babol.me/babolme_1.png, assets/img/projects/babol.me/babolme_2.png, assets/img/projects/babol.me/babolme_3.png, assets/img/projects/babol.me/babolme_4.png, assets/img/projects/babol.me/babolme_5.png",
-         "category": "Web"
-      },
-      {
-         "title":"Hackenbush",
-         "subtitle": "Logic Game Hackenbush",
-         "date": "2012",
-         "keys": ["HTML5", "CSS3", "JavaScript", "PHP", "TDD", "QUnit"],
-         "github": "github.com/ababol/Hackenbush,https://github.com/ababol/Hackenbush",
-         "link":"http://hackenbush.babol.me",
-         "tech": ["HTML5", "CSS3", "JavaScript", "PHP", "TDD", "QUnit"],
-         "description":"Developement of the logic game Hackenbush",
-         "descriptionLi":["Save/Load your game", "Can play against an artificial intelligence", "Following Test Driven Development"],
-         "thumbImg": "assets/img/projects/hackenbush/hackenbush_thumb.png",
-         "images":"assets/img/projects/hackenbush/hackenbush_0.png, assets/img/projects/hackenbush/hackenbush_1.png, assets/img/projects/hackenbush/hackenbush_2.png, assets/img/projects/hackenbush/hackenbush_3.png, assets/img/projects/hackenbush/hackenbush_4.png",
-         "category": "Web"
-      },
-      {
-         "title":"EducationAll",
-         "subtitle": "Fun and simple way for children to learn",
-         "date": "2013",
-         "keys": ["C#", "Windows Azure", "WPF"],
-         "github": "github.com/ababol/EducativeGame,https://github.com/ababol/EducativeGame",
-         "slides":"Slides,http://educationall.babol.me/Sharpentier-EducationAll-Slides.pdf",
-         "tech": ["C#", "Windows Azure", "WPF", "3-Tiers Architecture"],
-         "description":"Fun and simple way for children to learn.",
-         "descriptionLi":["Challenge your friends","Games and scores automatically synchronized with an SQL Server hosted on the Windows Azure Cloud"],
-         "thumbImg": "assets/img/projects/educationall/educationAll_thumb.jpg",
-         "images":"assets/img/projects/educationall/educationall_0.png, assets/img/projects/educationall/educationall_1.png, assets/img/projects/educationall/educationall_2.png, assets/img/projects/educationall/educationall_3.png",
-         "category": "Software"
-      },
-      {
-         "title":"JGASolver",
-         "subtitle": "A Genetic Algorithms Framework",
-         "date": "2013",
-         "keys": ["Java", "Swing"],
-         "github": "github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
-         "link":"http://jgasolver.babol.me/JGaSolver.jar",
-         "slides":"Slides,http://jgasolver.babol.me/Slides_GeneticAlgorithm.pdf",
-         "tech": ["Java", "Swing", "Maven", "MVC", "Redmine"],
-         "description":"JGASolver is a framework written in Java which allows the user to solve their genetic optimization problems.",
-         "thumbImg": "assets/img/projects/jgasolver/jgasolver_thumb.png",
-         "images":"assets/img/projects/jgasolver/jgasolver.jpg",
-         "category": "Software"
-      },
-      {
-         "title":"Robot Bille",
-         "subtitle": "Can a robot move like a ball?",
-         "date": "2012",
-         "keys": ["C", "HTML5", "JavaScript"],
-         "link":"http://robotbille.babol.me",
-         "tech": ["C", "HTML5", "JavaScript"],
-         "descriptionLi":["Finding the robot/ball path using our program written in C", "Store result in a JSON file and display the path in a canvas", "Comparaison with the shortest path using <a target='_blank' href='http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm'>Dijkstra's algorihm</a>"],
-         "thumbImg": "assets/img/projects/robotbille/robotbille_thumb.png",
-         "images":"assets/img/projects/robotbille/robotbille.png",
-         "category": "Web Software"
-      }
-   ],
-   "contribution": {
-     "title":"AtomLinter",
-     "tech": ["CoffeeScript", "Sinon"],
-     "description":"Code linting for Atom (github's text editor).",
-     "descriptionLi":[
-       "Add possibility to display every code/syntax errors of the selected page and to go to the error with a click.",
-       "Improve the configuration screen"]
+      }]
    },
-   "education": [{
-     "date":"03/2015",
-     "title":"JOB/INTERNSHIP IN YOUR COMPANY",
-     "description":"Minimum 6 months"
-   },{
-     "date":"2013",
-     "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-     "description":"Currently in the 2nd and final year of a master’s degree in IT with Management & Business development."
-   },{
-     "date":"2010",
-     "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-     "description":"Bachelor of Technology in computer Science and Networking"
-   }],
+   "projects": {
+     "en":[
+        {
+           "title":"ScaleWS",
+           "subtitle": "Hack a body Scale",
+           "date": "12/2013 - 04/2014",
+           "keys": ["Node.js", "Socket.IO", "MongoDB", "Backbone"],
+           "github": "github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
+           "slides": "Slides,http://ababol.github.io/ScaleWS",
+           "link":"http://babol.me:1337",
+           "tech": ["Node.js", "Express", "Backbone", "MongoDB", "Socket.IO", "Highcharts", "d3.js", "SASS", "Grunt", "Bower", "Require.js", "Wireshark"],
+           "description":"Get, process and visualize data acquired from a wifi body scale (Withings WS50).",
+           "descriptionLi":[
+             "Hack the scale (DNS Spoofing)",
+             "Provide a JSON RESTful API (Node.JS + MongoDB)",
+             "Create a web application",
+             "Shared collections between server/client thanks to MongoDB/Socket.io (a little bit like Meteor.js)"],
+           "featured":true,
+           "thumbImg": "assets/img/projects/scalews/scalews_thumb.png",
+           "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
+           "featImg":"assets/img/projects/scalews/scalews.gif",
+           "category": "Web"
+        },
+        {
+           "title":"Github Top Repo",
+           "subtitle": "Geckoboard coding challenge",
+           "date": "03/2014",
+           "keys": ["Backbone", "GitHub API", "Jasmine"],
+           "github": "github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
+           "link":"http://babol.me/works/github-top-repo/",
+           "tech": ["Backbone", "GitHub API", "Jasmine", "Bower"],
+           "description":"Little coding challenge given by Geckoboard to check \"my skills\", I was finally hired and I did my internship with them during the summer of 2014.<br/><br/> They gave me a design and the requirements were:",
+           "descriptionLi":["A main page which shows a list of up to 20 repositories sorted by the number of stars/watchers (highest first)", "Each item displays the repo title, the number of stars/watchers and the number of forks", "Clicking on the title shows a more detailed description of the repository containing the description, homepage URL and any other relevant information."],
+           "thumbImg": "assets/img/projects/github-top-repo/github_thumb.png",
+           "images":"assets/img/projects/github-top-repo/github_0.png, assets/img/projects/github-top-repo/github_1.png, assets/img/projects/github-top-repo/github_2.png",
+           "category": "Web"
+        },
+        {
+           "title":"Babol.me v1",
+           "subtitle": "My old portfolio",
+           "date": "2012",
+           "keys": ["1st Flat Design Experience", "Vanilla Responsive"],
+           "link":"http://babol.me/old/v1",
+           "description":"Use of Flat Design techniques to make a responsive website. I was really proud of myself back in 2012 ^^.",
+           "thumbImg": "assets/img/projects/babol.me/babolme_thumb.png",
+           "images":"assets/img/projects/babol.me/babolme_0.png, assets/img/projects/babol.me/babolme_1.png, assets/img/projects/babol.me/babolme_2.png, assets/img/projects/babol.me/babolme_3.png, assets/img/projects/babol.me/babolme_4.png, assets/img/projects/babol.me/babolme_5.png",
+           "category": "Web"
+        },
+        {
+           "title":"Hackenbush",
+           "subtitle": "Logic Game Hackenbush",
+           "date": "2012",
+           "keys": ["HTML5", "CSS3", "JavaScript", "PHP", "TDD", "QUnit"],
+           "github": "github.com/ababol/Hackenbush,https://github.com/ababol/Hackenbush",
+           "link":"http://hackenbush.babol.me",
+           "tech": ["HTML5", "CSS3", "JavaScript", "PHP", "TDD", "QUnit"],
+           "description":"Developement of the logic game Hackenbush",
+           "descriptionLi":["Save/Load your game", "Can play against an artificial intelligence", "Following Test Driven Development"],
+           "thumbImg": "assets/img/projects/hackenbush/hackenbush_thumb.png",
+           "images":"assets/img/projects/hackenbush/hackenbush_0.png, assets/img/projects/hackenbush/hackenbush_1.png, assets/img/projects/hackenbush/hackenbush_2.png, assets/img/projects/hackenbush/hackenbush_3.png, assets/img/projects/hackenbush/hackenbush_4.png",
+           "category": "Web"
+        },
+        {
+           "title":"EducationAll",
+           "subtitle": "Fun and simple way for children to learn",
+           "date": "2013",
+           "keys": ["C#", "Windows Azure", "WPF"],
+           "github": "github.com/ababol/EducativeGame,https://github.com/ababol/EducativeGame",
+           "slides":"Slides,http://educationall.babol.me/Sharpentier-EducationAll-Slides.pdf",
+           "tech": ["C#", "Windows Azure", "WPF", "3-Tiers Architecture"],
+           "description":"Fun and simple way for children to learn.",
+           "descriptionLi":["Challenge your friends","Games and scores automatically synchronized with an SQL Server hosted on the Windows Azure Cloud"],
+           "thumbImg": "assets/img/projects/educationall/educationAll_thumb.jpg",
+           "images":"assets/img/projects/educationall/educationall_0.png, assets/img/projects/educationall/educationall_1.png, assets/img/projects/educationall/educationall_2.png, assets/img/projects/educationall/educationall_3.png",
+           "category": "Software"
+        },
+        {
+           "title":"JGASolver",
+           "subtitle": "A Genetic Algorithms Framework",
+           "date": "2013",
+           "keys": ["Java", "Swing"],
+           "github": "github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
+           "link":"http://jgasolver.babol.me/JGaSolver.jar",
+           "slides":"Slides,http://jgasolver.babol.me/Slides_GeneticAlgorithm.pdf",
+           "tech": ["Java", "Swing", "Maven", "MVC", "Redmine"],
+           "description":"JGASolver is a framework written in Java which allows the user to solve their genetic optimization problems.",
+           "thumbImg": "assets/img/projects/jgasolver/jgasolver_thumb.png",
+           "images":"assets/img/projects/jgasolver/jgasolver.jpg",
+           "category": "Software"
+        },
+        {
+           "title":"Robot Bille",
+           "subtitle": "Can a robot move like a ball?",
+           "date": "2012",
+           "keys": ["C", "HTML5", "JavaScript"],
+           "link":"http://robotbille.babol.me",
+           "tech": ["C", "HTML5", "JavaScript"],
+           "descriptionLi":["Finding the robot/ball path using our program written in C", "Store result in a JSON file and display the path in a canvas", "Comparaison with the shortest path using <a target='_blank' href='http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm'>Dijkstra's algorihm</a>"],
+           "thumbImg": "assets/img/projects/robotbille/robotbille_thumb.png",
+           "images":"assets/img/projects/robotbille/robotbille.png",
+           "category": "Web Software"
+        }
+     ],
+     "fr":[
+        {
+           "title":"ScaleWS",
+           "subtitle": "Hack d'une balance connectée",
+           "date": "12/2013 - 04/2014",
+           "keys": ["Node.js", "Socket.IO", "MongoDB", "Backbone"],
+           "github": "github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
+           "slides": "Slides,http://ababol.github.io/ScaleWS",
+           "link":"http://babol.me:1337",
+           "tech": ["Node.js", "Express", "Backbone", "MongoDB", "Socket.IO", "Highcharts", "d3.js", "SASS", "Grunt", "Bower", "Require.js", "Wireshark"],
+           "description":"Obtenir, interpréter et pouvoir visualiser les données acquises à partir d'une balance connectée (Withings WS50).",
+           "descriptionLi":[
+             "Hack de le balance (DNS Spoofing)",
+             "Fournir une API RESTful JSON (Node.JS + MongoDB)",
+             "Création d'une application web",
+             "Données partagées entre client & serveur (Socket.io/MongoDB)"],
+           "featured":true,
+           "thumbImg": "assets/img/projects/scalews/scalews_thumb.png",
+           "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
+           "featImg":"assets/img/projects/scalews/scalews.gif",
+           "category": "Web"
+        }
+      ]
+   },
+   "contribution": {
+     "en": {
+       "title":"AtomLinter",
+       "tech": ["CoffeeScript", "Sinon"],
+       "description":"Code linting for Atom (github's text editor).",
+       "descriptionLi":[
+         "Add possibility to display every code/syntax errors of the selected file and to go to the error with a click.",
+         "Improve the configuration screen"]
+      },
+      "fr": {
+       "title":"AtomLinter",
+       "tech": ["CoffeeScript", "Sinon"],
+       "description":"Analyseur de code pour Atom (Atom: éditeur de texte créé par GitHub). Le but est d'améliorer la qualité de votre code.",
+       "descriptionLi":[
+         "Ajout d'une option pour lister toutes les erreurs de votre fichier",
+         "Amélioration/Refactor de l'écran de configuration"]
+      }
+   },
+   "timeline": {
+     "en": [{
+       "date":"03/2015",
+       "title":"JOB/INTERNSHIP IN YOUR COMPANY",
+       "description":"Minimum 6 months"
+     },{
+       "date":"2013",
+       "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
+       "description":"Currently in the 2nd and final year of a master’s degree in IT with Management & Business development."
+     },{
+       "date":"2010",
+       "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
+       "description":"Bachelor of Technology in computer Science and Networking"
+     }],
+     "fr": [{
+       "date":"03/2015",
+       "title":"STAGE DANS VOTRE ENTREPRISE",
+       "description":"6 mois minimum."
+     },{
+       "date":"2013",
+       "title":"ISEN - ÉCOLE D'INGÉNIEURS, LILLE FRANCE",
+       "description":"Actuellement en seconde et dernière année de mon master en Management de projet et développement d’affaires/Systèmes d’information, réseaux et multimédia."
+     },{
+       "date":"2010",
+       "title":"ISEN - ÉCOLE D'INGÉNIEURS, LILLE FRANCE",
+       "description":"Bachelor of Technology en informatique & réseaux."
+     }]
+   },
    "contact":{
       "phone":"+33 (0) 6 71 70 62 35",
       "mail":"arnaud.babol@gmail.com",
@@ -285,5 +354,9 @@
       "linkedin":"http://fr.linkedin.com/pub/arnaud-babol/60/994/741/en",
       "portfolio":"http://babol.me"
    },
-   "hobbies":["Movies", "Music", "Programming", "New Technology"]
+   "hobbies": {
+      "en": ["Movies", "Music", "Programming", "New Technology"],
+      "fr": ["Cinéma", "Musique", "Programming", "High-Tech"]
+   },
+   "idGA":"UA-36930870-1"
 }

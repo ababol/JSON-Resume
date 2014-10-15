@@ -18,11 +18,15 @@ module.exports = function(grunt) {
     return fileOrder;
   }
 
+  function getPhantomCmd(lang) {
+    return 'phantomjs cv/rasterize.js cv/arnaud_babol_' + lang + '.html cv/arnaud_babol_' + lang + '.pdf "827px*1169px"';
+  }
+
   grunt.initConfig({
     watch: {
       handlebars: {
-        files: ['templates/*.hbs', 'cv/index.hbs', 'resume.json'],
-        tasks: ['compile-handlebars', 'concat:html', 'clean:templates'], // + shell
+        files: ['templates/*.hbs', 'cv/*.hbs', 'resume.json'],
+        tasks: ['compile-handlebars', 'concat:html', 'clean:templates'],
         options: {
           interrupt: true
         }
@@ -43,9 +47,9 @@ module.exports = function(grunt) {
         output: 'templates/*.html'
       },
       cv: {
-        template: 'cv/index.hbs',
+        template: 'cv/*.hbs',
         templateData: 'resume.json',
-        output: 'cv/index.html'
+        output: 'cv/*.html'
       }
     },
     concat: {
@@ -73,15 +77,18 @@ module.exports = function(grunt) {
       }
     },
     clean: {
-      build: ["assets/styles/bundle.min.css", "js/bundle.min.js", "templates/*.html"],
+      build: ["assets/styles/bundle.min.css", "js/bundle.min.js", "templates/*.html", "cv/*.html"],
       templates: "templates/*.html"
     },
     shell: {
       options: {
         stderr: false
       },
-      target: {
-        command: 'phantomjs cv/rasterize.js cv/index.html cv/arnaud_babol_en.pdf "827px*1169px"'
+      cvEN: {
+        command: getPhantomCmd('en')
+      },
+      cvFR: {
+        command: getPhantomCmd('fr')
       }
     }
   });
