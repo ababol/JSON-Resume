@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     if (right) {
       // var width = parseInt($('.tooltipDesc').width(), 10);
-      offsetX = -offsetX - 211;
+      offsetX = -offsetX - 183;
     }
 
   	var mousex = e.pageX + offsetX;

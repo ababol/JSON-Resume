@@ -14,14 +14,15 @@
    "levitate":{
      "top": {
       "img":"assets/img/levi/firefox.svg",
+      "text":"<i class='fa fa-heart'></i>"
     },
     "left":{
       "img":"assets/img/levi/grunt.svg",
-      "text":"Grunt is really easy to use.<br/>I love it because it boosts my productivity."
+      "text":"<i class='fa fa-line-chart'></i> productivity"
     },
     "right":{
       "img":"assets/img/levi/hocus.png",
-      "text":"Music + programming = <i class='fa fa-heart'></i>"
+      "text":"<i class='fa fa-headphones'></i> + programming = <i class='fa fa-heart'></i>"
     }
    },
    "skills":[
@@ -153,7 +154,7 @@
          "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
          "description":"Geckoboard est un service permettant aux clients de visualiser leurs données clés grâce à un système de tableau de bord personnalisable.",
          "descriptionLi":[
-           "Création de nouveaux widgets à l'aide des APIs de différents services tels que Google ou Twitter",
+           "Création de nouveaux widgets à l'aide des APIs de différents services tels que Google ou Twitter.",
            "Corriger les bugs sur l'application existante.",
            "Rédaction d'une documentation pour les futurs stagiaires/employés (Best practices, How-To...)",
            "Échange avec les clients pour savoir comment améliorer Geckoboard."]
