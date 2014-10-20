@@ -26,6 +26,15 @@ if(isset($_POST['submitted'])) {
 		$email = trim($_POST['email']);
 	}
 
+	// need valid email
+	if(trim($_POST['check']) === '')  {
+		$emailError = 'Check Failed: Forget to enter a result.';
+		$hasError = true;
+	} else if (strtolower(trim($_POST['email'])) !== 'firefox') {
+		$emailError = 'You entered a wrong answer.';
+		$hasError = true;
+	}
+
 	// we need at least some content
 	if(trim($_POST['comments']) === '') {
 		$commentError = 'You forgot to enter a message!';
@@ -40,7 +49,6 @@ if(isset($_POST['submitted'])) {
 
 	// upon no failure errors let's email now!
 	if(!isset($hasError)) {
-
 		$subject = 'New message to '.$siteTitle.' from '.$name;
 		$sendCopy = trim($_POST['sendCopy']);
 		$body = "Name: $name \n\nEmail: $email \n\nMessage: $comments";
