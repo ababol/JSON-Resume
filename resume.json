@@ -152,6 +152,7 @@
          "date": "Été 2014 (4mois)",
          "position":"Software Engineer Intern",
          "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
+         "link":"https://geckoboard.com",
          "description":"Geckoboard est un service permettant aux clients de visualiser leurs données clés grâce à un système de tableau de bord personnalisable.",
          "descriptionLi":[
            "Création de nouveaux widgets à l'aide des APIs de différents services tels que Google ou Twitter.",
@@ -164,6 +165,7 @@
          "date": "Summer 2014 (4Months)",
          "position":"Software Engineer Intern",
          "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
+         "link":"https://geckoboard.com",
          "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
          "descriptionLi":[
            "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",

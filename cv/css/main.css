@@ -193,6 +193,12 @@ EXPERIENCES
   font-size: 1.6em;
   font-weight: bold;
 }
+.job .profession a {
+  font-size: 0.8em;
+  font-weight: normal;
+  float: right;
+  color: #EC7263;
+}
 .job .description{
   font-size: 1.2em;
   line-height: 1.5em;

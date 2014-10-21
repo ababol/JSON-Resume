@@ -86,7 +86,10 @@
                 </div>
               </div>
               <div class="col-xs-9">
-                <div class="profession">{{ this.position }}</div>
+                <div class="profession">
+                  {{ this.position }}
+                  <a href="{{ this.link }}" target="_blank">{{ this.link }}</a>
+                </div>
                 <div class="description">
                   {{ this.description }}
                   <ul>
@@ -117,7 +120,10 @@
                   </div>
                 </div>
                 <div class="col-xs-9">
-                  <div class="profession">{{ this.title }}</div>
+                  <div class="profession">
+                    {{ this.title }}
+                    <a href="{{ this.link }}" target="_blank">{{ this.link }}</a>
+                  </div>
                   <div class="date">{{ this.date }}</div>
                   <div class="description">
                     {{ this.description }}
