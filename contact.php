@@ -49,9 +49,9 @@ if(isset($_POST['submitted'])) {
 
 	// upon no failure errors let's email now!
 	if(!isset($hasError)) {
-		$subject = 'New message to '.$siteTitle.' from '.$name;
+		$subject = '[Babol.me] New message from '.$name;
 		$sendCopy = trim($_POST['sendCopy']);
-		$body = "Name: $name\n\nEmail: $email\n\nMessage: $comments";
+		$body = "Email: $email\nMessage:\n$comments";
 		$headers = 'From: ' .' <'.$email.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 		mail($emailTo, $subject, $body, $headers);
