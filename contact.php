@@ -51,14 +51,14 @@ if(isset($_POST['submitted'])) {
 	if(!isset($hasError)) {
 		$subject = 'New message to '.$siteTitle.' from '.$name;
 		$sendCopy = trim($_POST['sendCopy']);
-		$body = "Name: $name \n\nEmail: $email \n\nMessage: $comments";
+		$body = "Name: $name\n\nEmail: $email\n\nMessage: $comments";
 		$headers = 'From: ' .' <'.$email.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 		mail($emailTo, $subject, $body, $headers);
 
         //Autorespond
-		$respondSubject = 'Thank you for contacting '.$siteTitle;
-		$respondBody = "Your message to $siteTitle has been delivered! \n\nI will answer back as soon as possible.";
+		$respondSubject = 'Thanks for your interest!';
+		$respondBody = "Hi $name,\n\nYour message has been successfully delivered!\nI will answer back as soon as possible.\n\nCheers,\n".$siteTitle;
 		$respondHeaders = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 
 		mail($email, $respondSubject, $respondBody, $respondHeaders);
