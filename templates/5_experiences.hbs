@@ -1,0 +1,51 @@
+<section id="experiences" class="dark-bg light-typo">
+
+	<div class="container">
+		<header class="section-header text-center">
+
+			<h1 class="scrollimation scale-in">Experience(s)</h1>
+			<p>I am still a student so I don't have many experiences at the moment.</p>
+
+		</header>
+		<div class="row">
+
+			{{#each experiences.en}}
+  			<div class="col-sm-4 text-col img-center scrollimation fade-right" style="text-align: center;">
+
+  				<img src='{{ this.img }}' width='360' height='59' />
+          <div class="sum">
+            {{ this.description }}
+          </div>
+          <div class="tech">
+            {{#each this.tech}}
+              <span class="label label-white">{{this}}</span>
+            {{/each}}
+          </div>
+
+  			</div>
+
+		    <div class="col-sm-8 scrollimation fade-left">
+
+          <div class="profession">
+            <h2>{{ this.position }}</h2>
+          </div>
+          <div class="date">{{ this.date }} - {{ this.location }}</div>
+          <div class="description">
+            <ul>
+              {{#each this.descriptionLi}}
+                <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class='website'>
+            <a class="btn btn-meflat white icon-right" href="{{this.link}}" target='_blank'>Visit Website<i class="fa fa-rocket"></i></a>
+          </div>
+
+			  </div>
+      {{/each}}
+
+		</div>
+
+	</div>
+
+</section>

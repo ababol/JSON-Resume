@@ -166,6 +166,8 @@
          "position":"Software Engineer Intern",
          "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
          "link":"https://geckoboard.com",
+         "location": "Shoreditch, London",
+         "img":"assets/img/experiences/geckoboard2.svg",
          "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
          "descriptionLi":[
            "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
