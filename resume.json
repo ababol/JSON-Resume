@@ -151,7 +151,7 @@
          "title":"Geckoboard Londres",
          "date": "Été 2014 (4mois)",
          "position":"Software Engineer Intern",
-         "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
+         "tech": ["Backbone", "Q.js (Promises)", "SASS", "Vagrant", "Chef", "Jasmine"],
          "link":"https://geckoboard.com",
          "description":"Geckoboard est un service permettant aux clients de visualiser leurs données clés grâce à un système de tableau de bord personnalisable.",
          "descriptionLi":[
@@ -164,7 +164,7 @@
          "title":"Geckoboard London",
          "date": "Summer 2014 (4Months)",
          "position":"Software Engineer Intern",
-         "tech": ["Backbone", "Q.js (Promises)", "SASS", "Agile", "Trello", "Vagrant", "Chef", "Jasmine"],
+         "tech": ["Backbone", "Q.js (Promises)", "SASS", "Vagrant", "Chef", "Jasmine"],
          "link":"https://geckoboard.com",
          "location": "Shoreditch, London",
          "img":"assets/img/experiences/geckoboard2.svg",
