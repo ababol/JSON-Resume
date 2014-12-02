@@ -309,8 +309,8 @@
         "description":"Mobile application (queue manager) made for Leroy Merlin during a Hackathon + 2 weekends.",
         "descriptionLi":[
           "Create a mobile application for the customers",
-          "Provide a JSON RESTful API (Node.JS + MongoDB)",
-          "Create a tablet application for the sellers"
+          "Create a tablet application for the sellers",
+          "Provide a JSON RESTful API (Node.JS + MongoDB)"
         ],
         "thumbImg":"assets/img/projects/oqadu/oqadu_thumb.png",
         "images":"assets/img/projects/oqadu/seller0.png,assets/img/projects/oqadu/seller1.png,assets/img/projects/oqadu/seller2.png, assets/img/projects/oqadu/customer0.png,assets/img/projects/oqadu/customer1.png",

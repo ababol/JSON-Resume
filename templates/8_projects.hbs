@@ -43,7 +43,7 @@
 				{{/if}}
 				{{#if this.link}}
 					<p class="text-right">
-						<a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link }}">
+						<a target='_blank' class="btn btn-meflat icon-right{{#if this.link2}} two{{/if}}" href="{{ this.link }}">
 							{{#if this.linkName}}
 								{{this.linkName}}
 							{{else}}
@@ -52,7 +52,7 @@
 							<i class="fa fa-rocket"></i>
 						</a>
 						{{#if this.link2}}
-							<a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link2 }}">{{ this.linkName2 }}<i class="fa fa-rocket"></i></a>
+							<br/><a target='_blank' class="btn btn-meflat icon-right two" href="{{ this.link2 }}">{{ this.linkName2 }}<i class="fa fa-rocket"></i></a>
 						{{/if}}
 					</p>
 				{{/if}}
