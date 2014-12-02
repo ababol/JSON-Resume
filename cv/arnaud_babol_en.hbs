@@ -62,11 +62,12 @@
           <div class="box skills">
             <h2>Skills</h2>
             <ul>
-              <li><b>Web:</b> {{#each skills}}{{#if this.web}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Software:</b> {{#each skills}}{{#if this.software}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Administration:</b> {{#each skills}}{{#if this.admin}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Testing:</b> {{#each skills}}{{#if this.testing}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Others:</b> {{#each skills}}{{#if this.others}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Web (JavaScript):</b> {{#each skills}}{{#if this.webjs}}{{this.tech}}{{{this.separator}}}{{/if}}{{/each}}</li>
+              <li><b>#Web (Others):</b> {{#each skills}}{{#if this.web}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Software:</b> {{#each skills}}{{#if this.software}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Admin/DB:</b> {{#each skills}}{{#if this.admin}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Testing:</b> {{#each skills}}{{#if this.testing}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Others:</b> {{#each skills}}{{#if this.others}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
             </ul>
           </div>
           <!-- EXPERIENCES -->
@@ -138,33 +139,26 @@
             {{/each}}
 
           </div>
-          <!-- FEATURED PROJECT -->
+          <!-- FEATURED CONTRIB -->
           <div class="box">
             <h2>Featured Contribution</h2>
-
             <!-- JOB ITEM -->
             <div class="job clearfix">
               <div class="col-xs-3">
                 <div class="where">Technology</div>
                 <div class="tech">
                   {{#each contribution.en.tech}}
-                      <span class="label label-default">{{this}}</span>
+                  <span class="label label-default">{{this}}</span>
                   {{/each}}
                 </div>
               </div>
               <div class="col-xs-9">
                 <div class="profession">{{ contribution.en.title }}</div>
                 <div class="description">
-                    {{ this.description }}
-                    <ul>
-                      {{#each contribution.en.descriptionLi}}
-                        <li>{{this}}</li>
-                      {{/each}}
-                    </ul>
+                  {{ contribution.en.description }}
                 </div>
               </div>
             </div>
-
           </div>
           <!-- EDUCATION -->
           <div class="box">
@@ -179,6 +173,14 @@
                   </div>
                 </li>
               {{/each}}
+            </ul>
+          </div>
+          <!-- MEETUPS -->
+          <div class="box skills">
+            <h2>Meetups</h2>
+            <ul>
+              <li><b>France:</b> {{#each meetup.france}}{{this}}{{/each}}</li>
+              <li><b>London:</b> {{#each meetup.london}}{{this}}{{/each}}</li>
             </ul>
           </div>
           <!-- HOBBIES -->

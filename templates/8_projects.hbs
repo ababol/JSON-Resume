@@ -42,7 +42,19 @@
         </ul>
 				{{/if}}
 				{{#if this.link}}
-					<p class="text-right"><a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link }}"></i>Go to Demo<i class="fa fa-rocket"></i></a></p>
+					<p class="text-right">
+						<a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link }}">
+							{{#if this.linkName}}
+								{{this.linkName}}
+							{{else}}
+								Go to Demo
+							{{/if}}
+							<i class="fa fa-rocket"></i>
+						</a>
+						{{#if this.link2}}
+							<a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link2 }}">{{ this.linkName2 }}<i class="fa fa-rocket"></i></a>
+						{{/if}}
+					</p>
 				{{/if}}
 			</div>
 

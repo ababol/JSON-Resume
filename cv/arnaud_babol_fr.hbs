@@ -63,12 +63,13 @@
           <div class="box skills">
             <h2>Compétences</h2>
             <ul>
-              <li><b>Web:</b> {{#each skills}}{{#if this.web}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Software:</b> {{#each skills}}{{#if this.software}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Administration:</b> {{#each skills}}{{#if this.admin}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Testing:</b> {{#each skills}}{{#if this.testing}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
-              <li><b>Langues:</b> Français & Anglais niveau avancé/bilingue</li>
-              <li><b>Autres:</b> {{#each skills}}{{#if this.others}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Web (JavaScript):</b> {{#each skills}}{{#if this.webjs}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Web (Autres):</b> {{#each skills}}{{#if this.web}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Software:</b> {{#each skills}}{{#if this.software}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Admin/BDD:</b> {{#each skills}}{{#if this.admin}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Testing:</b> {{#each skills}}{{#if this.testing}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
+              <li><b>#Langues:</b> Français & Anglais niveau avancé/bilingue</li>
+              <li><b>#Autres:</b> {{#each skills}}{{#if this.others}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
             </ul>
           </div>
           <!-- EXPERIENCES -->
@@ -140,7 +141,7 @@
             {{/each}}
 
           </div>
-          <!-- FEATURED PROJECT -->
+          <!-- FEATURED CONTRIB -->
           <div class="box">
             <h2>Dernière Contribution</h2>
 
@@ -157,12 +158,7 @@
               <div class="col-xs-9">
                 <div class="profession">{{ contribution.fr.title }}</div>
                 <div class="description">
-                    {{ this.description }}
-                    <ul>
-                      {{#each contribution.fr.descriptionLi}}
-                        <li>{{this}}</li>
-                      {{/each}}
-                    </ul>
+                    {{ contribution.fr.description }}
                 </div>
               </div>
             </div>
@@ -181,6 +177,14 @@
                   </div>
                 </li>
               {{/each}}
+            </ul>
+          </div>
+          <!-- MEETUPS -->
+          <div class="box skills">
+            <h2>Meetups</h2>
+            <ul>
+              <li><b>France:</b> {{#each meetup.france}}{{this}}{{/each}}</li>
+              <li><b>Londres:</b> {{#each meetup.london}}{{this}}{{/each}}</li>
             </ul>
           </div>
           <!-- HOBBIES -->
