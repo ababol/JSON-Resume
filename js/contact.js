@@ -1,15 +1,17 @@
 $(document).ready(function() {
-	$('#contact-form').submit(function() {
-		var buttonWidth=$('#contact-form button').width();
+	var contactForm = $('#contact-form');
+	contactForm.submit(function() {
+		var buttonForm  = contactForm.find('button'),
+				buttonWidth = buttonForm.width();
 
-		var buttonCopy = $('#contact-form button').html(),
-			errorMessage = $('#contact-form button').data('error-message'),
-			sendingMessage = $('#contact-form button').data('sending-message'),
-			okMessage = $('#contact-form button').data('ok-message'),
+		var buttonCopy = buttonForm.html(),
+			errorMessage = buttonForm.data('error-message'),
+			sendingMessage = buttonForm.data('sending-message'),
+			okMessage = buttonForm.data('ok-message'),
 			hasError = false;
 
-		$('#contact-form button').width(buttonWidth);
-		$('#contact-form .error-message').remove();
+			buttonForm.width(buttonWidth);
+			contactForm.find('.error-message').remove();
 
 		$('.requiredField').each(function() {
 			if($.trim($(this).val()) == '') {
@@ -36,23 +38,19 @@ $(document).ready(function() {
 		});
 
 		if(hasError) {
-			$('#contact-form button').html('<i class="fa fa-times"></i>'+errorMessage);
+			buttonForm.html('<i class="fa fa-times"></i>'+errorMessage);
 			setTimeout(function(){
-				$('#contact-form button').html(buttonCopy);
-				$('#contact-form button').width('auto');
+				buttonForm.html(buttonCopy);
+				buttonForm.width('auto');
 			},2000);
 		}
 		else {
-			$('#contact-form button').html('<i class="fa fa-spinner fa-spin"></i>'+sendingMessage);
+			buttonForm.html('<i class="fa fa-spinner fa-spin"></i>'+sendingMessage);
 
 			var formInput = $(this).serialize();
 			$.post($(this).attr('action'),formInput, function(data){
-				$('#contact-form button').html('<i class="fa fa-check"></i>'+okMessage);
-				setTimeout(function(){
-					$('#contact-form button').html(buttonCopy);
-					$('#contact-form button').width('auto');
-				},2000);
-
+				buttonForm.html('<i class="fa fa-check"></i>'+okMessage);
+				buttonForm.attr('disabled', 'disabled');
 			});
 		}
 
