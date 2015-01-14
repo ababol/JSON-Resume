@@ -3,12 +3,12 @@
     "name":"Arnaud Babol",
     "en":{
       "role":"Full-Stack Developer",
-      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France.<br/>I major in Computer Science and I am looking for a 6-month internship from 2nd March 2015.",
+      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France.<br/>I am looking for a <b>Web Developer position</b> (Front: React/Backbone/AngularJS.., Back: Node.JS/io.js) from <b>September 2015</b>.",
       "cvLink":"cv/arnaud_babol_en.pdf"
     },
     "fr":{
       "role":"Développeur Full-Stack",
-      "description":"Étudiant à l'ISEN-Lille en dernière année, je suis actuellement à la recherche d'un stage de 6 mois à partir du 2 Mars 2015.<br/>J'aimerais me diriger vers du développement web et plus précisément vers du JavaScript, l'idéal serait un emploi de développeur Full-stack avec par exemple du Node.JS en back-end et un framework récent en front (React/Angular/Backbone...).",
+      "description":"Étudiant à l'ISEN-Lille en dernière année, je suis sur le point d'effectuer un stage de 6 mois en tant que Développeur Web chez OVH.<br/>Je suis aussi à la recherche d'un job en tant que <b>Développeur Web</b> (Front: React/Backbone/AngularJS..., Back: Node.JS/io.js) qui se déroulerait à partir de <b>Septembre 2015</b>.",
       "cvLink":"cv/arnaud_babol_fr.pdf"
     }
   },
