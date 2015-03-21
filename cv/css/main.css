@@ -179,7 +179,11 @@ EDUCATION
 EXPERIENCES
 *******************************************/
 .job{
-  margin-bottom: 15px;
+  margin-bottom: 8px;
+}
+.job .duration {
+  color: grey;
+  font-size: .8em;
 }
 .job .where{
   font-size: 1.4em;
@@ -453,7 +457,7 @@ ul {
   font-size: 1.3em;
 }
 h2 {
-  margin: 5px 0 5px 0;
+  margin: 4px 0 4px 0;
 }
 p {
   margin-bottom: 0;

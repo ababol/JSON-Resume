@@ -186,9 +186,25 @@
   ],
   "experiences":{
     "fr":[
-      {
+        {
+          "title":"OVH France",
+          "date":"Mars-Août 2015",
+          "duration":"6 months",
+          "position":"Full-Stack Software Engineer Intern",
+          "tech":[
+            "Angular",
+            "Node.JS",
+            "LESS"
+          ],
+          "link":"https://ovh.fr",
+          "location":"Roubaix - France",
+          "img":"assets/img/experiences/ovh.png",
+          "description":"OVH est un hébergeur proposant des serveurs dédiés et des services de Cloud computing."
+        },
+        {
         "title":"Geckoboard Londres",
-        "date":"Été 2014 (4mois)",
+        "date":"Été 2014",
+        "duration":"4 mois",
         "position":"Software Engineer Intern",
         "tech":[
           "Backbone",
@@ -210,8 +226,26 @@
     ],
     "en":[
       {
+        "title":"OVH France",
+        "date":"March-August 2015",
+        "duration":"6 months",
+        "position":"Full-Stack Software Engineer Intern",
+        "tech":[
+          "Angular",
+          "Node.JS"
+        ],
+        "link":"https://ovh.com",
+        "location":"Roubaix FRANCE",
+        "img":"assets/img/experiences/ovh.png",
+        "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting.",
+        "descriptionLi":[
+          "Creating and maintaining the web applications."
+        ]
+      },
+      {
         "title":"Geckoboard London",
-        "date":"Summer 2014 (4Months)",
+        "date":"Summer 2014",
+        "duration":"4 months",
         "position":"Software Engineer Intern",
         "tech":[
           "Backbone",
@@ -222,7 +256,7 @@
           "Jasmine"
         ],
         "link":"https://geckoboard.com",
-        "location":"Shoreditch - London",
+        "location":"Shoreditch LONDON",
         "img":"assets/img/experiences/geckoboard2.svg",
         "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
         "descriptionLi":[
@@ -288,15 +322,16 @@
           "MongoDB",
           "Angular"
         ],
-        "github":"github.com/ababol/bricodata,https://github.com/ababol/bricodata",
-        "slides":"Slides,http://ababol.github.io/bricodata",
-        "link":"http://oqadu.babol.me/www",
+        "github":"github.com/ababol/oqadu,https://github.com/ababol/oqadu",
+        "slides":"Slides,http://ababol.github.io/oqadu",
+        "link":"https://oqadu.herokuapp.com/customer.html",
         "linkName":"Customer App (Mobile Portrait)",
-        "link2":"http://oqadu.babol.me/www/seller.html",
+        "link2":"https://oqadu.herokuapp.com/seller.html#/products",
         "linkName2":"Seller App (Tablet Landscape)",
         "tech":[
           "Ionic",
           "Node.js",
+          "Firebase",
           "MongoDB",
           "Angular",
           "API RESTful",
@@ -306,10 +341,11 @@
           "SASS",
           "Highcharts"
         ],
-        "description":"Mobile application (queue manager) made for Leroy Merlin during a Hackathon + 2 weekends.",
+        "description":"Mobile application (queue manager) made for <a target='_blank href='http://www.leroymerlin.fr/'>Leroy Merlin.</a>",
         "descriptionLi":[
           "Create a mobile application for the customers",
           "Create a tablet application for the sellers",
+          "Provide a queue manager (Firebase)",
           "Provide a JSON RESTful API (Node.JS + MongoDB)"
         ],
         "thumbImg":"assets/img/projects/oqadu/oqadu_thumb.png",
@@ -527,31 +563,26 @@
   "timeline":{
     "en":[
       {
-        "date":"03/2015",
-        "title":"JOB/INTERNSHIP IN YOUR COMPANY",
-        "description":"6 months or more."
-      },
-      {
-        "date":"2013",
-        "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-        "description":"Currently in the 2nd and final year of a master’s degree in IT with Management & Business development."
+        "date":"09/2015",
+        "title":"ISEN - GRADUATED",
+        "description":"Bachelor of Technology in computer Science and Networking (2013).<br/>First Certificate of Cambridge (2013), TOEIC 930 (2015).<br/>Master’s degree in IT with Management & Business development (September 2015)."
       },
       {
         "date":"2010",
         "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-        "description":"Bachelor of Technology in computer Science and Networking"
+        "description":"First Steps to School."
       }
     ],
     "fr":[
       {
-        "date":"2013",
-        "title":"ISEN - ÉCOLE D'INGÉNIEURS, LILLE FRANCE",
-        "description":"Actuellement en seconde et dernière année de mon master en Management de projet et développement d’affaires/Systèmes d’information, réseaux et multimédia."
+        "date":"09/2015",
+        "title":"ISEN - DIPLÔMÉ",
+        "description":"Bachelor of Technology en informatiques et réseaux (2013).<br/>First Certificate of Cambridge (2013), TOEIC 930 (2015).<br/>Master en management de projet et développement d’affaires/systèmes d’information (Sep. 2015)."
       },
       {
         "date":"2010",
         "title":"ISEN - ÉCOLE D'INGÉNIEURS, LILLE FRANCE",
-        "description":"Bachelor of Technology en informatique & réseaux."
+        "description":"Premier pas à l'école."
       }
     ]
   },

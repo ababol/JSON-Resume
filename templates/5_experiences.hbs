@@ -3,8 +3,7 @@
 	<div class="container">
 		<header class="section-header text-center">
 
-			<h1 class="scrollimation scale-in">Experience(s)</h1>
-			<p>I am still a student so I don't have many experiences at the moment.</p>
+			<h1 class="scrollimation scale-in">Experiences</h1>
 
 		</header>
 		<div class="row">
@@ -29,7 +28,7 @@
           <div class="profession">
             <h2>{{ this.position }}</h2>
           </div>
-          <div class="date">{{ this.date }} - {{ this.location }}</div>
+          <div class="date">{{ this.date }} ({{this.duration}}) - {{ this.location }}</div>
           <div class="description">
             <ul>
               {{#each this.descriptionLi}}

@@ -88,6 +88,7 @@
               <div class="col-xs-9">
                 <div class="profession">
                   {{ this.position }}
+                  <span class="duration">- {{this.duration}}</span>
                   <a href="{{ this.link }}" target="_blank">{{ this.link }}</a>
                 </div>
                 <div class="description">
@@ -162,14 +163,14 @@
           </div>
           <!-- EDUCATION -->
           <div class="box">
-            <h2>Timeline</h2>
+            <h2>Education</h2>
             <ul id="education" class="clearfix">
               {{#each timeline.en}}
                 <li>
                   <div class="year pull-left">{{ this.date }}</div>
                   <div class="description pull-right">
                     <h3>{{ this.title }}</h3>
-                    <p>{{ this.description }}</p>
+                    <p>{{{ this.description }}}</p>
                   </div>
                 </li>
               {{/each}}
