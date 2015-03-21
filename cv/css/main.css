@@ -179,7 +179,7 @@ EDUCATION
 EXPERIENCES
 *******************************************/
 .job{
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 .job .duration {
   color: grey;
@@ -457,7 +457,7 @@ ul {
   font-size: 1.3em;
 }
 h2 {
-  margin: 4px 0 4px 0;
+  margin: 3px 0 3px 0;
 }
 p {
   margin-bottom: 0;
