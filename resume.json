@@ -362,7 +362,7 @@
           "Jasmine"
         ],
         "github":"github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
-        "link":"http://babol.me/works/github-top-repo/",
+        "link":"http://babol.me/works/github-top-repo/#ababol",
         "tech":[
           "Backbone",
           "GitHub API",
@@ -459,7 +459,7 @@
           "Java",
           "Swing"
         ],
-        "github":"github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
+        "github":"github.com/ababol/JGaS,https://github.com/ababol/JGaS",
         "link":"http://jgasolver.babol.me/JGaSolver.jar",
         "slides":"Slides,http://jgasolver.babol.me/Slides_GeneticAlgorithm.pdf",
         "tech":[
