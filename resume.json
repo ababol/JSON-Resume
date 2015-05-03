@@ -3,7 +3,7 @@
     "name":"Arnaud Babol",
     "en":{
       "role":"Full-Stack Developer",
-      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France. I am going to be graduated in September 2015.",
+      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France.<br/><b>I am going to be graduated in September 2015.</b>",
       "cvLink":"cv/arnaud_babol_en.pdf"
     },
     "fr":{
@@ -616,7 +616,7 @@
     ],
     "fr":[
       "Cinéma",
-      "Jeux Vidéos"
+      "Jeux Vidéos",
       "Musique",
       "Programming",
       "High-Tech"
