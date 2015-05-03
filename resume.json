@@ -3,7 +3,7 @@
     "name":"Arnaud Babol",
     "en":{
       "role":"Full-Stack Developer",
-      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France.",
+      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France. I am going to be graduated in September 2015.",
       "cvLink":"cv/arnaud_babol_en.pdf"
     },
     "fr":{
@@ -261,10 +261,9 @@
         "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
         "descriptionLi":[
           "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
-          "Troubleshoot and resolve difficult problems relating to the Geckoboard application.",
           "Avoid regression thanks to unit testing implementation",
           "Write supporting documents (Best practices, How-To...)",
-          "Discuss with the customers to improve Geckoboard's products."
+          "Getting feedbacks from the customers to improve Geckoboard's products."
         ]
       }
     ]
@@ -304,7 +303,7 @@
           "Hack the scale (DNS Spoofing)",
           "Provide a JSON RESTful API (Node.JS + MongoDB)",
           "Create a web application",
-          "Shared collections between server/client thanks to MongoDB/Socket.io (a little bit like Meteor.js)"
+          "Shared collections between server/client thanks to MongoDB/Socket.io"
         ],
         "featured":true,
         "thumbImg":"assets/img/projects/scalews/scalews_thumb.png",
@@ -549,7 +548,7 @@
         "CoffeeScript",
         "Sinon"
       ],
-      "description":"Lint your code with ease in Atom (github's text editor)."
+      "description":"Lint your code with ease in Atom."
     },
     "fr":{
       "title":"AtomLinter",
@@ -570,7 +569,7 @@
       {
         "date":"2010",
         "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-        "description":"First Steps to School."
+        "description":"School Admission."
       }
     ],
     "fr":[
@@ -582,7 +581,7 @@
       {
         "date":"2010",
         "title":"ISEN - ÉCOLE D'INGÉNIEURS, LILLE FRANCE",
-        "description":"Premier pas à l'école."
+        "description":"Admission à l'ISEN."
       }
     ]
   },
@@ -610,12 +609,14 @@
   "hobbies":{
     "en":[
       "Movies",
+      "Video Games",
       "Music",
       "Programming",
       "New Technology"
     ],
     "fr":[
       "Cinéma",
+      "Jeux Vidéos"
       "Musique",
       "Programming",
       "High-Tech"
