@@ -1,30 +1,30 @@
 <!-- ==============================================
-		SKILLS
-		=============================================== -->
-		<section id="skills" class="gray-bg">
+    SKILLS
+    =============================================== -->
+    <section id="skills" class="gray-bg">
 
-			<div class="container">
+      <div class="container">
 
-				<header class="section-header text-center">
-					<h1 class="scrollimation scale-in">Skills</h1>
-				</header>
+        <header class="section-header text-center">
+          <h1 class="scrollimation scale-in">Skills</h1>
+        </header>
 
-				<div class="row skills">
+        <div class="row skills">
 
-					<dl class="skills-diagram scrollimation fade-in">
-						{{#each skills}}
-							{{#if this.rate}}
-							<!-- FAIRE ANIMATION SCROLL IN ! -->
-							  <dt class="skill-{{this.rate}}{{#if this.multilines}} multilines{{/if}}">{{this.tech}}</dt>
-							  <dd>{{this.rate}}</dd>
-							{{/if}}
-						{{/each}}
-					  <dt class="skill-6">Unit Testing</dt>
-					  <dd>6</dd>
-					</dl>
+          <dl class="skills-diagram scrollimation fade-in">
+            {{#each skills}}
+              {{#if this.rate}}
+              <!-- FAIRE ANIMATION SCROLL IN ! -->
+                <dt class="skill-{{this.rate}}{{#if this.multilines}} multilines{{/if}}">{{this.tech}}</dt>
+                <dd>{{this.rate}}</dd>
+              {{/if}}
+            {{/each}}
+            <dt class="skill-6">Unit Testing</dt>
+            <dd>6</dd>
+          </dl>
 
-				</div>
+        </div>
 
-			</div>
+      </div>
 
-		</section>
+    </section>

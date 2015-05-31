@@ -1,40 +1,40 @@
 <!-- ==============================================
-		FEATURED PROJECT
-		=============================================== -->
-		{{#each projects.en}}
+    FEATURED PROJECT
+    =============================================== -->
+    {{#each projects.en}}
       {{#if this.featured}}
       <section id="feat-project" class="white-bg padding-top">
 
-			<div class="container">
+      <div class="container">
 
-				<header class="section-header text-center">
+        <header class="section-header text-center">
 
-					<h1 class="scrollimation scale-in">Featured Project</h1>
-					<h2 class="scrollimation scale-in">{{ this.title }}</h2>
+          <h1 class="scrollimation scale-in">Featured Project</h1>
+          <h2 class="scrollimation scale-in">{{ this.title }}</h2>
 
-					<p>
-						{{ this.description }}
-					</p>
-					{{#each this.keys}}
+          <p>
+            {{ this.description }}
+          </p>
+          {{#each this.keys}}
               <span class="label label-flat">{{this}}</span>
           {{/each}}
 
-				</header>
+        </header>
 
-				<div class="scrollimation fade-up">
-					<img class="img-responsive img-center" src="assets/img/chrome-top.png" alt="" />
+        <div class="scrollimation fade-up">
+          <img class="img-responsive img-center" src="assets/img/chrome-top.png" alt="" />
 
-					<div class="img-wrapper">
+          <div class="img-wrapper">
 
-						<img class="img-responsive img-center" src="{{ this.featImg }}" alt="" />
+            <img class="img-responsive img-center" src="{{ this.featImg }}" alt="" />
 
-						<p class="text-center on-hover"><a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link }}">Go to Demo<i class="fa fa-rocket"></i></a></p>
+            <p class="text-center on-hover"><a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link }}">Go to Demo<i class="fa fa-rocket"></i></a></p>
 
-					</div>
-				</div>
+          </div>
+        </div>
 
-			</div>
+      </div>
 
-		</section>
+    </section>
       {{/if}}
     {{/each}}

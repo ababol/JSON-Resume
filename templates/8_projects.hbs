@@ -1,65 +1,65 @@
 <div class="container masonry-wrapper scrollimation fade-in">
 
-	<div id="projects-container">
-	  {{#each projects.en}}
-		<article class="project-item {{ this.category }}">
+  <div id="projects-container">
+    {{#each projects.en}}
+    <article class="project-item {{ this.category }}">
 
-			<img class="img-responsive project-image" src="{{ this.thumbImg }}"  alt=""><!--Project thumb -->
+      <img class="img-responsive project-image" src="{{ this.thumbImg }}"  alt=""><!--Project thumb -->
 
-			<div class="hover-mask">
-				<h2 class="project-title">{{ this.title }}</h2><!--Project Title -->
-				<p>
-					<span class='subtitle'>{{ this.subtitle }}</span>
-					{{#each this.keys}}
+      <div class="hover-mask">
+        <h2 class="project-title">{{ this.title }}</h2><!--Project Title -->
+        <p>
+          <span class='subtitle'>{{ this.subtitle }}</span>
+          {{#each this.keys}}
             <span class="label label-flat">{{this}}</span>
           {{/each}}
-				</p><!--Project Subtitle -->
-			</div>
+        </p><!--Project Subtitle -->
+      </div>
 
-			<!--==== Project Preview HTML ====-->
+      <!--==== Project Preview HTML ====-->
 
-			<div class="sr-only project-description"
-				data-category="{{ this.category }}"
-				data-date="{{ this.date }}"
-				data-github="{{ this.github }}"
-				data-slides="{{ this.slides }}"
-				data-descr="{{ this.subtitle }}"
-				data-images="{{ this.images }}"
-			>
-			{{#if this.tech}}
-			<p class='buildWith'>Build with:<br/>
-				{{#each this.tech}}
+      <div class="sr-only project-description"
+        data-category="{{ this.category }}"
+        data-date="{{ this.date }}"
+        data-github="{{ this.github }}"
+        data-slides="{{ this.slides }}"
+        data-descr="{{ this.subtitle }}"
+        data-images="{{ this.images }}"
+      >
+      {{#if this.tech}}
+      <p class='buildWith'>Build with:<br/>
+        {{#each this.tech}}
           <span class='label label-default label-project'>{{this}}</span>
         {{/each}}
-			</p>
-			{{/if}}
+      </p>
+      {{/if}}
         {{{ this.description }}}
-				{{#if this.descriptionLi}}
+        {{#if this.descriptionLi}}
         <ul>
           {{#each this.descriptionLi}}
             <li>{{{this}}}</li>
           {{/each}}
         </ul>
-				{{/if}}
-				{{#if this.link}}
-					<p class="text-right">
-						<a target='_blank' class="btn btn-meflat icon-right{{#if this.link2}} two{{/if}}" href="{{ this.link }}">
-							{{#if this.linkName}}
-								{{this.linkName}}
-							{{else}}
-								Go to Demo
-							{{/if}}
-							<i class="fa fa-rocket"></i>
-						</a>
-						{{#if this.link2}}
-							<br/><a target='_blank' class="btn btn-meflat icon-right two" href="{{ this.link2 }}">{{ this.linkName2 }}<i class="fa fa-rocket"></i></a>
-						{{/if}}
-					</p>
-				{{/if}}
-			</div>
+        {{/if}}
+        {{#if this.link}}
+          <p class="text-right">
+            <a target='_blank' class="btn btn-meflat icon-right{{#if this.link2}} two{{/if}}" href="{{ this.link }}">
+              {{#if this.linkName}}
+                {{this.linkName}}
+              {{else}}
+                Go to Demo
+              {{/if}}
+              <i class="fa fa-rocket"></i>
+            </a>
+            {{#if this.link2}}
+              <br/><a target='_blank' class="btn btn-meflat icon-right two" href="{{ this.link2 }}">{{ this.linkName2 }}<i class="fa fa-rocket"></i></a>
+            {{/if}}
+          </p>
+        {{/if}}
+      </div>
 
-		</article>
-		{{/each}}
+    </article>
+    {{/each}}
   </div>
 
 </div>

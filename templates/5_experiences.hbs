@@ -1,17 +1,17 @@
 <section id="experiences" class="dark-bg light-typo">
 
-	<div class="container">
-		<header class="section-header text-center">
+  <div class="container">
+    <header class="section-header text-center">
 
-			<h1 class="scrollimation scale-in">Experiences</h1>
+      <h1 class="scrollimation scale-in">Experiences</h1>
 
-		</header>
-		<div class="row">
+    </header>
+    <div class="row">
 
-			{{#each experiences.en}}
-  			<div class="col-sm-4 text-col img-center scrollimation fade-right" style="text-align: center;">
+      {{#each experiences.en}}
+        <div class="col-sm-4 text-col img-center scrollimation fade-right" style="text-align: center;">
 
-  				<img src='{{ this.img }}' width='305' height='52' />
+          <img src='{{ this.img }}' width='305' height='52' />
           <div class="sum">
             {{ this.description }}
           </div>
@@ -21,9 +21,9 @@
             {{/each}}
           </div>
 
-  			</div>
+        </div>
 
-		    <div class="col-sm-8 scrollimation fade-left">
+        <div class="col-sm-8 scrollimation fade-left">
 
           <div class="profession">
             <h2>{{ this.position }}</h2>
@@ -40,11 +40,11 @@
             <a class="btn btn-meflat white icon-right" href="{{this.link}}" target='_blank'>Visit Website<i class="fa fa-rocket"></i></a>
           </div>
 
-			  </div>
+        </div>
       {{/each}}
 
-		</div>
+    </div>
 
-	</div>
+  </div>
 
 </section>
