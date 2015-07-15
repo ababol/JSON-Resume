@@ -27,11 +27,11 @@
           <div class="img-wrapper">
 
             {{#if this.featVideo}}
-              <video class="img-responsive img-center feat-project-item" autoplay="true" loop="true">
+              <video width="796" height="597" class="img-responsive img-center feat-project-item" autoplay="true" loop="true">
                 <source src="{{ this.featVideo }}" type="video/mp4">
               </video>
             {{else}}
-              <img class="img-responsive img-center feat-project-item" src="{{ this.featImg }}" alt="" />
+              <img width="800" height="600" class="img-responsive img-center feat-project-item" src="{{ this.featImg }}" alt="" />
             {{/if}}
 
             <p class="text-center on-hover"><a target='_blank' class="btn btn-meflat icon-right" href="{{ this.link }}">Go to Demo<i class="fa fa-rocket"></i></a></p>

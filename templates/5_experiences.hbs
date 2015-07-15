@@ -8,17 +8,24 @@
     </header>
 
       {{#each experiences.en}}
-      <div class="row">
+      <div class="row margin-bottom15">
         <div class="col-sm-12 col-lg-4 text-col img-center scrollimation fade-right" style="text-align: center;">
 
           <img src='{{ this.img.src }}' width='{{ this.img.width }}' height='{{ this.img.height }}' />
+
           <div class="sum">
             <em>{{ this.description }}</em>
           </div>
 
+          <div class="tech">
+             {{#each this.tech}}
+              <span class="label label-white">{{this}}</span>
+            {{/each}}
+          </div>
+
         </div>
 
-        <div class="col-sm-12 col-lg-8 scrollimation fade-left">
+        <div class="col-sm-12 col-lg-8 scrollimation fade-left text-center-sm margin-top20-sm">
 
           <div class="profession">
             <h2>{{ this.position }}</h2>
@@ -31,8 +38,8 @@
               {{/each}}
             </ul>
           </div>
-          <div class='website'>
-            <a class="btn btn-meflat white icon-right" href="{{this.link}}" target='_blank'>Visit Website<i class="fa fa-rocket"></i></a>
+          <div class='website text-center-sm'>
+            <a class="btn btn-meflat two white icon-right" href="{{this.link}}" target='_blank'>Visit Website<i class="fa fa-rocket"></i></a>
           </div>
 
         </div>
