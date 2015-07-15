@@ -3,27 +3,30 @@
     "name":"Arnaud Babol",
     "en":{
       "role":"Full-Stack Developer",
-      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France.<br/><b>I am going to be graduated in September 2015.</b>",
+      "description":"Recently graduated • JavaScript Lover • <em><a href='http://www.piedpiper.com/' target='_blank'>\"Trying to make the world a better place\"</a></em>.",
       "cvLink":"cv/arnaud_babol_en.pdf"
     },
     "fr":{
       "role":"Développeur Full-Stack",
-      "description":"Étudiant à l'ISEN-Lille en dernière année, je suis parallèlement Développeur Web chez OVH.",
+      "description":"Diplômé de l'ISEN-Lille, JavaScript Lover, je chill actuellement aux États-Unis en tant que développeur pour Cisco Emerge.",
       "cvLink":"cv/arnaud_babol_fr.pdf"
     }
   },
   "levitate":{
     "top":{
       "img":"assets/img/levi/firefox.svg",
-      "text":"<i class='fa fa-heart'></i>"
+      "text":"<i class='fa fa-heart'></i>",
+      "url":"https://www.mozilla.org/firefox"
     },
     "left":{
-      "img":"assets/img/levi/grunt.svg",
-      "text":"<i class='fa fa-line-chart'></i> productivity"
+      "img":"assets/img/levi/webpack.svg",
+      "text":"<i class='fa fa-line-chart'></i> productivity",
+      "url":"https://webpack.github.io"
     },
     "right":{
-      "img":"assets/img/levi/hocus.png",
-      "text":"<i class='fa fa-headphones'></i> + programming = <i class='fa fa-heart'></i>"
+      "img":"assets/img/levi/hocus.svg",
+      "text":"<i class='fa fa-headphones'></i> + programming = <i class='fa fa-heart'></i>",
+      "url":"https://play.spotify.com/album/5pvMxg9fpcC0OFF1Uar2Po"
     }
   },
   "skills":[
@@ -40,6 +43,11 @@
     },
     {
       "tech":"CoffeeScript",
+      "webjs":true,
+      "separator":" - "
+    },
+    {
+      "tech":"React.js",
       "webjs":true,
       "separator":" - "
     },
@@ -88,6 +96,11 @@
       "tech":"PHP",
       "rate":"5",
       "web":true
+    },
+    {
+      "tech":"ReactNative",
+      "software":true,
+      "separator":" - "
     },
     {
       "tech":"Python",
@@ -187,6 +200,24 @@
   "experiences":{
     "fr":[
         {
+          "title":"Cisco Emerge",
+          "date":"Septembre 2015",
+          "duration":"1 year",
+          "position":"Full-Stack Software Engineer",
+          "tech":[
+            "React",
+            "ReactNative",
+            "Swift",
+            "NodeJs",
+            "Firebase",
+            "MongoDB"
+          ],
+          "link":"http://emerge.cisco.com",
+          "location":"San Francisco - États-Unis",
+          "img":"assets/img/experiences/emerge.svg",
+          "description":"Nouvelle équipe chez Cisco spécialisée sur les nouveaux moyens de communication et de collaboration."
+        },
+        {
           "title":"OVH France",
           "date":"Mars-Août 2015",
           "duration":"6 months",
@@ -198,7 +229,7 @@
           ],
           "link":"https://ovh.fr",
           "location":"Roubaix - France",
-          "img":"assets/img/experiences/ovh.png",
+          "img":"assets/img/experiences/ovh.svg",
           "description":"OVH est un hébergeur proposant des serveurs dédiés et des services de Cloud computing."
         },
         {
@@ -208,7 +239,6 @@
         "position":"Software Engineer Intern",
         "tech":[
           "Backbone",
-          "Q.js (Promises)",
           "SASS",
           "Vagrant",
           "Chef",
@@ -226,6 +256,26 @@
     ],
     "en":[
       {
+        "title":"Cisco Emerge",
+        "date":"September 2015",
+        "position":"Full-Stack Software Engineer",
+        "tech":[
+          "React",
+          "ReactNative",
+          "Swift",
+          "NodeJs",
+          "Firebase"
+        ],
+        "link":"http://emerge.cisco.com",
+        "location":"San Francisco - United States",
+        "img": {
+          "src": "assets/img/experiences/emerge.svg",
+          "width": "305",
+          "height": "52"
+        },
+        "description":"A new innovation team in Cisco focused entirely on the future of work and collaboration."
+      },
+      {
         "title":"OVH France",
         "date":"March-August 2015",
         "duration":"6 months",
@@ -235,8 +285,12 @@
           "Node.JS"
         ],
         "link":"https://ovh.com",
-        "location":"Roubaix FRANCE",
-        "img":"assets/img/experiences/ovh.png",
+        "location":"Roubaix - France",
+        "img": {
+          "src": "assets/img/experiences/ovh.svg",
+          "width": "305",
+          "height": "52"
+        },
         "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting.",
         "descriptionLi":[
           "Creating and maintaining the web applications."
@@ -249,19 +303,21 @@
         "position":"Software Engineer Intern",
         "tech":[
           "Backbone",
-          "Q.js (Promises)",
           "SASS",
           "Vagrant",
           "Chef",
           "Jasmine"
         ],
         "link":"https://geckoboard.com",
-        "location":"Shoreditch LONDON",
-        "img":"assets/img/experiences/geckoboard2.svg",
+        "location":"Shoreditch - London UK",
+        "img": {
+          "src": "assets/img/experiences/geckoboard2.svg",
+          "width": "305",
+          "height": "52"
+        },
         "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
         "descriptionLi":[
           "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
-          "Avoid regression thanks to unit testing implementation",
           "Write supporting documents (Best practices, How-To...)",
           "Getting feedback from the customers to improve Geckoboard's products."
         ]
@@ -270,6 +326,53 @@
   },
   "projects":{
     "en":[
+      {
+        "title":"MeerkatMap",
+        "subtitle":"A realtime world map of Meerkat Streams",
+        "date":"06/2015 - 07/2015",
+        "keys":[
+          "Babel",
+          "React",
+          "io.js",
+          "Redis",
+          "Leaflet"
+        ],
+        "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
+        "link":"http://babol.me:8080",
+        "tech":[
+          "Babel",
+          "React",
+          "io.js",
+          "Redis",
+          "Leaflet",
+          "Socket.io",
+          "Webpack"
+        ],
+        "description":"A realtime world map of Meerkat Streams",
+        "featured":true,
+        "thumbImg":"assets/img/projects/meerkatmap/meerkat_thumb.png",
+        "images":"assets/img/projects/meerkatmap/meerkat0.jpg,assets/img/projects/meerkatmap/meerkat1.jpg",
+        "featVideo": "assets/video/meerkat.mp4",
+        "category":"Web"
+      },
+      {
+        "title":"ReactNative Pokédex",
+        "subtitle":"A Pokédex made with React Native",
+        "date":"04/2015",
+        "keys":[
+          "ReactNative",
+          "Node.js"
+        ],
+        "github":"github.com/ababol/react-native-pokedex,https://github.com/ababol/react-native-pokedex",
+        "tech":[
+          "ReactNative",
+          "Node.js"
+        ],
+        "description":"A Simple Pokédex Application - Made with React Native",
+        "thumbImg":"assets/img/projects/pokedex/pokedex_thumb.png",
+        "images":"assets/img/projects/pokedex/pokedex0.png",
+        "category":"Web"
+      },
       {
         "title":"ScaleWS",
         "subtitle":"Hack a body Scale",
@@ -286,7 +389,6 @@
         "link":"http://babol.me:1337",
         "tech":[
           "Node.js",
-          "Express",
           "Backbone",
           "MongoDB",
           "Socket.IO",
@@ -295,7 +397,6 @@
           "SASS",
           "Grunt",
           "Bower",
-          "Require.js",
           "Wireshark"
         ],
         "description":"Get, process and visualize data acquired from a wifi body scale (Withings WS50).",
@@ -305,7 +406,6 @@
           "Create a web application",
           "Shared collections between server/client thanks to MongoDB/Socket.io"
         ],
-        "featured":true,
         "thumbImg":"assets/img/projects/scalews/scalews_thumb.png",
         "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
         "featImg":"assets/img/projects/scalews/scalews.gif",
@@ -335,7 +435,6 @@
           "Angular",
           "API RESTful",
           "Socket.IO",
-          "Express",
           "Gulp",
           "SASS",
           "Highcharts"
@@ -389,7 +488,7 @@
         "link":"http://babol.me/old/v1",
         "description":"Use of Flat Design techniques to make a responsive website. I was really proud of myself back in 2012 ^^.",
         "thumbImg":"assets/img/projects/babol.me/babolme_thumb.png",
-        "images":"assets/img/projects/babol.me/babolme_0.png, assets/img/projects/babol.me/babolme_1.png, assets/img/projects/babol.me/babolme_2.png, assets/img/projects/babol.me/babolme_3.png, assets/img/projects/babol.me/babolme_4.png, assets/img/projects/babol.me/babolme_5.png",
+        "images":"assets/img/projects/babol.me/babolme_0.png, assets/img/projects/babol.me/babolme_1.png, assets/img/projects/babol.me/babolme_2.png, assets/img/projects/babol.me/babolme_3.png, assets/img/projects/babol.me/babolme_4.png",
         "category":"Web"
       },
       {
@@ -514,7 +613,6 @@
         "link":"http://babol.me:1337",
         "tech":[
           "Node.js",
-          "Express",
           "Backbone",
           "MongoDB",
           "Socket.IO",
@@ -523,7 +621,6 @@
           "SASS",
           "Grunt",
           "Bower",
-          "Require.js",
           "Wireshark"
         ],
         "description":"Obtenir, interpréter et pouvoir visualiser les données acquises à partir d'une balance connectée (Withings WS50).",
@@ -533,55 +630,75 @@
           "Création d'une application web",
           "Données partagées entre client & serveur (Socket.io/MongoDB)"
         ],
-        "featured":true,
         "thumbImg":"assets/img/projects/scalews/scalews_thumb.png",
         "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
         "featImg":"assets/img/projects/scalews/scalews.gif",
         "category":"Web"
+      },
+      {
+        "title":"MeerkatMap",
+        "subtitle":"A realtime world map of Meerkat Streams",
+        "date":"06/2015 - 07/2015",
+        "keys":[
+          "Babel",
+          "React",
+          "io.js",
+          "Redis",
+          "Leaflet"
+        ],
+        "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
+        "link":"http://babol.me:8080",
+        "tech":[
+          "Babel",
+          "React",
+          "io.js",
+          "Redis",
+          "Leaflet",
+          "Socket.io",
+          "Webpack"
+        ],
+        "description":"A realtime world map of Meerkat Streams",
+        "featured":true,
+        "thumbImg":"assets/img/projects/meerkatmap/meerkat_thumb.png",
+        "images":"assets/img/projects/meerkatmap/meerkat0.jpg,assets/img/projects/meerkatmap/meerkat1.jpg",
+        "featVideo": "assets/video/meerkat.mp4",
+        "category":"Web"
       }
     ]
-  },
-  "contribution":{
-    "en":{
-      "title":"AtomLinter",
-      "tech":[
-        "CoffeeScript",
-        "Sinon"
-      ],
-      "description":"Lint your code with ease in Atom."
-    },
-    "fr":{
-      "title":"AtomLinter",
-      "tech":[
-        "CoffeeScript",
-        "Sinon"
-      ],
-      "description":"Analyseur de code pour Atom (Atom: éditeur de texte créé par GitHub)."
-    }
   },
   "timeline":{
     "en":[
       {
         "date":"09/2015",
         "title":"ISEN - GRADUATED",
-        "description":"Bachelor of Technology in computer Science and Networking (2013).<br/>First Certificate of Cambridge (2013), TOEIC 930 (2015).<br/>Master’s degree in IT with Management & Business development (September 2015)."
+        "description":"Master’s degree in IT with Management & Business development."
       },
       {
-        "date":"2010",
+        "date":"02/2015",
+        "title":"ENGLISH EXAM",
+        "description":"TOEIC 930.<br/>First Certificate of Cambridge."
+      },
+      {
+        "date":"2013",
         "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-        "description":"School Admission."
+        "description":"Bachelor of Technology in computer Science and Networking."
       }
     ],
     "fr":[
       {
         "date":"09/2015",
         "title":"ISEN - DIPLÔMÉ",
-        "description":"Bachelor of Technology en informatiques et réseaux (2013).<br/>First Certificate of Cambridge (2013), TOEIC 930 (2015).<br/>Master en management de projet et développement d’affaires/systèmes d’information (Sep. 2015)."
+        "description":"Master en management de projet et développement d’affaires/systèmes d’information"
       },
       {
-        "date":"2010",
-        "title":"ISEN - ÉCOLE D'INGÉNIEURS, LILLE FRANCE",
-        "description":"Admission à l'ISEN."
+        "date":"02/2015",
+        "title":"CERTIFICATIONS ANGLAIS",
+        "description":"TOEIC 930.<br/>First Certificate of Cambridge."
+      },
+      {
+        "date":"2013",
+        "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
+        "description":"Bachelor of Technology en informatiques et réseaux."
       }
     ]
   },

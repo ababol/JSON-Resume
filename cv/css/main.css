@@ -37,12 +37,13 @@ CONTAINER
 PHOTO (AVATAR)
 *******************************************/
 #photo-header{
-  margin-top: -75px;
+  margin-top: -78px;
 }
 #photo{
-  margin-top: 5px;
-  width: 113px;
-  height: 113px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 108px;
+  height: 108px;
   border-radius: 50%;
   overflow: hidden;
   padding: 5px;
@@ -50,8 +51,8 @@ PHOTO (AVATAR)
   display: inline-block;
 }
 #photo img{
-  width: 103px;
-  height: 103px;
+  width: 98px;
+  height: 98px;
   border-radius: 50%;
 }
 #text-header h1{
@@ -101,6 +102,12 @@ DEFAULT BOX
 .box p{
   font-size: 1.3em;
   line-height: 1.5em;
+}
+/*******************************************
+ABOUT
+*******************************************/
+.description a {
+  color: #363636;
 }
 /*******************************************
 EDUCATION

@@ -6,29 +6,24 @@
       <h1 class="scrollimation scale-in">Experiences</h1>
 
     </header>
-    <div class="row">
 
       {{#each experiences.en}}
-        <div class="col-sm-4 text-col img-center scrollimation fade-right" style="text-align: center;">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 text-col img-center scrollimation fade-right" style="text-align: center;">
 
-          <img src='{{ this.img }}' width='305' height='52' />
+          <img src='{{ this.img.src }}' width='{{ this.img.width }}' height='{{ this.img.height }}' />
           <div class="sum">
-            {{ this.description }}
-          </div>
-          <div class="tech">
-            {{#each this.tech}}
-              <span class="label label-white">{{this}}</span>
-            {{/each}}
+            <em>{{ this.description }}</em>
           </div>
 
         </div>
 
-        <div class="col-sm-8 scrollimation fade-left">
+        <div class="col-sm-12 col-lg-8 scrollimation fade-left">
 
           <div class="profession">
             <h2>{{ this.position }}</h2>
           </div>
-          <div class="date">{{ this.date }} ({{this.duration}}) - {{ this.location }}</div>
+          <div class="date">{{ this.date }}{{#if this.duration}} ({{this.duration}}){{/if}} - {{ this.location }}</div>
           <div class="description">
             <ul>
               {{#each this.descriptionLi}}
@@ -41,9 +36,9 @@
           </div>
 
         </div>
+            </div>
       {{/each}}
 
-    </div>
 
   </div>
 

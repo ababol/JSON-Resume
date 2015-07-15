@@ -20,12 +20,12 @@
           <div class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="./img/avatar.jpg" alt="avatar">
+              <img src="./img/avatar.png" alt="avatar">
             </div>
           </div>
         </div>
         <div id="photo-header" style="width: 45%; float: left; text-align: left; vertical-align: middle;">
-          <h1>Arnaud Babol<br>Développeur <span>Full-Stack</span><br><span id='age'>22</span> ans</h1>
+          <h1>Arnaud Babol<br>Développeur <span>Full-Stack</span><br><span id='age'>23</span> ans</h1>
         </div>
         <div id='contact' style="width: 35%; float: left; text-align: right; padding-right: 15px;">
           <div class="table box clearfix">
@@ -57,7 +57,7 @@
           <!-- ABOUT ME -->
           <div class="box">
             <h2>Objectif</h2>
-            <p>{{{ about.fr.description }}}</p>
+            <p class="description">{{{ about.fr.description }}}</p>
           </div>
           <!-- SKILLS -->
           <div class="box skills">
@@ -142,29 +142,7 @@
             {{/each}}
 
           </div>
-          <!-- FEATURED CONTRIB -->
-          <div class="box">
-            <h2>Dernière Contribution</h2>
 
-            <!-- JOB ITEM -->
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">Technologies</div>
-                <div class="tech">
-                  {{#each contribution.fr.tech}}
-                      <span class="label label-default">{{this}}</span>
-                  {{/each}}
-                </div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">{{ contribution.fr.title }}</div>
-                <div class="description">
-                    {{ contribution.fr.description }}
-                </div>
-              </div>
-            </div>
-
-          </div>
           <!-- EDUCATION -->
           <div class="box">
             <h2>Éducation</h2>

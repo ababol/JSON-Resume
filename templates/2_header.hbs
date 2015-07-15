@@ -7,10 +7,16 @@
 
         <div class="col-sm-8 col-sm-offset-2" style='padding-left:0px;'>
 
-          <img class="img-responsive img-center scrollimation levitate tech head{{#if levitate.top.text}} isTooltip{{/if}}" src="{{ levitate.top.img }}" data-title-en="{{{ levitate.top.text }}}" width="auto" height="60" />
-          <img class="img-responsive img-center scrollimation levitate tech hand left isTooltip" src="{{ levitate.left.img }}" data-title-en="{{{ levitate.left.text }}}" />
-          <img class="img-responsive img-center scrollimation levitate tech hand right isTooltip" src="{{ levitate.right.img }}" data-title-en="{{{ levitate.right.text }}}" />
-          <img class="img-responsive img-center scrollimation levitate arnaud" src="assets/img/levi/levitation.svg" style="height: 300px;" alt="" />
+          <a href="{{{ levitate.top.url }}}" target="_blank">
+            <img class="img-responsive img-center scrollimation levitate tech head{{#if levitate.top.text}} isTooltip{{/if}}" src="{{ levitate.top.img }}" data-title-en="{{{ levitate.top.text }}}" width="auto" height="60" />
+          </a>
+          <a href="{{{ levitate.left.url }}}" target="_blank">
+            <img class="img-responsive img-center scrollimation levitate tech hand left isTooltip" src="{{ levitate.left.img }}" data-title-en="{{{ levitate.left.text }}}" />
+          </a>
+          <a href="{{{ levitate.right.url }}}" target="_blank">
+            <img class="img-responsive img-center scrollimation levitate tech hand right isTooltip" src="{{ levitate.right.img }}" data-title-en="{{{ levitate.right.text }}}" />
+          </a>
+          <img class="img-responsive img-center scrollimation levitate arnaud" src="assets/img/levi/levitation.svg" style="height: 300px;" alt="Jedi" />
           <span class="shadow"></span>
 
         </div>

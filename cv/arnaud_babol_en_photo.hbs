@@ -19,12 +19,12 @@
         <div style="width: 20%; float: left; text-align: center; padding-left: 15px;">
           <div class="text-center">
             <div id="photo">
-              <img src="./img/avatar.jpg" alt="avatar">
+              <img src="./img/avatar.png" alt="avatar">
             </div>
           </div>
         </div>
         <div id="photo-header" style="width: 45%; float: left; text-align: left;">
-          <h1>Arnaud Babol<br><span>Full-Stack</span> Developer<br><span id='age'>22</span> years old</h1>
+          <h1>Arnaud Babol<br><span>Full-Stack</span> Developer<br><span id='age'>23</span> years old</h1>
         </div>
         <div id='contact' style="width: 35%; float: left; text-align: right; padding-right: 15px;">
           <div class="table box clearfix">
@@ -56,7 +56,7 @@
           <!-- ABOUT ME -->
           <div class="box">
             <h2>About Me</h2>
-            <p>{{{ about.en.description }}}</p>
+            <p class="description">{{{ about.en.description }}}</p>
           </div>
           <!-- SKILLS -->
           <div class="box skills">
@@ -140,27 +140,7 @@
             {{/each}}
 
           </div>
-          <!-- FEATURED CONTRIB -->
-          <div class="box">
-            <h2>Featured Contribution</h2>
-            <!-- JOB ITEM -->
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">Technology</div>
-                <div class="tech">
-                  {{#each contribution.en.tech}}
-                  <span class="label label-default">{{this}}</span>
-                  {{/each}}
-                </div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">{{ contribution.en.title }}</div>
-                <div class="description">
-                  {{ contribution.en.description }}
-                </div>
-              </div>
-            </div>
-          </div>
+
           <!-- EDUCATION -->
           <div class="box">
             <h2>Education</h2>
