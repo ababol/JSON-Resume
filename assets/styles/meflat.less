@@ -1,6 +1,6 @@
 // base: #36D9C3
 @mainColor: #3498DB;
-@screen-sm-min: 768px;
+@screen-sm-max: 991px;
 
 /*--------------------
 -----Main Styles------
@@ -1181,16 +1181,23 @@ a:focus,
   }
 }
 
-.margin-bottom15 {
-  margin-bottom: 15px;
+.no-margin {
+  margin: 0 !important;
 }
 
-@media (max-width: @screen-sm-min) {
+.margin-bottom20 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: @screen-sm-max) {
+  .font-size1x1-sm {
+    font-size: 1.1em;
+  }
   .text-center-sm {
     text-align: center;
     float: none !important;
   }
-  .margin-top20-sm {
-    margin-top: 20px;
+  .margin-top10-sm {
+    margin-top: 10px;
   }
 }

@@ -8,8 +8,8 @@
     </header>
 
       {{#each experiences.en}}
-      <div class="row margin-bottom15">
-        <div class="col-sm-12 col-lg-4 text-col img-center scrollimation fade-right" style="text-align: center;">
+      <div class="row margin-bottom20">
+        <div class="col-sm-12 col-md-4 text-col img-center scrollimation fade-right" style="text-align: center;">
 
           <img src='{{ this.img.src }}' width='{{ this.img.width }}' height='{{ this.img.height }}' />
 
@@ -25,10 +25,10 @@
 
         </div>
 
-        <div class="col-sm-12 col-lg-8 scrollimation fade-left text-center-sm margin-top20-sm">
+        <div class="col-sm-12 col-md-8 scrollimation fade-left text-center-sm margin-top10-sm">
 
           <div class="profession">
-            <h2>{{ this.position }}</h2>
+            <h2 class="font-size1x1-sm">{{ this.position }}</h2>
           </div>
           <div class="date">{{ this.date }}{{#if this.duration}} ({{this.duration}}){{/if}} - {{ this.location }}</div>
           <div class="description">
@@ -39,7 +39,7 @@
             </ul>
           </div>
           <div class='website text-center-sm'>
-            <a class="btn btn-meflat two white icon-right" href="{{this.link}}" target='_blank'>Visit Website<i class="fa fa-rocket"></i></a>
+            <a class="btn btn-meflat no-margin white icon-right" href="{{this.link}}" target='_blank'>Visit Website<i class="fa fa-rocket"></i></a>
           </div>
 
         </div>
