@@ -338,7 +338,7 @@
           "Leaflet"
         ],
         "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
-        "link":"http://babol.me:8080",
+        "link":"http://map.meerkat.ovh",
         "tech":[
           "Babel",
           "React",
@@ -647,7 +647,7 @@
           "Leaflet"
         ],
         "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
-        "link":"http://babol.me:8080",
+        "link":"http://map.meerkat.ovh",
         "tech":[
           "Babel",
           "React",
