@@ -671,34 +671,24 @@
       {
         "date":"09/2015",
         "title":"ISEN - GRADUATED",
-        "description":"Master’s degree in IT with Management & Business development."
+        "description":"Master’s degree in IT with Management & Business development (2015).<br/>Bachelor of Technology in computer Science and Networking (2013)."
       },
       {
         "date":"02/2015",
         "title":"ENGLISH EXAM",
-        "description":"TOEIC 930.<br/>First Certificate of Cambridge."
-      },
-      {
-        "date":"2013",
-        "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-        "description":"Bachelor of Technology in computer Science and Networking."
+        "description":"TOEIC 930 (2015).<br/>First Certificate of Cambridge (2013)."
       }
     ],
     "fr":[
       {
         "date":"09/2015",
         "title":"ISEN - DIPLÔMÉ",
-        "description":"Master en management de projet et développement d’affaires/systèmes d’information"
+        "description":"Master en management de projet et développement d’affaires/systèmes d’information (2015).<br/>Bachelor of Technology en informatiques et réseaux (2013)."
       },
       {
         "date":"02/2015",
         "title":"CERTIFICATIONS ANGLAIS",
-        "description":"TOEIC 930.<br/>First Certificate of Cambridge."
-      },
-      {
-        "date":"2013",
-        "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
-        "description":"Bachelor of Technology en informatiques et réseaux."
+        "description":"TOEIC 930 (2015).<br/>First Certificate of Cambridge (2013)."
       }
     ]
   },

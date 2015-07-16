@@ -36,8 +36,17 @@ CONTAINER
 /*******************************************
 PHOTO (AVATAR)
 *******************************************/
-#photo-header{
-  margin-top: -78px;
+#photo-header {
+  padding-left: 15px;
+  float: left;
+  text-align: left;
+  padding-top: 13px;
+}
+#contact {
+  width: 25%;
+  float: right;
+  text-align: right;
+  margin-right: 60px;
 }
 #photo{
   margin-top: 3px;
@@ -87,17 +96,21 @@ PHOTO (AVATAR)
 DEFAULT BOX
 *******************************************/
 .box{
-  margin-bottom: 15px;
+  margin: 15px;
 }
 .box h2{
   color: #EC7263;
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 20px 0 5px 0;
 }
 .box h2:before{
   content: '//';
   margin-right: 5px;
+}
+.box .margin-top-about {
+  margin-top: 0px;
 }
 .box p{
   font-size: 1.3em;
@@ -113,7 +126,6 @@ ABOUT
 EDUCATION
 *******************************************/
 #education{
-  margin-top: 20px;
   position: relative;
   padding: 1em 0;
   list-style: none;
@@ -185,6 +197,9 @@ EDUCATION
 /*******************************************
 EXPERIENCES
 *******************************************/
+.box .job {
+  margin-left: -15px;
+}
 .job{
   margin-bottom: 7px;
 }
@@ -435,7 +450,7 @@ CUSTOM
   vertical-align: middle;
 }
 #contact .icon {
-  padding: 0 0 0 60px;
+  padding: 0;
 }
 #contact .icon i {
   padding-top: 1.5px;
@@ -475,7 +490,4 @@ p {
 
 .skills ul {
   padding: 0;
-}
-.box{
-  margin-bottom: 10px;
 }

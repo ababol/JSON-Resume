@@ -25,7 +25,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     watch: {
       handlebars: {
-        files: ['templates/*.hbs', 'cv/*.hbs', 'resume.json'],
+        files: ['templates/*.hbs', 'cv/*.hbs', 'resume.json', 'cv/css/*.css'],
         tasks: ['compile-handlebars', 'concat:html', 'clean:templates'],
         options: {
           interrupt: true
