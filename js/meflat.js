@@ -1,4 +1,26 @@
 $(document).ready(function() {
+	// video
+	var videoAdded = false;
+
+	function addVideo() {
+		if (!videoAdded && $(window).width() > 991) {
+			videoAdded = true;
+			$("#meerkatVideo").html('
+				<source src="assets/video/meerkat.mp4" type="video/mp4">
+				<source src="assets/video/meerkat.webm" type="video/webm">
+			');
+		   $(window).off("resize.addVid");
+		}
+	}
+
+	function startResize() {
+	   $(window).on("resize.addVid",(function() {
+	     addVideo();
+	   }));
+	}
+
+	addVideo();
+	if (!videoAdded) startResize();
 
 	/*============================================
 	Navigation Functions

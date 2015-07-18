@@ -475,8 +475,11 @@ a:focus,
   max-width:800px;
   margin:0 auto;
   overflow:hidden;
-  background: url("../img/projects/meerkatmap/meerkat1.jpg");
-  background-size: cover;
+
+  #meerkatVideo {
+    background: url(../img/projects/meerkatmap/meerkat1.jpg);
+    background-size: cover;
+  }
 }
 
 .img-wrapper .feat-project-item {
@@ -1201,5 +1204,13 @@ a:focus,
   }
   .margin-top10-sm {
     margin-top: 10px;
+  }
+  .img-md {
+    display: none;
+  }
+}
+@media (min-width: @screen-sm-max) {
+  .img-sm {
+    display: none;
   }
 }
