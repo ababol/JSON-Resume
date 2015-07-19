@@ -98,7 +98,7 @@
       "web":true
     },
     {
-      "tech":"ReactNative",
+      "tech":"React Native",
       "software":true,
       "separator":" - "
     },
@@ -206,7 +206,7 @@
           "position":"Full-Stack Software Engineer",
           "tech":[
             "React",
-            "ReactNative",
+            "React Native",
             "Swift",
             "NodeJs",
             "Firebase",
@@ -261,7 +261,7 @@
         "position":"Full-Stack Software Engineer",
         "tech":[
           "React",
-          "ReactNative",
+          "React Native",
           "Swift",
           "NodeJs",
           "Firebase"
@@ -331,8 +331,8 @@
         "subtitle":"A realtime world map of Meerkat Streams",
         "date":"06/2015 - 07/2015",
         "keys":[
-          "Babel",
           "React",
+          "ES6",
           "io.js",
           "Redis",
           "Leaflet"
@@ -340,8 +340,8 @@
         "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
         "link":"http://map.meerkat.ovh",
         "tech":[
-          "Babel",
           "React",
+          "ES6",
           "io.js",
           "Redis",
           "Leaflet",
@@ -360,15 +360,15 @@
         "subtitle":"A Pokédex made with React Native",
         "date":"04/2015",
         "keys":[
-          "ReactNative",
+          "React Native",
           "Node.js"
         ],
         "github":"github.com/ababol/react-native-pokedex,https://github.com/ababol/react-native-pokedex",
         "tech":[
-          "ReactNative",
+          "React Native",
           "Node.js"
         ],
-        "description":"A Simple Pokédex Application - Made with React Native",
+        "description":"A simple Pokédex application - Made with React Native",
         "thumbImg":"assets/img/projects/pokedex/pokedex_thumb.png",
         "images":"assets/img/projects/pokedex/pokedex0.png",
         "category":"Web"
@@ -640,8 +640,8 @@
         "subtitle":"A realtime world map of Meerkat Streams",
         "date":"06/2015 - 07/2015",
         "keys":[
-          "Babel",
           "React",
+          "ES6",
           "io.js",
           "Redis",
           "Leaflet"
@@ -649,8 +649,8 @@
         "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
         "link":"http://map.meerkat.ovh",
         "tech":[
-          "Babel",
           "React",
+          "ES6",
           "io.js",
           "Redis",
           "Leaflet",
