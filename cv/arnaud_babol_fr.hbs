@@ -14,18 +14,17 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <div class="container" style="padding-top: 5px">
       <div id="text-header" class="row">
-        <div style="width: 20%; float: left; text-align: center;">
+        <div style="width: 20%; float: left; text-align: center; padding-left: 15px;">
           <div class="text-center">
-            <!-- PHOTO (AVATAR) -->
             <div id="photo">
               <img src="./img/avatar.png" alt="avatar">
             </div>
           </div>
         </div>
         <div id="photo-header">
-          <h1>Arnaud Babol<br>Développeur <span>Full-Stack</span><br><span id='age'>23</span> ans</h1>
+          <h1 style="margin-top: -13px; margin-left: -10px;">Arnaud Babol<br>Développeur <span>Full-Stack</span><br><span id='age'>23</span> ans</h1>
         </div>
         <div id="contact">
           <div class="table box clearfix">
@@ -61,7 +60,7 @@
           </div>
           <!-- SKILLS -->
           <div class="box skills" id="skills">
-            <h2>Compétences</h2>
+            <h2 style="margin-top: 15px;">Compétences</h2>
             <ul>
               <li><b>Web (JavaScript):</b> {{#each skills}}{{#if this.webjs}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
               <li><b>Web (Autres):</b> {{#each skills}}{{#if this.web}}{{this.tech}}{{this.separator}}{{/if}}{{/each}}</li>
@@ -74,7 +73,7 @@
           </div>
           <!-- EXPERIENCES -->
           <div class="box">
-            <h2>Expériences</h2>
+            <h2 style="margin-top: 15px;">Expériences</h2>
 
             <!-- JOB ITEM -->
             {{#each experiences.fr}}
@@ -108,7 +107,7 @@
           </div>
           <!-- FEATURED PROJECT -->
           <div class="box">
-            <h2>Dernier Projet</h2>
+            <h2 style="margin-top: 15px;">Dernier Projet</h2>
 
             <!-- JOB ITEM -->
             {{#each projects.fr}}
@@ -160,7 +159,7 @@
           </div>
           <!-- MEETUPS -->
           <div class="box skills">
-            <h2>Meetups</h2>
+            <h2 style="margin-top: 15px;">Meetups</h2>
             <ul>
               <li><b>France:</b> {{#each meetup.france}}{{this}}{{/each}}</li>
               <li><b>Londres:</b> {{#each meetup.london}}{{this}}{{/each}}</li>
@@ -168,7 +167,7 @@
           </div>
           <!-- HOBBIES -->
           <div class="box hobbies">
-            <h2>Hobbies</h2>
+            <h2 style="margin-top: 15px;">Hobbies</h2>
             {{#each hobbies.fr}}<div class="hobby">{{this}}</div>{{/each}}
           </div>
         </div>

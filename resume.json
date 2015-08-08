@@ -318,7 +318,7 @@
         "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
         "descriptionLi":[
           "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
-          "Write supporting documents (Best practices, How-To...)",
+          "Writing developer documentation (Best practices, How-To...)",
           "Getting feedback from the customers to improve Geckoboard's products."
         ]
       }

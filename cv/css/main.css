@@ -103,7 +103,7 @@ DEFAULT BOX
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 24px 0 5px 0;
+  margin: 22px 0 5px 0;
 }
 .box h2:before{
   content: '//';
