@@ -7,7 +7,10 @@
     "node": "0.10.x",
     "npm": "1.4.x"
   },
-  "dependencies": {},
+  "scripts": {
+    "start": "grunt build",
+    "dev": "grunt dev"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
@@ -18,6 +21,6 @@
     "grunt-contrib-uglify": "^0.6.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-shell": "~1.1.1",
-    "phantomjs2": "^2.0.0"
+    "phantomjs-prebuilt": "^2.1.4"
   }
 }

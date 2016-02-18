@@ -19,7 +19,7 @@ module.exports = function(grunt) {
   }
 
   function getPhantomCmd(lang) {
-    return 'phantomjs cv/rasterize.js cv/arnaud_babol_' + lang + '.html cv/arnaud_babol_' + lang + '.pdf "827px*1169px"';
+    return 'node_modules/phantomjs-prebuilt/bin/phantomjs cv/rasterize.js cv/arnaud_babol_' + lang + '.html cv/arnaud_babol_' + lang + '.pdf "827px*1169px"';
   }
 
   grunt.initConfig({
