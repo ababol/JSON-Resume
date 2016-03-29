@@ -1,16 +1,9 @@
 {
   "about":{
     "name":"Arnaud Babol",
-    "en":{
-      "role":"Full-Stack Developer",
-      "description":"Recently graduated • JavaScript Lover • <em><a href='http://www.piedpiper.com/' target='_blank'>\"Trying to make the world a better place\"</a></em>.",
-      "cvLink":"cv/arnaud_babol_en.pdf"
-    },
-    "fr":{
-      "role":"Développeur Full-Stack",
-      "description":"Diplômé de l'ISEN-Lille, JavaScript Lover, je chill actuellement aux États-Unis en tant que développeur pour Cisco Emerge.",
-      "cvLink":"cv/arnaud_babol_fr.pdf"
-    }
+    "role":"Full-Stack Developer",
+    "description":"Recent graduate • JavaScript Lover • I am looking for freedom, innovation and challenges.",
+    "cvLink":"cv/arnaud_babol_en.pdf"
   },
   "levitate":{
     "top":{
@@ -31,13 +24,13 @@
   },
   "skills":[
     {
-      "tech":"JavaScript (CoffeeScript)",
+      "tech":"JavaScript",
       "rate":"9",
       "separator":" - "
     },
     {
       "tech":"Node.js",
-      "rate":"7",
+      "rate":"9",
       "webjs":true,
       "separator":" - "
     },
@@ -87,12 +80,6 @@
       "separator":" - "
     },
     {
-      "tech":"HTML5",
-      "rate":"7",
-      "web":true,
-      "separator":" - "
-    },
-    {
       "tech":"PHP",
       "rate":"5",
       "web":true
@@ -100,11 +87,12 @@
     {
       "tech":"React Native",
       "software":true,
-      "separator":" - "
+      "separator":" - ",
+      "rate":"7"
     },
     {
       "tech":"Python",
-      "rate":"4",
+      "rate":"7",
       "software":true,
       "separator":" - "
     },
@@ -116,7 +104,7 @@
     },
     {
       "tech":"Android",
-      "rate":"3",
+      "rate":"4",
       "software":true,
       "separator":" - "
     },
@@ -129,6 +117,12 @@
     {
       "tech":"C",
       "rate":"6",
+      "software":true,
+      "separator":" - "
+    },
+    {
+      "tech":"iOS",
+      "rate":"3",
       "software":true,
       "separator":" - "
     },
@@ -197,507 +191,421 @@
       "others":true
     }
   ],
-  "experiences":{
-    "fr":[
-        {
-          "title":"Cisco Emerge",
-          "date":"Septembre 2015",
-          "duration":"1 year",
-          "position":"Full-Stack Software Engineer",
-          "tech":[
-            "React",
-            "React Native",
-            "Swift",
-            "NodeJs",
-            "Firebase",
-            "MongoDB"
-          ],
-          "link":"https://twitter.com/ciscoemerge",
-          "location":"San Francisco - États-Unis",
-          "img":"assets/img/experiences/emerge.svg",
-          "description":"Nouvelle équipe chez Cisco spécialisée sur les nouveaux moyens de communication et de collaboration."
-        },
-        {
-          "title":"OVH France",
-          "date":"Mars-Août 2015",
-          "duration":"6 months",
-          "position":"Full-Stack Software Engineer Intern",
-          "tech":[
-            "Angular",
-            "Node.JS",
-            "LESS"
-          ],
-          "link":"https://ovh.fr",
-          "location":"Roubaix - France",
-          "img":"assets/img/experiences/ovh.svg",
-          "description":"OVH est un hébergeur proposant des serveurs dédiés et des services de Cloud computing."
-        },
-        {
-        "title":"Geckoboard Londres",
-        "date":"Été 2014",
-        "duration":"4 mois",
-        "position":"Software Engineer Intern",
-        "tech":[
-          "Backbone",
-          "SASS",
-          "Vagrant",
-          "Chef",
-          "Jasmine"
-        ],
-        "link":"https://geckoboard.com",
-        "description":"Geckoboard est un service permettant aux clients de visualiser leurs données clés grâce à un système de tableau de bord personnalisable.",
-        "descriptionLi":[
-          "Création de nouveaux widgets à l'aide des APIs de différents services tels que Google ou Twitter.",
-          "Corriger les bugs sur l'application existante.",
-          "Rédaction d'une documentation pour les futurs stagiaires/employés (Best practices, How-To...)",
-          "Échange avec les clients pour savoir comment améliorer Geckoboard."
-        ]
-      }
-    ],
-    "en":[
-      {
-        "title":"Cisco Emerge",
-        "date":"September 2015",
-        "position":"Full-Stack Software Engineer",
-        "tech":[
-          "React",
-          "React Native",
-          "Swift",
-          "NodeJs",
-          "Firebase"
-        ],
-        "link":"https://twitter.com/ciscoemerge",
-        "location":"San Francisco - United States",
-        "img": {
-          "src": "assets/img/experiences/emerge.svg",
-          "width": "305",
-          "height": "52"
-        },
-        "description":"A new innovation team in Cisco focused entirely on the future of work and collaboration."
+  "experiences":[
+    {
+      "title":"Cisco Emerge",
+      "date":"September 2015 - March 2015",
+      "duration":"6 months",
+      "position":"Full-Stack Software Engineer",
+      "tech":[
+        "JavaScript",
+        "React Native",
+        "Python"
+      ],
+      "link":"emerge.cisco.com",
+      "location":"San Francisco - United States",
+      "img": {
+        "src": "assets/img/experiences/emerge.svg",
+        "width": "305",
+        "height": "52"
       },
-      {
-        "title":"OVH France",
-        "date":"March-August 2015",
-        "duration":"6 months",
-        "position":"Full-Stack Software Engineer Intern",
-        "tech":[
-          "Angular",
-          "Node.JS"
-        ],
-        "link":"https://ovh.com",
-        "location":"Roubaix - France",
-        "img": {
-          "src": "assets/img/experiences/ovh.svg",
-          "width": "305",
-          "height": "52"
-        },
-        "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting.",
-        "descriptionLi":[
-          "Creating and maintaining the web applications."
-        ]
+      "description":"A new innovation team in Cisco focused entirely on the future of work and collaboration."
+    },
+    {
+      "title":"OVH France",
+      "date":"March-August 2015",
+      "duration":"6 months",
+      "position":"Full-Stack Software Engineer Intern",
+      "tech":[
+        "Angular",
+        "Node.JS"
+      ],
+      "link":"ovh.com",
+      "location":"Roubaix - France",
+      "img": {
+        "src": "assets/img/experiences/ovh.svg",
+        "width": "305",
+        "height": "52"
       },
-      {
-        "title":"Geckoboard London",
-        "date":"Summer 2014",
-        "duration":"4 months",
-        "position":"Software Engineer Intern",
-        "tech":[
-          "Backbone",
-          "SASS",
-          "Vagrant",
-          "Chef",
-          "Jasmine"
-        ],
-        "link":"https://geckoboard.com",
-        "location":"Shoreditch - London UK",
-        "img": {
-          "src": "assets/img/experiences/geckoboard2.svg",
-          "width": "305",
-          "height": "52"
-        },
-        "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
-        "descriptionLi":[
-          "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
-          "Writing developer documentation (Best practices, How-To...)",
-          "Getting feedback from the customers to improve Geckoboard's products."
-        ]
-      }
-    ]
-  },
-  "projects":{
-    "en":[
-      {
-        "title":"MeerkatMap",
-        "subtitle":"A realtime world map of Meerkat Streams",
-        "date":"06/2015 - 07/2015",
-        "keys":[
-          "React",
-          "ES6",
-          "io.js",
-          "Redis",
-          "Leaflet"
-        ],
-        "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
-        "link":"http://map.meerkat.ovh",
-        "tech":[
-          "React",
-          "ES6",
-          "io.js",
-          "Redis",
-          "Leaflet",
-          "Socket.io",
-          "Webpack"
-        ],
-        "description":"A realtime world map of Meerkat Streams",
-        "featured":true,
-        "thumbImg":"assets/img/projects/meerkatmap/meerkat_thumb.png",
-        "images":"assets/img/projects/meerkatmap/meerkat0.jpg,assets/img/projects/meerkatmap/meerkat1.jpg",
-        "featVideo": "assets/video/meerkat.mp4",
-        "category":"Web"
+      "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting.",
+      "descriptionLi":[
+        "Building the new ISP && Cloud manager"
+      ]
+    },
+    {
+      "title":"Geckoboard London",
+      "date":"Summer 2014",
+      "duration":"4 months",
+      "position":"Software Engineer Intern",
+      "tech":[
+        "JavaScript",
+        "SASS",
+        "Jasmine"
+      ],
+      "link":"geckoboard.com",
+      "location":"Shoreditch - London UK",
+      "img": {
+        "src": "assets/img/experiences/geckoboard2.svg",
+        "width": "305",
+        "height": "52"
       },
-      {
-        "title":"ReactNative Pokédex",
-        "subtitle":"A Pokédex made with React Native",
-        "date":"04/2015",
-        "keys":[
-          "React Native",
-          "Node.js"
-        ],
-        "github":"github.com/ababol/react-native-pokedex,https://github.com/ababol/react-native-pokedex",
-        "tech":[
-          "React Native",
-          "Node.js"
-        ],
-        "description":"A simple Pokédex application - Made with React Native",
-        "thumbImg":"assets/img/projects/pokedex/pokedex_thumb.png",
-        "images":"assets/img/projects/pokedex/pokedex0.png",
-        "category":"Web"
-      },
-      {
-        "title":"ScaleWS",
-        "subtitle":"Hack a body Scale",
-        "date":"12/2013 - 04/2014",
-        "keys":[
-          "Node.js",
-          "Socket.IO",
-          "MongoDB",
-          "Backbone",
-          "API RESTful"
-        ],
-        "github":"github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
-        "slides":"Slides,http://ababol.github.io/ScaleWS",
-        "link":"http://babol.me:1337",
-        "tech":[
-          "Node.js",
-          "Backbone",
-          "MongoDB",
-          "Socket.IO",
-          "Highcharts",
-          "d3.js",
-          "SASS",
-          "Grunt",
-          "Bower",
-          "Wireshark"
-        ],
-        "description":"Get, process and visualize data acquired from a wifi body scale (Withings WS50).",
-        "descriptionLi":[
-          "Hack the scale (DNS Spoofing)",
-          "Provide a JSON RESTful API (Node.JS + MongoDB)",
-          "Create a web application",
-          "Shared collections between server/client thanks to MongoDB/Socket.io"
-        ],
-        "thumbImg":"assets/img/projects/scalews/scalews_thumb.png",
-        "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
-        "featImg":"assets/img/projects/scalews/scalews.gif",
-        "category":"Web"
-      },
-      {
-        "title":"OQADU",
-        "subtitle":"Mobile & Tablet applications (queue manager)",
-        "date":"11/2014",
-        "keys":[
-          "Ionic",
-          "Node.js",
-          "MongoDB",
-          "Angular"
-        ],
-        "github":"github.com/ababol/oqadu,https://github.com/ababol/oqadu",
-        "slides":"Slides,http://ababol.github.io/oqadu",
-        "link":"https://oqadu.herokuapp.com/customer.html",
-        "linkName":"Customer App (Mobile Portrait)",
-        "link2":"https://oqadu.herokuapp.com/seller.html#/products",
-        "linkName2":"Seller App (Tablet Landscape)",
-        "tech":[
-          "Ionic",
-          "Node.js",
-          "Firebase",
-          "MongoDB",
-          "Angular",
-          "API RESTful",
-          "Socket.IO",
-          "Gulp",
-          "SASS",
-          "Highcharts"
-        ],
-        "description":"Mobile application (queue manager) made for <a target='_blank href='http://www.leroymerlin.fr/'>Leroy Merlin.</a>",
-        "descriptionLi":[
-          "Create a mobile application for the customers",
-          "Create a tablet application for the sellers",
-          "Provide a queue manager (Firebase)",
-          "Provide a JSON RESTful API (Node.JS + MongoDB)"
-        ],
-        "thumbImg":"assets/img/projects/oqadu/oqadu_thumb.png",
-        "images":"assets/img/projects/oqadu/seller0.png,assets/img/projects/oqadu/seller1.png,assets/img/projects/oqadu/seller2.png, assets/img/projects/oqadu/customer0.png,assets/img/projects/oqadu/customer1.png",
-        "category":"Web"
-      },
-      {
-        "title":"Github Top Repo",
-        "subtitle":"Geckoboard coding challenge",
-        "date":"03/2014",
-        "keys":[
-          "Backbone",
-          "GitHub API",
-          "Jasmine"
-        ],
-        "github":"github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
-        "link":"http://babol.me/works/github-top-repo/#ababol",
-        "tech":[
-          "Backbone",
-          "GitHub API",
-          "Jasmine",
-          "Bower"
-        ],
-        "description":"Little coding challenge given by Geckoboard to check \"my skills\", I was finally hired and I did my internship with them during the summer of 2014.<br/><br/> They gave me a design and the requirements were:",
-        "descriptionLi":[
-          "A main page which shows a list of up to 20 repositories sorted by the number of stars/watchers (highest first)",
-          "Each item displays the repo title, the number of stars/watchers and the number of forks",
-          "Clicking on the title shows a more detailed description of the repository containing the description, homepage URL and any other relevant information."
-        ],
-        "thumbImg":"assets/img/projects/github-top-repo/github_thumb.png",
-        "images":"assets/img/projects/github-top-repo/github_0.png, assets/img/projects/github-top-repo/github_1.png, assets/img/projects/github-top-repo/github_2.png",
-        "category":"Web"
-      },
-      {
-        "title":"Babol.me v1",
-        "subtitle":"My old portfolio",
-        "date":"2012",
-        "keys":[
-          "1st Flat Design Experience",
-          "Vanilla Responsive"
-        ],
-        "link":"http://babol.me/old/v1",
-        "description":"Use of Flat Design techniques to make a responsive website. I was really proud of myself back in 2012 ^^.",
-        "thumbImg":"assets/img/projects/babol.me/babolme_thumb.png",
-        "images":"assets/img/projects/babol.me/babolme_0.png, assets/img/projects/babol.me/babolme_1.png, assets/img/projects/babol.me/babolme_2.png, assets/img/projects/babol.me/babolme_3.png, assets/img/projects/babol.me/babolme_4.png",
-        "category":"Web"
-      },
-      {
-        "title":"Hackenbush",
-        "subtitle":"Logic Game Hackenbush",
-        "date":"2012",
-        "keys":[
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "PHP",
-          "TDD",
-          "QUnit"
-        ],
-        "github":"github.com/ababol/Hackenbush,https://github.com/ababol/Hackenbush",
-        "link":"http://hackenbush.babol.me",
-        "tech":[
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "PHP",
-          "TDD",
-          "QUnit"
-        ],
-        "description":"Developement of the logic game Hackenbush",
-        "descriptionLi":[
-          "Save/Load your game",
-          "Can play against an artificial intelligence",
-          "Following Test Driven Development"
-        ],
-        "thumbImg":"assets/img/projects/hackenbush/hackenbush_thumb.png",
-        "images":"assets/img/projects/hackenbush/hackenbush_0.png, assets/img/projects/hackenbush/hackenbush_1.png, assets/img/projects/hackenbush/hackenbush_2.png, assets/img/projects/hackenbush/hackenbush_3.png, assets/img/projects/hackenbush/hackenbush_4.png",
-        "category":"Web"
-      },
-      {
-        "title":"EducationAll",
-        "subtitle":"Fun and simple way for children to learn",
-        "date":"2013",
-        "keys":[
-          "C#",
-          "Windows Azure",
-          "WPF"
-        ],
-        "github":"github.com/ababol/EducativeGame,https://github.com/ababol/EducativeGame",
-        "slides":"Slides,http://educationall.babol.me/Sharpentier-EducationAll-Slides.pdf",
-        "tech":[
-          "C#",
-          "Windows Azure",
-          "WPF",
-          "3-Tiers Architecture"
-        ],
-        "description":"Fun and simple way for children to learn.",
-        "descriptionLi":[
-          "Challenge your friends",
-          "Games and scores automatically synchronized with an SQL Server hosted on the Windows Azure Cloud"
-        ],
-        "thumbImg":"assets/img/projects/educationall/educationAll_thumb.jpg",
-        "images":"assets/img/projects/educationall/educationall_0.png, assets/img/projects/educationall/educationall_1.png, assets/img/projects/educationall/educationall_2.png, assets/img/projects/educationall/educationall_3.png",
-        "category":"Software"
-      },
-      {
-        "title":"JGASolver",
-        "subtitle":"A Genetic Algorithms Framework",
-        "date":"2013",
-        "keys":[
-          "Java",
-          "Swing"
-        ],
-        "github":"github.com/ababol/JGaS,https://github.com/ababol/JGaS",
-        "link":"http://jgasolver.babol.me/JGaSolver.jar",
-        "slides":"Slides,http://jgasolver.babol.me/Slides_GeneticAlgorithm.pdf",
-        "tech":[
-          "Java",
-          "Swing",
-          "Maven",
-          "MVC",
-          "Redmine"
-        ],
-        "description":"JGASolver is a framework written in Java which allows the user to solve their genetic optimization problems.",
-        "thumbImg":"assets/img/projects/jgasolver/jgasolver_thumb.png",
-        "images":"assets/img/projects/jgasolver/jgasolver.jpg",
-        "category":"Software"
-      },
-      {
-        "title":"Robot Bille",
-        "subtitle":"Can a robot move like a ball?",
-        "date":"2012",
-        "keys":[
-          "C",
-          "HTML5",
-          "JavaScript"
-        ],
-        "link":"http://robotbille.babol.me",
-        "tech":[
-          "C",
-          "HTML5",
-          "JavaScript"
-        ],
-        "descriptionLi":[
-          "Finding the robot/ball path using our program written in C",
-          "Store result in a JSON file and display the path in a canvas",
-          "Comparaison with the shortest path using <a target='_blank' href='http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm'>Dijkstra's algorihm</a>"
-        ],
-        "thumbImg":"assets/img/projects/robotbille/robotbille_thumb.png",
-        "images":"assets/img/projects/robotbille/robotbille.png",
-        "category":"Web Software"
-      }
-    ],
-    "fr":[
-      {
-        "title":"ScaleWS",
-        "subtitle":"Hack d'une balance connectée",
-        "date":"12/2013 - 04/2014",
-        "keys":[
-          "Node.js",
-          "Socket.IO",
-          "MongoDB",
-          "Backbone"
-        ],
-        "github":"github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
-        "slides":"Slides,http://ababol.github.io/ScaleWS",
-        "link":"http://babol.me:1337",
-        "tech":[
-          "Node.js",
-          "Backbone",
-          "MongoDB",
-          "Socket.IO",
-          "Highcharts",
-          "d3.js",
-          "SASS",
-          "Grunt",
-          "Bower",
-          "Wireshark"
-        ],
-        "description":"Obtenir, interpréter et pouvoir visualiser les données acquises à partir d'une balance connectée (Withings WS50).",
-        "descriptionLi":[
-          "Hack de le balance (DNS Spoofing)",
-          "Fournir une API RESTful JSON (Node.JS + MongoDB)",
-          "Création d'une application web",
-          "Données partagées entre client & serveur (Socket.io/MongoDB)"
-        ],
-        "thumbImg":"assets/img/projects/scalews/scalews_thumb.png",
-        "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
-        "featImg":"assets/img/projects/scalews/scalews.gif",
-        "category":"Web"
-      },
-      {
-        "title":"MeerkatMap",
-        "subtitle":"A realtime world map of Meerkat Streams",
-        "date":"06/2015 - 07/2015",
-        "keys":[
-          "React",
-          "ES6",
-          "io.js",
-          "Redis",
-          "Leaflet"
-        ],
-        "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
-        "link":"http://map.meerkat.ovh",
-        "tech":[
-          "React",
-          "ES6",
-          "io.js",
-          "Redis",
-          "Leaflet",
-          "Socket.io",
-          "Webpack"
-        ],
-        "description":"A realtime world map of Meerkat Streams",
-        "featured":true,
-        "thumbImg":"assets/img/projects/meerkatmap/meerkat_thumb.png",
-        "images":"assets/img/projects/meerkatmap/meerkat0.jpg,assets/img/projects/meerkatmap/meerkat1.jpg",
-        "featVideo": "assets/video/meerkat.mp4",
-        "category":"Web"
-      }
-    ]
-  },
-  "timeline":{
-    "en":[
-      {
-        "date":"09/2015",
-        "title":"ISEN - GRADUATED",
-        "description":"Master’s degree in IT with Management & Business development (2015).<br/>Bachelor of Technology in computer Science and Networking (2013)."
-      },
-      {
-        "date":"02/2015",
-        "title":"ENGLISH EXAM",
-        "description":"TOEIC 930 (2015).<br/>First Certificate of Cambridge (2013)."
-      }
-    ],
-    "fr":[
-      {
-        "date":"09/2015",
-        "title":"ISEN - DIPLÔMÉ",
-        "description":"Master en management de projet et développement d’affaires/systèmes d’information (2015).<br/>Bachelor of Technology en informatiques et réseaux (2013)."
-      },
-      {
-        "date":"02/2015",
-        "title":"CERTIFICATIONS ANGLAIS",
-        "description":"TOEIC 930 (2015).<br/>First Certificate of Cambridge (2013)."
-      }
+      "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
+      "descriptionLi":[
+        "Linking Geckoboard to external services like Google Drive, Google Sheets, Adwords, Twitter, Mixpanel and a lot more"
+      ]
+    }
+  ],
+  "projects":[
+    {
+      "title":"IFTTT",
+      "subtitle":"Cisco Spark (~Slack) integration into IFTTT (If Then Than That).",
+      "date":"12/2015",
+      "keys":[
+        "ES6",
+        "Node.js"
+      ],
+      "link":"ifttt.com/cisco_spark",
+      "tech":[
+        "ES6",
+        "Node.js"
+      ],
+      "resume": true,
+      "description":"Cisco Spark (~Slack) integration into IFTTT (If Then Than That).",
+      "icon": "../assets/img/projects/ifttt/ifttt.svg",
+      "thumbImg":"assets/img/projects/ifttt/ifttt_thumb.png",
+      "images":"assets/img/projects/ifttt/ifttt0.png",
+      "category":"Web"
+    },
+    {
+      "title":"Voice assistant",
+      "description":"An Amazon Echo/Siri like designed for entreprise.",
+      "date":"12/2015",
+      "tech":[
+        "Python",
+        "Machine Learning"
+      ],
+      "resume": true,
+      "icon": "../assets/img/projects/voice_assistant/voice_assistant.png",
+      "category":"Web"
+    },
+    {
+      "title":"Vine for Entreprise",
+      "description":"A vine for entreprise build into Cisco Spark (~Slack).",
+      "date":"11/2015",
+      "keys":[
+        "Angular",
+        "React Native"
+      ],
+      "tech":[
+        "Angular",
+        "React Native"
+      ],
+      "resume": true,
+      "icon": "../assets/img/projects/vine/vine.png",
+      "category":"Web"
+    },
+    {
+      "title":"Portal",
+      "link":"teamportal.io",
+      "description":"An always-on video portal between two or more office locations.",
+      "date":"10/2015",
+      "keys":[
+        "Angular",
+        "WebRTC",
+        "Firebase"
+      ],
+      "tech":[
+        "Angular",
+        "WebRTC"
+      ],
+      "resume": true,
+      "icon": "../assets/img/projects/portal/portal.svg",
+      "category":"Web"
+    },
+    {
+      "title":"MeerkatMap",
+      "subtitle":"A realtime world map of Meerkat Streams",
+      "date":"06/2015 - 07/2015",
+      "keys":[
+        "React",
+        "ES6",
+        "io.js",
+        "Redis",
+        "Leaflet"
+      ],
+      "github":"github.com/ababol/react-meerkat-map,https://github.com/ababol/react-meerkat-map",
+      "link":"meerkat.ovh",
+      "tech":[
+        "React",
+        "ES6",
+        "io.js",
+        "Redis",
+        "Socket.io",
+        "Webpack"
+      ],
+      "description":"A realtime world map of Meerkat Streams. Featured on TheNextWeb and ProductHunt.",
+      "resume": true,
+      "featured":true,
+      "icon": "../assets/img/projects/meerkatmap/meerkat.svg",
+      "thumbImg":"assets/img/projects/meerkatmap/meerkat_thumb.png",
+      "images":"assets/img/projects/meerkatmap/meerkat0.jpg,assets/img/projects/meerkatmap/meerkat1.jpg",
+      "featVideo": "assets/video/meerkat.mp4",
+      "category":"Web"
+    },
+    {
+      "title":"ReactNative Pokédex",
+      "subtitle":"A Pokédex made with React Native",
+      "date":"04/2015",
+      "keys":[
+        "React Native",
+        "Node.js"
+      ],
+      "github":"github.com/ababol/react-native-pokedex,https://github.com/ababol/react-native-pokedex",
+      "tech":[
+        "React Native",
+        "Node.js"
+      ],
+      "description":"A simple Pokédex application - Made with React Native",
+      "thumbImg":"assets/img/projects/pokedex/pokedex_thumb.png",
+      "images":"assets/img/projects/pokedex/pokedex0.png",
+      "category":"Web"
+    },
+    {
+      "title":"ScaleWS",
+      "subtitle":"Hack a body Scale",
+      "date":"12/2013 - 04/2014",
+      "keys":[
+        "Node.js",
+        "Socket.IO",
+        "MongoDB",
+        "Backbone",
+        "API RESTful"
+      ],
+      "github":"github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
+      "slides":"Slides,http://ababol.github.io/ScaleWS",
+      "link":"http://babol.me:1337",
+      "tech":[
+        "Node.js",
+        "Backbone",
+        "MongoDB",
+        "Socket.IO",
+        "Highcharts",
+        "d3.js",
+        "SASS",
+        "Grunt",
+        "Bower",
+        "Wireshark"
+      ],
+      "description":"Get, process and visualize data acquired from a wifi body scale (Withings WS50).",
+      "descriptionLi":[
+        "Hack the scale (DNS Spoofing)",
+        "Provide a JSON RESTful API (Node.JS + MongoDB)",
+        "Create a web application",
+        "Shared collections between server/client thanks to MongoDB/Socket.io"
+      ],
+      "thumbImg":"assets/img/projects/scalews/scalews_thumb.png",
+      "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
+      "featImg":"assets/img/projects/scalews/scalews.gif",
+      "category":"Web"
+    },
+    {
+      "title":"OQADU",
+      "subtitle":"Mobile & Tablet applications (queue manager)",
+      "date":"11/2014",
+      "keys":[
+        "Ionic",
+        "Node.js",
+        "MongoDB",
+        "Angular"
+      ],
+      "github":"github.com/ababol/oqadu,https://github.com/ababol/oqadu",
+      "slides":"Slides,http://ababol.github.io/oqadu",
+      "link":"https://oqadu.herokuapp.com/customer.html",
+      "linkName":"Customer App (Mobile Portrait)",
+      "link2":"https://oqadu.herokuapp.com/seller.html#/products",
+      "linkName2":"Seller App (Tablet Landscape)",
+      "tech":[
+        "Ionic",
+        "Node.js",
+        "Firebase",
+        "MongoDB",
+        "Angular",
+        "API RESTful",
+        "Socket.IO",
+        "Gulp",
+        "SASS",
+        "Highcharts"
+      ],
+      "description":"Mobile application (queue manager) made for <a target='_blank href='http://www.leroymerlin.fr/'>Leroy Merlin.</a>",
+      "descriptionLi":[
+        "Create a mobile application for the customers",
+        "Create a tablet application for the sellers",
+        "Provide a queue manager (Firebase)",
+        "Provide a JSON RESTful API (Node.JS + MongoDB)"
+      ],
+      "thumbImg":"assets/img/projects/oqadu/oqadu_thumb.png",
+      "images":"assets/img/projects/oqadu/seller0.png,assets/img/projects/oqadu/seller1.png,assets/img/projects/oqadu/seller2.png, assets/img/projects/oqadu/customer0.png,assets/img/projects/oqadu/customer1.png",
+      "category":"Web"
+    },
+    {
+      "title":"Github Top Repo",
+      "subtitle":"Geckoboard coding challenge",
+      "date":"03/2014",
+      "keys":[
+        "Backbone",
+        "GitHub API",
+        "Jasmine"
+      ],
+      "github":"github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
+      "link":"http://babol.me/works/github-top-repo/#ababol",
+      "tech":[
+        "Backbone",
+        "GitHub API",
+        "Jasmine",
+        "Bower"
+      ],
+      "description":"Little coding challenge given by Geckoboard to check \"my skills\", I was finally hired and I did my internship with them during the summer of 2014.<br/><br/> They gave me a design and the requirements were:",
+      "descriptionLi":[
+        "A main page which shows a list of up to 20 repositories sorted by the number of stars/watchers (highest first)",
+        "Each item displays the repo title, the number of stars/watchers and the number of forks",
+        "Clicking on the title shows a more detailed description of the repository containing the description, homepage URL and any other relevant information."
+      ],
+      "thumbImg":"assets/img/projects/github-top-repo/github_thumb.png",
+      "images":"assets/img/projects/github-top-repo/github_0.png, assets/img/projects/github-top-repo/github_1.png, assets/img/projects/github-top-repo/github_2.png",
+      "category":"Web"
+    },
+    {
+      "title":"Babol.me v1",
+      "subtitle":"My old portfolio",
+      "date":"2012",
+      "keys":[
+        "1st Flat Design Experience",
+        "Vanilla Responsive"
+      ],
+      "link":"http://babol.me/old/v1",
+      "description":"Use of Flat Design techniques to make a responsive website. I was really proud of myself back in 2012 ^^.",
+      "thumbImg":"assets/img/projects/babol.me/babolme_thumb.png",
+      "images":"assets/img/projects/babol.me/babolme_0.png, assets/img/projects/babol.me/babolme_1.png, assets/img/projects/babol.me/babolme_2.png, assets/img/projects/babol.me/babolme_3.png, assets/img/projects/babol.me/babolme_4.png",
+      "category":"Web"
+    },
+    {
+      "title":"Hackenbush",
+      "subtitle":"Logic Game Hackenbush",
+      "date":"2012",
+      "keys":[
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP",
+        "TDD",
+        "QUnit"
+      ],
+      "github":"github.com/ababol/Hackenbush,https://github.com/ababol/Hackenbush",
+      "link":"http://hackenbush.babol.me",
+      "tech":[
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP",
+        "TDD",
+        "QUnit"
+      ],
+      "description":"Developement of the logic game Hackenbush",
+      "descriptionLi":[
+        "Save/Load your game",
+        "Can play against an artificial intelligence",
+        "Following Test Driven Development"
+      ],
+      "thumbImg":"assets/img/projects/hackenbush/hackenbush_thumb.png",
+      "images":"assets/img/projects/hackenbush/hackenbush_0.png, assets/img/projects/hackenbush/hackenbush_1.png, assets/img/projects/hackenbush/hackenbush_2.png, assets/img/projects/hackenbush/hackenbush_3.png, assets/img/projects/hackenbush/hackenbush_4.png",
+      "category":"Web"
+    },
+    {
+      "title":"EducationAll",
+      "subtitle":"Fun and simple way for children to learn",
+      "date":"2013",
+      "keys":[
+        "C#",
+        "Windows Azure",
+        "WPF"
+      ],
+      "github":"github.com/ababol/EducativeGame,https://github.com/ababol/EducativeGame",
+      "slides":"Slides,http://educationall.babol.me/Sharpentier-EducationAll-Slides.pdf",
+      "tech":[
+        "C#",
+        "Windows Azure",
+        "WPF",
+        "3-Tiers Architecture"
+      ],
+      "description":"Fun and simple way for children to learn.",
+      "descriptionLi":[
+        "Challenge your friends",
+        "Games and scores automatically synchronized with an SQL Server hosted on the Windows Azure Cloud"
+      ],
+      "thumbImg":"assets/img/projects/educationall/educationAll_thumb.jpg",
+      "images":"assets/img/projects/educationall/educationall_0.png, assets/img/projects/educationall/educationall_1.png, assets/img/projects/educationall/educationall_2.png, assets/img/projects/educationall/educationall_3.png",
+      "category":"Software"
+    },
+    {
+      "title":"JGASolver",
+      "subtitle":"A Genetic Algorithms Framework",
+      "date":"2013",
+      "keys":[
+        "Java",
+        "Swing"
+      ],
+      "github":"github.com/ababol/JGaS,https://github.com/ababol/JGaS",
+      "link":"http://jgasolver.babol.me/JGaSolver.jar",
+      "slides":"Slides,http://jgasolver.babol.me/Slides_GeneticAlgorithm.pdf",
+      "tech":[
+        "Java",
+        "Swing",
+        "Maven",
+        "MVC",
+        "Redmine"
+      ],
+      "description":"JGASolver is a framework written in Java which allows the user to solve their genetic optimization problems.",
+      "thumbImg":"assets/img/projects/jgasolver/jgasolver_thumb.png",
+      "images":"assets/img/projects/jgasolver/jgasolver.jpg",
+      "category":"Software"
+    },
+    {
+      "title":"Robot Bille",
+      "subtitle":"Can a robot move like a ball?",
+      "date":"2012",
+      "keys":[
+        "C",
+        "HTML5",
+        "JavaScript"
+      ],
+      "link":"http://robotbille.babol.me",
+      "tech":[
+        "C",
+        "HTML5",
+        "JavaScript"
+      ],
+      "descriptionLi":[
+        "Finding the robot/ball path using our program written in C",
+        "Store result in a JSON file and display the path in a canvas",
+        "Comparaison with the shortest path using <a target='_blank' href='http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm'>Dijkstra's algorihm</a>"
+      ],
+      "thumbImg":"assets/img/projects/robotbille/robotbille_thumb.png",
+      "images":"assets/img/projects/robotbille/robotbille.png",
+      "category":"Web Software"
+    }
+  ],
+  "education":{
+    "isen": [
+      "Master’s degree in IT with Management & Business development (2015).",
+      "Bachelor of Technology in computer Science and Networking (2013)."
     ]
   },
   "contact":{
-    "phone":"+33 (0) 6 71 70 62 35",
+    "phone":"1-415-283-9084",
     "mail":"arnaud@babol.me",
-    "github":"https://github.com/ababol",
+    "github":"ababol",
     "angellist":"https://angel.co/ababol",
-    "twitter":"https://twitter.com/arbabol",
+    "twitter":"@arbabol",
     "linkedin":"http://fr.linkedin.com/pub/arnaud-babol/60/994/741/en",
     "portfolio":"http://babol.me"
   },
@@ -711,23 +619,20 @@
     "london":[
       "London React User Group - ",
       "Docker London"
-    ]
-  },
-  "hobbies":{
-    "en":[
-      "Movies",
-      "Video Games",
-      "Music",
-      "Programming",
-      "New Technology"
     ],
-    "fr":[
-      "Cinéma",
-      "Jeux Vidéos",
-      "Musique",
-      "Programming",
-      "High-Tech"
+    "bay":[
+      "ReactJS San Francisco Bay Area - ",
+      "While42 - ",
+      "DBF"
     ]
   },
-  "idGA":"UA-36930870-1"
+  "hobbies":[
+    "Movies",
+    "Video Games",
+    "Music",
+    "Programming",
+    "New Technology"
+  ],
+  "idGA":"UA-36930870-1",
+  "robot": "--- This part is for robot only --- HTML5, CSS3, jQuery, Hack, PHP, NASA, C++, , B.S. or M.S. Computer Science, React, React Native, Master's or PhD in Computer Science or related technical field., Python, AJAX,  scale, speed, cassandra, hadoop, scala, clojure, go, google maps, youtube, mountain view, san francisco, Facebook, Microsoft, Google, NASA, MIT, Standford, Oxford, React, github, open source, astronaut, loon, tesla, apple, best, machine learning, deep learning, android, ios, natural languages, ceo, startup, docker, uber, airbnb, palantir, IA, intelligence artificiall, Facebook M, Wit, Instagram, Snapchat, iTunes, Dropbox, Nobel prize, O1, reward, techcrunch, disrupt, win, imagine cupp, summer code, summercode, hacker, AngularJS, Polymer, Closure, designing object-oriented, user-facing, user experience, design, ui. --- This part is for robot only ---"
 }

@@ -25,6 +25,9 @@ body{
   color: #363636;
   background: #ededed;
 }
+a {
+  color: #EC7263;
+}
 /*******************************************
 CONTAINER
 *******************************************/
@@ -92,18 +95,22 @@ PHOTO (AVATAR)
   content: '';
   display: block;
 }
+
+#text-header h1 sup{
+  opacity: 0.5;
+}
 /*******************************************
 DEFAULT BOX
 *******************************************/
 .box{
-  margin: 15px;
+  margin: 20px 15px;
 }
 .box h2{
   color: #EC7263;
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 22px 0 5px 0;
+  margin: 0 0 10px 0;
 }
 .box h2:before{
   content: '//';
@@ -113,7 +120,7 @@ DEFAULT BOX
   margin-top: 0px;
 }
 .box p{
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.5em;
 }
 /*******************************************
@@ -122,86 +129,111 @@ ABOUT
 .description a {
   color: #363636;
 }
+
+/*******************************************
+CONTACT
+*******************************************/
+#contact .contact-item .title {
+    font-size: 1.2em;
+}
+
+#contact .contact-item .description {
+  font-size: 1em;
+}
+
+#contact .contact-item .icon {
+    border-right: 0px solid #AAA;
+    border-bottom: 0px solid #AAA;
+    opacity: 1;
+}
+#contact .contact-item .description{
+  opacity: 1;
+}
+#contact .contact-item .title{
+  opacity: 1;
+}
+#contact .contact-item .icon{
+  opacity: 1;
+}
+#contact .contact-item .fa {
+  font-size: 1.6em;
+}
+#contact .contact-item .title.only {
+  margin-top: 5px;
+}
+#contact .table {
+  display: table;
+  width: 100%;
+  margin-top: 11px;
+  margin-right: 0px !important;
+}
+
+#contact .row {
+  display: table-row;
+  margin: 0px !important;
+}
+
+#contact .cell {
+  display: table-cell;
+  margin: 0px !important;
+  vertical-align: middle;
+}
+#contact .icon {
+  padding: 0 0 0 20px;
+}
+#contact .icon i {
+  padding-top: 1.5px;
+  font-size: 16px !important;
+  top: 1px;
+}
+#contact .contact-item .title{
+  width: 100%;
+  /*width: calc(100% - 22px);*/
+  font-size: 1.3em;
+  font-weight: 400;
+}
 /*******************************************
 EDUCATION
 *******************************************/
-#education{
-  position: relative;
-  padding: 1em 0;
-  list-style: none;
+#education {
+  margin-top: 20px;
+  padding-right: 15px;
 }
-#education:before {
-  width: 5px;
-  height: 100%;
-  position: absolute;
-  left: 25px;
-  top: 0;
-  content: ' ';
-  display: block;
-  background: #ec7263;
-  background: -moz-linear-gradient(top,  #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#ec7263), color-stop(89%,#ec7263), color-stop(100%,#ffffff));
-  background: -webkit-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-  background: -o-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-  background: -ms-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-  background: linear-gradient(to bottom,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-}
-#education li{
-  width: 100%;
-  z-index: 2;
-  position: relative;
-  float: left;
-}
-#education .year{
-  width: 10%;
-  background: #fff;
-  padding: 10px;
-  font-size: 1.5em;
-  font-weight: 700;
-  display: inline-block;
-}
-#education .description{
-  width: 80%;
-  display: inline-block;
-  background: #eee;
-  margin-bottom: 10px;
-  position: relative;
-  padding: 10px 10px 0 10px;
-  border-bottom: 1px solid #ddd;
-}
-#education .description:after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  right: 0;
-  left: -16px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #eee;
-  border-width: 8px;
-  pointer-events: none;
-}
-#education .description h3{
-  font-size: 1.6em;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-}
-#education .description p{
+
+#education .education-text {
   font-size: 1.3em;
-  margin-top: 5px;
+  margin-top: 8px;
   padding: 0;
+  margin-left: 4px;
 }
+#education ul li {
+  margin-bottom: 20px;
+}
+
+#education ul li:nth-child(2) {
+  margin-top: 5px;
+}
+#education ul li:nth-child(3) {
+  margin-top: -15px;
+}
+#education .col-xs-12 {
+  margin: 7px 0;
+}
+
 /*******************************************
-EXPERIENCES
+BOX JOB/PROJECTS
 *******************************************/
-.box .job {
-  margin-left: -15px;
+.box .job .col-xs-3 {
+  width: 26%;
 }
-.job{
-  margin-bottom: 7px;
+
+.box .job .col-xs-9 {
+  width: 74%;
+}
+
+.box .job  {
+  margin-left: -15px !important;
+  margin-bottom: 22px;
 }
 .job .duration {
   color: grey;
@@ -213,7 +245,6 @@ EXPERIENCES
 }
 .job .year{
   font-size: 1.3em;
-  opacity: 0.7;
 }
 .job .profession{
   font-size: 1.6em;
@@ -222,12 +253,16 @@ EXPERIENCES
 .job .profession a {
   font-size: 0.8em;
   font-weight: normal;
-  float: right;
-  color: #EC7263;
 }
 .job .description{
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.5em;
+}
+.job .tech {
+  font-size: 1.2em;
+}
+.job .tech span {
+  line-height: 18px;
 }
 /*******************************************
 CONTACT
@@ -264,108 +299,73 @@ CONTACT
   font-size: 1.2em;
   opacity: 0.7;
 }
+
 /*******************************************
-SKILLS
+PROJECT
 *******************************************/
-#skills h2 {
-  margin-top: 0px;
-}
-.item-skills{
-  height: 30px;
-  background: #F0563D;
-  color: #fff;
-  padding: 5px 10px;
-  margin-bottom: 5px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 1.3em;
-  font-weight: 600;
-}
-.skills-legend{
-  margin-top: 20px;
-  opacity: 0.8;
-}
-.skills-legend:before{
-  width: 100%;
-  height: 3px;
-  position: relative;
-  content: ' ';
-  display: block;
-  margin-bottom: -13px;
-  background: #c6c6c6;
-}
-.skills-legend div{
-  width: 25%;
-  display: inline-block;
-  font-size: 1.2em;
-  color: #a9a9a9;
+#project .col-project-img {
+  width: 59px;
+  min-height: 60px;
   float: left;
+  margin-right: 14px;
+  text-align: center;
+  margin-top: 10px;
 }
-.legend:before{
-  width: 3px;
-  height: 10px;
-  position: relative;
-  content: ' ';
-  display: block;
-  margin: auto;
-  margin-bottom: 15px;
-  background: #c6c6c6;
+#project .project:nth-child(2) .col-project-img {
+  margin-top: 19px;
 }
-.legend-left.legend:before{
-  margin-left: 0;
+#project .project:nth-child(4) .col-project-img {
+  margin-top: 13px;
 }
-.legend-right.legend:before{
-  margin-right: 0;
+#project .col-project-title {
+  margin-left: 15px;
 }
-.legend-left:nth-child(2) span{
-  margin-left: -25px;
+
+#project .project {
+  float:left;
+  margin: 12px 0;
 }
-.legend-right:nth-child(3) span{
-  margin-right: -20px;
+#project .project:last-child .col-project-img {
+  margin-top: 13px;
 }
-.legend-right{
-  text-align: right;
+#project .project:last-child {
+  clear: both;
+  padding: 0;
+  margin: 8px 0 15px 0 !important;
 }
 /*******************************************
-LANGUAGES
+MEETUP
 *******************************************/
-#language-skills .skill{
+#meetup {
+  margin-top: 18px;
+  padding-left: 15px;
+}
+#meetup ul {
+  margin-top: -2px;
+}
+#meetup ul b {
   font-size: 1.3em;
-  margin: 10px 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
 }
-#language-skills .skill .icons{
-  width: 111px;
-  height: 14px;
-  background: url(../img/star-grey.png) no-repeat;
+#meetup ul li {
+  margin-bottom: 8px;
 }
-#language-skills .skill .icons-red{
-  background: url(../img/star-red.png) no-repeat;
+#meetup li {
+  font-size: 1.3em;
 }
 /*******************************************
 HOBBIES
 *******************************************/
-.hobby{
-  color: #fff;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 5px 5px 5px 25px;
-  background: #A75265;
-  position: relative;
-  font-size: 1.2em;
+#hobbies {
+  margin-top: 8px;
 }
-.hobby:before{
-  content: "\f004";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  position: absolute;
-  top: 6px;
-  left: 7px;
+#hobbies h2 {
+  margin-bottom: 8px;
 }
+#hobbies .col-xs-12 {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
 /*******************************************
 MEDIA
 *******************************************/
@@ -401,99 +401,41 @@ CUSTOM
   margin-top: 0px;
 }
 
-.contact-item .title {
-    font-size: 1.2em;
-}
-
-.contact-item .description {
-  font-size: 1em;
-}
-
-.contact-item .icon {
-    padding: 5px;
-    border-right: 0px solid #AAA;
-    border-bottom: 0px solid #AAA;
-    opacity: 1;
-}
-
-#text-header h1 sup{
-  opacity: 0.5;
-}.skills-legend{
-  opacity: 1;
-}.contact-item .description{
-  opacity: 1;
-}.contact-item .title{
-  opacity: 1;
-}.job .year{
-  opacity: 1;
-}.contact-item .icon{
-  opacity: 1;
-}
-.contact-item .fa {
-  font-size: 1.6em;
-}
-.contact-item .title.only {
-  margin-top: 5px;
-}
-#contact .table {
-  display: table;
-  width: 100%;
-  margin-top: 11px;
-  margin-right: 0px !important;
-}
-
-#contact .row {
-  display: table-row;
-  margin: 0px !important;
-}
-
-#contact .cell {
-  display: table-cell;
-  margin: 0px !important;
-  vertical-align: middle;
-}
-#contact .icon {
-  padding: 0;
-}
-#contact .icon i {
-  padding-top: 1.5px;
-  font-size: 16px !important;
-  top: 1px;
-}
-.contact-item .title{
-  width: 100%;
-  /*width: calc(100% - 22px);*/
-  font-size: 1.3em;
-  font-weight: 400;
-}
-.job .tech {
-  font-size: 1.2em;
-}
-.job .tech span {
-  line-height: 18px;
-}
 ul {
   padding-left: 20px;
   list-style-type: square;
   margin-bottom: 0;
 }
-.skills li {
-  font-weight: 400;
-  font-size: 1.3em;
+
+.list-no-style {
+  list-style: none;
+  padding: 0;
 }
+
 h2 {
   margin: 3px 0 3px 0;
 }
 p {
   margin-bottom: 0;
 }
-.skills li {
-  list-style-type: none;
-}
 
-.skills ul {
+.no-padding {
   padding: 0;
 }
-.hobbies h2 {
-  margin-bottom: 8px;
+
+.right-link a {
+  float: right;
+}
+
+.label {
+  top: 1px;
+  position: relative;
+}
+#robot-hidden {
+  position: absolute;
+  color: white;
+  z-index:-1;
+  font-size:1px;
+  top:0;
+  left:0;
 }
