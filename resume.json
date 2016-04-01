@@ -193,7 +193,7 @@
   ],
   "experiences":[
     {
-      "title":"Cisco Emerge",
+      "title":"Cisco - Emerge",
       "date":"September 2015 - March 2016",
       "duration":"6 months",
       "position":"Full-Stack Software Engineer",
@@ -204,6 +204,7 @@
       ],
       "link":"emerge.cisco.com",
       "location":"San Francisco - United States",
+      "city": "San Francisco",
       "img": {
         "src": "assets/img/experiences/emerge.svg",
         "width": "305",
@@ -215,7 +216,7 @@
       ]
     },
     {
-      "title":"OVH France",
+      "title":"OVH",
       "date":"March-August 2015",
       "duration":"6 months",
       "position":"Full-Stack Software Engineer Intern",
@@ -225,6 +226,7 @@
       ],
       "link":"ovh.com",
       "location":"Roubaix - France",
+      "city": "Roubaix",
       "img": {
         "src": "assets/img/experiences/ovh.svg",
         "width": "305",
@@ -236,7 +238,7 @@
       ]
     },
     {
-      "title":"Geckoboard London",
+      "title":"Geckoboard",
       "date":"Summer 2014",
       "duration":"4 months",
       "position":"Software Engineer Intern",
@@ -247,6 +249,7 @@
       ],
       "link":"geckoboard.com",
       "location":"Shoreditch - London UK",
+      "city": "London",
       "img": {
         "src": "assets/img/experiences/geckoboard2.svg",
         "width": "305",
