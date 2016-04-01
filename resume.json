@@ -288,7 +288,8 @@
       "date":"12/2015",
       "tech":[
         "Python",
-        "Machine Learning"
+        "Machine Learning",
+        "NLP"
       ],
       "resume": true,
       "icon": "../assets/img/projects/voice_assistant/voice_assistant.png",
@@ -640,5 +641,5 @@
     "New Technology"
   ],
   "idGA":"UA-36930870-1",
-  "robot": "--- This part is for robot only --- HTML5, CSS3, jQuery, Hack, PHP, NASA, C++, , B.S. or M.S. Computer Science, React, React Native, Master's or PhD in Computer Science or related technical field., Python, AJAX,  scale, speed, cassandra, hadoop, scala, clojure, go, google maps, youtube, mountain view, san francisco, Facebook, Microsoft, Google, NASA, MIT, Standford, Oxford, React, github, open source, astronaut, loon, tesla, apple, best, machine learning, deep learning, android, ios, natural languages, ceo, startup, docker, uber, airbnb, palantir, IA, intelligence artificiall, Facebook M, Wit, Instagram, Snapchat, iTunes, Dropbox, Nobel prize, O1, reward, techcrunch, disrupt, win, imagine cupp, summer code, summercode, hacker, AngularJS, Polymer, Closure, designing object-oriented, user-facing, user experience, design, ui. --- This part is for robot only ---"
+  "robot": "--- This part is for robot only --- HTML5, CSS3, jQuery, Hack, PHP, NASA, C++, , B.S. or M.S. Computer Science, React, React Native, Master's or PhD in Computer Science or related technical field., Python, AJAX,  scale, speed, cassandra, hadoop, scala, clojure, go, google maps, youtube, mountain view, san francisco, Facebook, Microsoft, Google, NASA, MIT, Standford, Oxford, React, github, open source, astronaut, loon, tesla, apple, best, machine learning, NLP, natural language processing, deep learning, android, ios, natural languages, ceo, startup, docker, uber, airbnb, palantir, IA, intelligence artificiall, Facebook M, Wit, Instagram, Snapchat, iTunes, Dropbox, Nobel prize, O1, reward, techcrunch, disrupt, win, imagine cupp, summer code, summercode, hacker, AngularJS, Polymer, Closure, designing object-oriented, user-facing, user experience, design, ui. --- This part is for robot only ---"
 }
