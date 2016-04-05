@@ -390,7 +390,7 @@
       ],
       "github":"github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
       "slides":"Slides,http://ababol.github.io/ScaleWS",
-      "link":"http://babol.me:1337",
+      "link":"babol.me:1337",
       "tech":[
         "Node.js",
         "Backbone",
@@ -464,7 +464,7 @@
         "Jasmine"
       ],
       "github":"github.com/ababol/github-top-repo,https://github.com/ababol/github-top-repo",
-      "link":"http://babol.me/works/github-top-repo/#ababol",
+      "link":"babol.me/works/github-top-repo/#ababol",
       "tech":[
         "Backbone",
         "GitHub API",
@@ -489,7 +489,7 @@
         "1st Flat Design Experience",
         "Vanilla Responsive"
       ],
-      "link":"http://babol.me/old/v1",
+      "link":"babol.me/old/v1",
       "description":"Use of Flat Design techniques to make a responsive website. I was really proud of myself back in 2012 ^^.",
       "thumbImg":"assets/img/projects/babol.me/babolme_thumb.png",
       "images":"assets/img/projects/babol.me/babolme_0.png, assets/img/projects/babol.me/babolme_1.png, assets/img/projects/babol.me/babolme_2.png, assets/img/projects/babol.me/babolme_3.png, assets/img/projects/babol.me/babolme_4.png",
@@ -508,7 +508,7 @@
         "QUnit"
       ],
       "github":"github.com/ababol/Hackenbush,https://github.com/ababol/Hackenbush",
-      "link":"http://hackenbush.babol.me",
+      "link":"hackenbush.babol.me",
       "tech":[
         "HTML5",
         "CSS3",
@@ -562,7 +562,7 @@
         "Swing"
       ],
       "github":"github.com/ababol/JGaS,https://github.com/ababol/JGaS",
-      "link":"http://jgasolver.babol.me/JGaSolver.jar",
+      "link":"jgasolver.babol.me/JGaSolver.jar",
       "slides":"Slides,http://jgasolver.babol.me/Slides_GeneticAlgorithm.pdf",
       "tech":[
         "Java",
@@ -585,7 +585,7 @@
         "HTML5",
         "JavaScript"
       ],
-      "link":"http://robotbille.babol.me",
+      "link":"robotbille.babol.me",
       "tech":[
         "C",
         "HTML5",
