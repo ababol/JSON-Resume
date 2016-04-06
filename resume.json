@@ -350,7 +350,7 @@
         "Socket.io",
         "Webpack"
       ],
-      "description":"A realtime world map of Meerkat Streams. Featured on TheNextWeb and ProductHunt.",
+      "description":"A realtime world map of Meerkat Streams. Featured on <a href='http://thenextweb.com/apps/2015/07/20/meerkat-map-uses-apps-api-to-show-streams-around-the-world/' target='_blank'>TheNextWeb</a> and <a href='https://www.producthunt.com/tech/meerkatmap' target='_blank'>ProductHunt</a>.",
       "resume": true,
       "featured":true,
       "icon": "../assets/img/projects/meerkatmap/meerkat.svg",
