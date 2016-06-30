@@ -69,11 +69,7 @@
                 <div>
                   <img src="{{this.imgCv.src}}" height="{{this.imgCv.height}}" style="{{this.imgCv.styleLogo}}" />
                   <span class="where" style="top: {{this.imgCv.top}}px; left: {{this.imgCv.left}}px;">
-                    {{#if this.cvTitle}}
-                      {{this.cvTitle}}
-                    {{else}}
-                      {{this.title}}
-                    {{/if}}
+                    {{this.title}}
                   </span>
                 </div>
                 <div class="year tech">{{ this.date }}<br>
