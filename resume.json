@@ -193,7 +193,38 @@
   ],
   "experiences":[
     {
+      "title":"eFounders",
+      "date":"April 2016 - Present",
+      "duration":"Current",
+      "position":"Full-Stack Software Engineer",
+      "tech":[
+        "React",
+        "Redux",
+        "Node.js"
+      ],
+      "link":"efounders.co",
+      "location":"Paris - France",
+      "city": "Paris",
+      "img": {
+        "src": "assets/img/experiences/efounders.svg",
+        "width": "58",
+        "height": "58"
+      },
+      "imgCv": {
+        "src": "img/experiences/efounders.svg",
+        "height": "34",
+        "top": "3",
+        "left": "4",
+        "styleLogo": "margin-left: -4px; margin-bottom: -3px;"
+      },
+      "description":"eFounders turns unique ideas into successful independent companies.",
+      "descriptionLi":[
+        "Working on Spendesk which is a unique solution to generate corporate cards for employees and easily manage expenses as a team."
+      ]
+    },
+    {
       "title":"Cisco - Emerge",
+      "cvTitle":"Emerge",
       "date":"September 2015 - March 2016",
       "duration":"6 months",
       "position":"Full-Stack Software Engineer",
@@ -209,6 +240,13 @@
         "src": "assets/img/experiences/emerge.svg",
         "width": "305",
         "height": "52"
+      },
+      "imgCv": {
+        "src": "img/experiences/cisco.svg",
+        "height": "27",
+        "top": "2",
+        "left": "2",
+        "styleLogo": "margin-left: 0px;"
       },
       "description":"A new innovation team in Cisco focused entirely on the future of work and collaboration.",
       "descriptionLi":[
@@ -232,6 +270,13 @@
         "width": "305",
         "height": "52"
       },
+      "imgCv": {
+        "src": "img/experiences/ovh.svg",
+        "height": "25",
+        "top": "2",
+        "left": "5",
+        "styleLogo": "margin-left: 2px;"
+      },
       "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting.",
       "descriptionLi":[
         "Building the new ISP && Cloud manager"
@@ -254,6 +299,13 @@
         "src": "assets/img/experiences/geckoboard2.svg",
         "width": "305",
         "height": "52"
+      },
+      "imgCv": {
+        "src": "img/experiences/geckoboard.svg",
+        "height": "30",
+        "top": "2",
+        "left": "3",
+        "styleLogo": "margin-left: 1px;"
       },
       "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
       "descriptionLi":[

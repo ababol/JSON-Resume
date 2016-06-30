@@ -103,14 +103,14 @@ PHOTO (AVATAR)
 DEFAULT BOX
 *******************************************/
 .box{
-  margin: 20px 15px;
+  margin: 15px;
 }
 .box h2{
   color: #EC7263;
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0 0 10px 0;
+  margin: 0 0 4px 0;
 }
 .box h2:before{
   content: '//';
@@ -196,7 +196,7 @@ CONTACT
 EDUCATION
 *******************************************/
 #education {
-  margin-top: 20px;
+  margin-top: 6px;
   padding-right: 15px;
 }
 
@@ -233,15 +233,18 @@ BOX JOB/PROJECTS
 
 .box .job  {
   margin-left: -15px !important;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 .job .duration {
   color: grey;
   font-size: .8em;
 }
 .job .where{
-  font-size: 1.4em;
-  font-weight: bold;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: relative;
 }
 .job .year{
   font-size: 1.3em;
@@ -337,7 +340,7 @@ PROJECT
 MEETUP
 *******************************************/
 #meetup {
-  margin-top: 18px;
+  margin-top: 6px;
   padding-left: 15px;
 }
 #meetup ul {
@@ -356,10 +359,10 @@ MEETUP
 HOBBIES
 *******************************************/
 #hobbies {
-  margin-top: 8px;
+  margin-top: 0px;
 }
 #hobbies h2 {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 #hobbies .col-xs-12 {
   padding-left: 0;
@@ -438,4 +441,13 @@ p {
   font-size:1px;
   top:0;
   left:0;
+}
+
+.box#project h2 {
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+.box#experiences h2 {
+  margin-top: -2px;
+  margin-bottom: 4px;
 }

@@ -59,14 +59,23 @@
             <p class="description">{{{ about.description }}}</p>
           </div>
           <!-- EXPERIENCES -->
-          <div class="box">
+          <div class="box" id="experiences">
             <h2>Experiences</h2>
 
             <!-- JOB ITEM -->
             {{#each experiences}}
             <div class="job clearfix">
               <div class="col-xs-3">
-                <div class="where">{{ this.title }}</div>
+                <div>
+                  <img src="{{this.imgCv.src}}" height="{{this.imgCv.height}}" style="{{this.imgCv.styleLogo}}" />
+                  <span class="where" style="top: {{this.imgCv.top}}px; left: {{this.imgCv.left}}px;">
+                    {{#if this.cvTitle}}
+                      {{this.cvTitle}}
+                    {{else}}
+                      {{this.title}}
+                    {{/if}}
+                  </span>
+                </div>
                 <div class="year tech">{{ this.date }}<br>
                   {{#each this.tech}}
                     <span class="label label-default">{{this}}</span>
