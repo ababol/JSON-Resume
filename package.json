@@ -1,26 +1,9 @@
 {
   "name": "babol.me",
   "version": "0.0.1",
-  "description": "Portfolio",
-  "private": true,
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.4.x"
-  },
-  "scripts": {
-    "start": "grunt build",
-    "dev": "grunt dev"
-  },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-compile-handlebars": "^0.7.8",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-less": "^0.11.4",
-    "grunt-contrib-uglify": "^0.6.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-shell": "~1.1.1",
-    "phantomjs-prebuilt": "^2.1.4"
-  }
+  "description": "",
+  "scripts": {},
+  "author": "Arnaud Babol",
+  "license": "ISC",
+  "dependencies": {}
 }

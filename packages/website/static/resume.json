@@ -1,0 +1,216 @@
+{
+  "about":{
+    "name":"Arnaud Babol",
+    "role":"Full-Stack Developer",
+    "description":"Product Lover ❤️ - Full-Stack Developer",
+    "cvName": "arnaud_babol",
+    "cvLink":"cv/%CVNAME%_en.pdf"
+  },
+  "experiences":[
+    {
+      "title":"Spendesk",
+      "resume": false,
+      "link":"spendesk.com",
+      "img": {
+        "src": "static/img/companies/efounders.svg",
+        "color": "#6600FF"
+      }
+    },
+    {
+      "title":"eFounders",
+      "resume": true,
+      "date":"April 2016 - Present",
+      "duration":"Current",
+      "position":"Full-Stack Software Engineer",
+      "tech":[
+        "React",
+        "Redux",
+        "Node.js"
+      ],
+      "link":"efounders.co",
+      "city": "Paris",
+      "img": {
+        "src": "static/img/companies/efounders.svg",
+        "color": "#40D140"
+      },
+      "imgCv": {
+        "src": "img/experiences/efounders.svg",
+        "height": "34",
+        "top": "3",
+        "left": "4",
+        "styleLogo": "margin-left: -4px; margin-bottom: -3px;"
+      },
+      "description":"eFounders turns unique ideas into successful independent companies.",
+      "descriptionLi":[
+        "Working on Spendesk which is a unique solution to generate corporate cards for employees and easily manage expenses as a team."
+      ]
+    },
+    {
+      "title":"Emerge",
+      "resume": true,
+      "date":"September 2015 - March 2016",
+      "duration":"6 months",
+      "position":"Full-Stack Software Engineer",
+      "tech":[
+        "JavaScript",
+        "React Native",
+        "Python"
+      ],
+      "link":"emerge.cisco.com",
+      "city": "San Francisco",
+      "img": {
+        "src": "static/img/companies/cisco.svg",
+        "color": ""
+      },
+      "imgCv": {
+        "src": "img/experiences/cisco.svg",
+        "height": "27",
+        "top": "2",
+        "left": "2",
+        "styleLogo": "margin-left: 0px;"
+      },
+      "description":"A new innovation team in Cisco focused entirely on the future of work and collaboration."
+    },
+    {
+      "title":"OVH",
+      "resume": true,
+      "date":"March-August 2015",
+      "duration":"6 months",
+      "position":"Full-Stack Software Engineer Intern",
+      "tech":[
+        "Angular",
+        "Node.JS"
+      ],
+      "link":"ovh.com",
+      "city": "France",
+      "img": {
+        "src": "static/img/companies/ovh.svg",
+        "color": "white"
+      },
+      "imgCv": {
+        "src": "img/experiences/ovh.svg",
+        "height": "25",
+        "top": "2",
+        "left": "5",
+        "styleLogo": "margin-left: 2px;"
+      },
+      "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting."
+    },
+    {
+      "title":"Geckoboard",
+      "resume": true,
+      "date":"Summer 2014",
+      "duration":"4 months",
+      "position":"Software Engineer Intern",
+      "tech":[
+        "JavaScript",
+        "SASS",
+        "Jasmine"
+      ],
+      "link":"geckoboard.com",
+      "city": "London",
+      "img": {
+        "src": "static/img/companies/geckoboard.svg",
+        "color": "#8DC63F"
+      },
+      "imgCv": {
+        "src": "img/experiences/geckoboard.svg",
+        "height": "30",
+        "top": "2",
+        "left": "3",
+        "styleLogo": "margin-left: 1px;"
+      },
+      "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics."
+    }
+  ],
+  "projects":[
+    {
+      "title":"IFTTT",
+      "subtitle":"Cisco Spark (~Slack) integration into IFTTT (If Then Than That).",
+      "date":"12/2015",
+      "keys":[
+        "ES6",
+        "Node.js"
+      ],
+      "link":"ifttt.com/cisco_spark",
+      "tech":[
+        "ES6",
+        "Node.js"
+      ],
+      "description":"Cisco Spark (~Slack) integration into IFTTT (If Then Than That).",
+      "icon": "img/projects/ifttt.svg"
+    },
+    {
+      "title":"Voice assistant",
+      "description":"An Amazon Echo/Siri like designed for entreprise.",
+      "date":"12/2015",
+      "tech":[
+        "Python",
+        "Machine Learning",
+        "NLP"
+      ],
+      "icon": "img/projects/voice_assistant.png"
+    },
+    {
+      "title":"Portal",
+      "link":"teamportal.io",
+      "description":"An always-on video portal between two or more office locations.",
+      "date":"10/2015",
+      "tech":[
+        "Angular",
+        "WebRTC"
+      ],
+      "icon": "img/projects/portal.svg"
+    },
+    {
+      "title":"MeerkatMap",
+      "subtitle":"A realtime world map of Meerkat Streams",
+      "date":"06/2015 - 07/2015",
+      "link":"meerkat.ovh",
+      "tech":[
+        "React",
+        "ES6",
+        "io.js",
+        "Redis",
+        "Socket.io",
+        "Webpack"
+      ],
+      "description":"A realtime world map of Meerkat Streams. Featured on <a href='http://thenextweb.com/apps/2015/07/20/meerkat-map-uses-apps-api-to-show-streams-around-the-world/' target='_blank'>TheNextWeb</a> and <a href='https://www.producthunt.com/tech/meerkatmap' target='_blank'>ProductHunt</a>.",
+      "icon": "img/projects/meerkat.svg"
+    }
+  ],
+  "education":{
+    "isen": [
+      "Master’s degree in IT with Management & Business development (2015).",
+      "Bachelor of Technology in computer Science and Networking (2013)."
+    ]
+  },
+  "contact":{
+    "phone":"+33671706235",
+    "mail":"arnaud@babol.me",
+    "github":"ababol",
+    "angellist":"https://angel.co/ababol",
+    "twitter":"@arbabol",
+    "linkedin":"http://fr.linkedin.com/pub/arnaud-babol/60/994/741/en",
+    "portfolio":"http://babol.me"
+  },
+  "meetup":{
+    "france":[
+      "Chti'JS - ",
+      "Take Off Talks - ",
+      "GDG Lille - ",
+      "Docker Lille"
+    ],
+    "london":[
+      "London React User Group - ",
+      "Docker London"
+    ],
+    "bay":[
+      "ReactJS San Francisco Bay Area - ",
+      "While42 - ",
+      "DBF"
+    ]
+  },
+  "idGA":"UA-36930870-1",
+  "robot": "--- This part is for robot only --- HTML5, CSS3, jQuery, Hack, PHP, NASA, C++, , B.S. or M.S. Computer Science, React, React Native, Master's or PhD in Computer Science or related technical field., Python, AJAX,  scale, speed, cassandra, hadoop, scala, clojure, go, google maps, youtube, mountain view, san francisco, Facebook, Microsoft, Google, NASA, MIT, Standford, Oxford, React, github, open source, astronaut, loon, tesla, apple, best, machine learning, NLP, natural language processing, deep learning, android, ios, natural languages, ceo, startup, docker, uber, airbnb, palantir, IA, intelligence artificiall, Facebook M, Wit, Instagram, Snapchat, iTunes, Dropbox, Nobel prize, O1, reward, techcrunch, disrupt, win, imagine cupp, summer code, summercode, hacker, AngularJS, Polymer, Closure, designing object-oriented, user-facing, user experience, design, ui. --- This part is for robot only ---"
+}
