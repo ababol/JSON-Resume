@@ -3,53 +3,54 @@
     "name":"Arnaud Babol",
     "role":"Full-Stack Developer",
     "description":"Product Lover ❤️ - Full-Stack Developer",
+    "cvDescription":"Product <strong>Lover</strong> • I am looking for <strong>freedom</strong>, <strong>innovation</strong> and <strong>challenges</strong>.",
     "cvName": "arnaud_babol",
-    "cvLink":"cv/%CVNAME%_en.pdf"
+    "cvLink":"static/cv/%CVNAME%_en.pdf"
   },
   "experiences":[
     {
       "title":"Spendesk",
-      "resume": false,
+      "resume": true,
+      "duration":"April 2016 - Present",
+      "position":"Full-Stack Software Engineer",
+      "tech":[
+        "React",
+        "Node.js",
+        "ReactNative",
+        "GraphQL",
+        "Relay"
+      ],
       "link":"spendesk.com",
+      "city": "Paris",
       "img": {
-        "src": "static/img/companies/efounders.svg",
-        "color": "#6600FF"
-      }
+        "src": "static/img/companies/spendesk.svg",
+        "color": "#6600FF",
+        "size": 30,
+        "cvSrc": "img/experiences/spendesk.svg",
+        "cvSize": "21px"
+      },
+      "description":"Spendesk’s mission is to change the way companies manage their payments."
     },
     {
       "title":"eFounders",
       "resume": true,
-      "date":"April 2016 - Present",
-      "duration":"Current",
+      "duration":"April 2016 - Present",
       "position":"Full-Stack Software Engineer",
-      "tech":[
-        "React",
-        "Redux",
-        "Node.js"
-      ],
+      "tech":[],
       "link":"efounders.co",
       "city": "Paris",
       "img": {
         "src": "static/img/companies/efounders.svg",
-        "color": "#40D140"
-      },
-      "imgCv": {
-        "src": "img/experiences/efounders.svg",
-        "height": "34",
-        "top": "3",
-        "left": "4",
-        "styleLogo": "margin-left: -4px; margin-bottom: -3px;"
-      },
-      "description":"eFounders turns unique ideas into successful independent companies.",
-      "descriptionLi":[
-        "Working on Spendesk which is a unique solution to generate corporate cards for employees and easily manage expenses as a team."
-      ]
+        "color": "#40D140",
+        "size": 25,
+        "cvSrc": "img/experiences/efounders.svg",
+        "cvSize": "16px"
+      }
     },
     {
       "title":"Emerge",
       "resume": true,
-      "date":"September 2015 - March 2016",
-      "duration":"6 months",
+      "duration":"2016 (6 months)",
       "position":"Full-Stack Software Engineer",
       "tech":[
         "JavaScript",
@@ -60,22 +61,17 @@
       "city": "San Francisco",
       "img": {
         "src": "static/img/companies/cisco.svg",
-        "color": ""
-      },
-      "imgCv": {
-        "src": "img/experiences/cisco.svg",
-        "height": "27",
-        "top": "2",
-        "left": "2",
-        "styleLogo": "margin-left: 0px;"
+        "color": "#049FD9",
+        "size": 40,
+        "cvSrc": "img/experiences/cisco.svg",
+        "cvSize": "25px"
       },
       "description":"A new innovation team in Cisco focused entirely on the future of work and collaboration."
     },
     {
       "title":"OVH",
       "resume": true,
-      "date":"March-August 2015",
-      "duration":"6 months",
+      "duration":"2015 (6 months)",
       "position":"Full-Stack Software Engineer Intern",
       "tech":[
         "Angular",
@@ -85,22 +81,17 @@
       "city": "France",
       "img": {
         "src": "static/img/companies/ovh.svg",
-        "color": "white"
-      },
-      "imgCv": {
-        "src": "img/experiences/ovh.svg",
-        "height": "25",
-        "top": "2",
-        "left": "5",
-        "styleLogo": "margin-left: 2px;"
+        "color": "#264670",
+        "size": 30,
+        "cvSrc": "img/experiences/ovh.svg",
+        "cvSize": "18px"
       },
       "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting."
     },
     {
       "title":"Geckoboard",
       "resume": true,
-      "date":"Summer 2014",
-      "duration":"4 months",
+      "duration":"Summer 2014 (4 months)",
       "position":"Software Engineer Intern",
       "tech":[
         "JavaScript",
@@ -111,14 +102,10 @@
       "city": "London",
       "img": {
         "src": "static/img/companies/geckoboard.svg",
-        "color": "#8DC63F"
-      },
-      "imgCv": {
-        "src": "img/experiences/geckoboard.svg",
-        "height": "30",
-        "top": "2",
-        "left": "3",
-        "styleLogo": "margin-left: 1px;"
+        "color": "#8DC63F",
+        "size": 40,
+        "cvSrc": "img/experiences/geckoboard.svg",
+        "cvSize": "25px"
       },
       "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics."
     }
@@ -196,6 +183,10 @@
   },
   "meetup":{
     "france":[
+      "TheFamily - ",
+      "Le Wagon - ",
+      "ReactJS - ",
+      "HumanTalks - ",
       "Chti'JS - ",
       "Take Off Talks - ",
       "GDG Lille - ",

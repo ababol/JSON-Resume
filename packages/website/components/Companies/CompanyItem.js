@@ -15,7 +15,8 @@ export default class extends React.Component {
         img,
         color,
         link,
-      }
+      },
+      logoStyle,
     } = this.props;
 
     return (
@@ -27,7 +28,7 @@ export default class extends React.Component {
           style={{borderColor: active ? color : "rgba(25, 36, 75, 0.05)"}}
           target="_blank"
         >
-          <img src={img} style={{backgroundColor: color}} />
+          <div className="logo" style={logoStyle} />
           <div>{name}</div>
           <span style={{color: color}}>
             Visit {link}
@@ -38,7 +39,9 @@ export default class extends React.Component {
         <style jsx>{`
           li {
             flex: 0 0 calc(100% / 4);
-            padding: 0 15px;
+            padding: 20px;
+            min-width: 250px;
+            max-width: 90%;
           }
           a {
             background-color: #fff;
@@ -65,7 +68,10 @@ export default class extends React.Component {
             top: 1px;
             margin-left: 2px;
           }
-          img {
+          .logo {
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-position: center center;
             width: 50px;
             height: 50px;
             margin-bottom: 15px;
@@ -76,8 +82,14 @@ export default class extends React.Component {
             opacity: 1;
             transform: translateX(-50%) translateY(50%);
           }
-          a:hover img {
+          a:hover .logo {
             transform: scale(1.1);
+          }
+          @media (max-width: 600px) {
+            li {
+              min-width: 200px;
+              flex: 0 0 90%;
+            }
           }
         `}</style>
       </li>

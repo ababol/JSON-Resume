@@ -16,16 +16,17 @@ export default class extends Document {
            body {
              margin: 0;
              font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+             -webkit-font-smoothing: antialiased;
            }
            ul {
              list-style: none;
              padding: 0;
            }
-           h1, h2 {
+           h1, h2, h4, h5 {
              font-weight: 200;
            }
-           h3, h4 {
-             font-weight: 400;
+           h3 {
+             font-weight: 300;
            }
            h1, h3 {
              font-size: 36px;
@@ -34,6 +35,9 @@ export default class extends Document {
              font-size: 22px;
            }
            h4 {
+             font-size: 20px;
+           }
+           h5 {
              font-size: 30px;
            }
            a {

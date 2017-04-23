@@ -126,6 +126,16 @@ DEFAULT BOX
 /*******************************************
 ABOUT
 *******************************************/
+.about .description {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
+}
+.about .description strong {
+  color: #F0563D;
+  font-weight: 500;
+}
 .description a {
   color: #363636;
 }
@@ -196,7 +206,7 @@ CONTACT
 EDUCATION
 *******************************************/
 #education {
-  margin-top: 6px;
+  margin-top: 20px;
   padding-right: 15px;
 }
 
@@ -241,31 +251,53 @@ BOX JOB/PROJECTS
 }
 .job .where{
   font-size: 1.2em;
-  font-weight: 700;
-  letter-spacing: 4px;
+  font-weight: 500;
+  letter-spacing: 3px;
   text-transform: uppercase;
   position: relative;
+  top: -10px;
 }
 .job .year{
   font-size: 1.3em;
 }
 .job .profession{
   font-size: 1.6em;
+  position: relative;
+  top: 1px;
   font-weight: bold;
 }
 .job .profession a {
   font-size: 0.8em;
   font-weight: normal;
 }
+#experiences .job .profession a {
+  position: relative;
+  top: 3px;
+}
 .job .description{
+  margin-top: 4px;
   font-size: 1.3em;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 .job .tech {
   font-size: 1.2em;
 }
 .job .tech span {
   line-height: 18px;
+}
+.job .company-logo-container {
+  display: flex;
+}
+.job .company-logo {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  margin-right: 6px;
+  border-radius: 4px;
+  transition: transform .2s;
 }
 /*******************************************
 CONTACT
@@ -323,6 +355,10 @@ PROJECT
 #project .col-project-title {
   margin-left: 15px;
 }
+#project .tech {
+  margin-top: 4px;
+  margin-left: 72px;
+}
 
 #project .project {
   float:left;
@@ -332,7 +368,7 @@ PROJECT
 MEETUP
 *******************************************/
 #meetup {
-  margin-top: 6px;
+  margin-top: 20px;
   padding-left: 15px;
 }
 #meetup ul {
@@ -354,7 +390,7 @@ HOBBIES
   margin-top: 0px;
 }
 #hobbies h2 {
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 #hobbies .col-xs-12 {
   padding-left: 0;
@@ -433,13 +469,4 @@ p {
   font-size:1px;
   top:0;
   left:0;
-}
-
-.box#project h2 {
-  margin-top: -10px;
-  margin-bottom: -5px;
-}
-.box#experiences h2 {
-  margin-top: -2px;
-  margin-bottom: 4px;
 }

@@ -14,7 +14,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container" style="padding-top: 10px;">
+    <div class="container" style="padding-top: 6px;">
       <div id="text-header" class="row">
         <!--<div style="width: 20%; float: left; text-align: center; padding-left: 15px;">
           <div class="text-center">
@@ -54,25 +54,27 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12">
           <!-- ABOUT ME -->
-          <div class="box">
-            <h2 class="margin-top-about">About Me</h2>
-            <p class="description">{{{ about.description }}}</p>
+          <div class="about box">
+            <h3 class="description">{{{ about.cvDescription }}}</h3>
           </div>
           <!-- EXPERIENCES -->
           <div class="box" id="experiences">
-            <h2>Experiences</h2>
+            <h2 style="margin-bottom: 14px;">Experiences</h2>
 
             <!-- JOB ITEM -->
             {{#each experiences}}
             <div class="job clearfix">
               <div class="col-xs-3">
-                <div>
-                  <img src="{{this.imgCv.src}}" height="{{this.imgCv.height}}" style="{{this.imgCv.styleLogo}}" />
-                  <span class="where" style="top: {{this.imgCv.top}}px; left: {{this.imgCv.left}}px;">
+                <div class="company-logo-container">
+                  <span
+                    class="company-logo"
+                    style="background-color: {{this.img.color}}; background-size: {{this.img.cvSize}}; background-image: url({{this.img.cvSrc}})"
+                  ></span>
+                  <span class="where">
                     {{this.title}}
                   </span>
                 </div>
-                <div class="year tech">{{ this.date }}<br>
+                <div class="year tech">
                   {{#each this.tech}}
                     <span class="label label-default">{{this}}</span>
                   {{/each}}
@@ -105,7 +107,6 @@
 
             <!-- JOB ITEM -->
             {{#each projects}}
-              {{if this.resume}}
               <div class="job clearfix project col-xs-6">
                 <div class="col-project-img">
                   <img src="{{ this.icon }}" width="59" />
@@ -135,7 +136,6 @@
                 </div>
 
               </div>
-              {{/if}}
             {{/each}}
 
           </div>
@@ -159,7 +159,7 @@
           <section class="box">
             <div class="skill col-xs-6 no-padding" id="meetup">
               <h2>Meetups</h2>
-              <ul class="list-no-style">
+              <ul class="list-no-style" style="margin-top: 4px">
                 <b>France</b>
                 <li>{{#each meetup.france}}{{this}}{{/each}}</li>
                 <b>London</b>
@@ -178,8 +178,8 @@
                 <div style="display: flex;">
                   <div class="col-xs-2" style="display:flex; align-items: center;"><img src="./img/hobbies/longboard.svg" width="60" /></div>
                   <div class="col-xs-2" style="display:flex; align-items: center; margin-top: 9px;"><img style="position: relative; left: -5px;" src="./img/hobbies/music.png" width="55" /></div>
-                  <div class="col-xs-2" style="display:flex; align-items: center; margin-top: 8px;"><img src="./img/hobbies/programming.svg" width="55" /></div>
-                  <div class="col-xs-2" style="display:flex; align-items: center; margin-top: 2px;"><img src="./img/hobbies/video_games.svg" width="55" /></div>
+                  <div class="col-xs-2" style="display:flex; align-items: center; margin-top: 11px;"><img src="./img/hobbies/programming.svg" width="53" /></div>
+                  <div class="col-xs-2" style="display:flex; align-items: center;"><img src="./img/hobbies/museum.svg" width="60" /></div>
                   <div class="col-xs-2" style="display:flex; align-items: center;"><img src="./img/hobbies/future.svg" width="55" /></div>
                   <div class="col-xs-2" style="display:flex; align-items: center;"><img src="./img/hobbies/movies.svg" width="55" /></div>
                 </div>

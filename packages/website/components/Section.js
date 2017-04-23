@@ -1,9 +1,14 @@
-export default ({ title, children }) => (
-  <section className="l-wrap">
-    <h3>{title}</h3>
-    {children}
+export default ({ title, children, style, innerStyle }) => (
+  <section style={style}>
+    <div style={innerStyle}>
+      <h3>{title}</h3>
+      {children}
+    </div>
     <style jsx>{`
       section {
+        position: relative;
+      }
+      section > div {
         margin: 0 auto;
         max-width: 1030px;
         width: 100%;

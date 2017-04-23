@@ -42,6 +42,10 @@ export default ({ about, contact }) => (
         margin: 0 auto;
         max-width: 700px;
         margin: 5%;
+        animation-name: fader;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
       }
 
       h1 {
@@ -50,6 +54,10 @@ export default ({ about, contact }) => (
 
       h2 {
         margin: 22px 0;
+      }
+
+      .links--items {
+        margin: 5px 0 0;
       }
 
       .links--items a {
@@ -61,6 +69,10 @@ export default ({ about, contact }) => (
       }
       .links--items a:hover {
         opacity: 1;
+      }
+      @keyframes fader {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
       }
 
     `}</style>

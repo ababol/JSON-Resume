@@ -23,19 +23,27 @@ export default () => (
       contact={contact}
     />
 
-    <Section title="I have worked for">
+    <Section
+      title="I have worked for"
+      innerStyle={{padding: '20px 0 60px'}}
+      style={{'box-shadow': '0 6px 15px 0 rgba(0, 0, 0, 0.08)'}}
+    >
       <Companies
         companies={experiences.map(company => {
           return {
             name: company.title,
             link: company.link,
             img: company.img.src,
-            color: company.img.color
+            color: company.img.color,
+            logoSize: company.img.size,
           }
         })}
       />
     </Section>
 
-    <Footer />
+    <Footer
+      about={about}
+      contact={contact}
+    />
   </div>
 )
