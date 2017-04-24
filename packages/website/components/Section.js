@@ -7,6 +7,7 @@ export default ({ title, children, style, innerStyle }) => (
     <style jsx>{`
       section {
         position: relative;
+        overflow-x: hidden;
       }
       section > div {
         margin: 0 auto;
