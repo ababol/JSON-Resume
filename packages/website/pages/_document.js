@@ -12,7 +12,7 @@ export default class extends Document {
     return (
       <html>
         <Head>
-          <title>❤️ Arnaud Babol</title>
+          <title>✋ Arnaud Babol</title>
 
           <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicons/apple-icon-57x57.png" />
           <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicons/apple-icon-60x60.png" />
