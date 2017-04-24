@@ -20,9 +20,10 @@ export default ({ about, contact }) => (
         </a>
 
       </div>
-      <i className="icon-keyboard_arrow_down"></i>
 
     </div>
+
+    <i className="icon-chevron-down"></i>
 
     <style jsx>{`
       header {
@@ -69,6 +70,20 @@ export default ({ about, contact }) => (
       }
       .links--items a:hover {
         opacity: 1;
+      }
+      .icon-chevron-down {
+        position: absolute;
+        bottom: 45px;
+        align-self: center;
+        animation-name: bounce;
+        animation-iteration-count: infinite;
+        animation-duration: 1.5s;
+        font-size: 20px;
+      }
+      @keyframes bounce {
+        0%   {transform: translateY(0);}
+        50%  {transform: translateY(15px);}
+        100% {transform: translateY(0);}
       }
       @keyframes fader {
         0% { opacity: 0; }
