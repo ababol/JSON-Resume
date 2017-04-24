@@ -74,7 +74,9 @@ export default ({ about, contact }) => (
       .icon-chevron-down {
         position: absolute;
         bottom: 45px;
-        align-self: center;
+        left: 0;
+        right: 0;
+        text-align: center;
         animation-name: bounce;
         animation-iteration-count: infinite;
         animation-duration: 1.5s;

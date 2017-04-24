@@ -9,7 +9,7 @@ I made this little project because in the past it was a pain for me to edit my p
 
 Now, if I want to edit the content of my portfolio/résumé I just have to edit the  [resume.json](https://github.com/ababol/JSON-Resume/blob/master/resume.json) file :tada:.
 
-# Install
+# Dev
 
 ```
 npm install
@@ -22,4 +22,4 @@ Run `npm start`.
 # Demo
 
 * [Portfolio](http://babol.me)
-* [PDF Résumé](http://babol.me/cv/arnaud_babol_en.pdf)
+* [PDF Résumé](http://babol.me/static/cv/arnaud_babol_en.pdf)
