@@ -1,7 +1,7 @@
 JSON-Resume
 ===========
 
-> Generate portfolio/resume pdf from a JSON file thanks to a grunt watcher + PhantomJS.
+> About page (a server rendered JS web app with React) + a pdf résumé from a JSON file.
 
 # Why?
 
@@ -9,15 +9,24 @@ I made this little project because in the past it was a pain for me to edit my p
 
 Now, if I want to edit the content of my portfolio/résumé I just have to edit the  [resume.json](https://github.com/ababol/JSON-Resume/blob/master/resume.json) file :tada:.
 
-# Dev
+# Install
 
 ```
 npm install
 ```
 
-# How
+# Dev
 
-Run `npm start`.
+```
+npm run dev
+```
+
+# Prod
+
+```
+npm run build
+npm run prod
+```
 
 # Demo
 

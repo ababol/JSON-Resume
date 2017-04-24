@@ -49,7 +49,7 @@ PHOTO (AVATAR)
   width: 25%;
   float: right;
   text-align: right;
-  margin-right: 60px;
+  margin-right: 42px;
 }
 #photo{
   margin-top: 3px;
@@ -131,6 +131,8 @@ ABOUT
   text-align: center;
   margin: 0;
   font-weight: 400;
+  margin: 16px 0;
+  display: block;
 }
 .about .description strong {
   color: #F0563D;
@@ -189,7 +191,7 @@ CONTACT
   vertical-align: middle;
 }
 #contact .icon {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 40px;
 }
 #contact .icon i {
   padding-top: 1.5px;
@@ -235,10 +237,12 @@ BOX JOB/PROJECTS
 *******************************************/
 .box .job .col-xs-3 {
   width: 26%;
+  padding-left: 17px;
 }
 
 .box .job .col-xs-9 {
   width: 74%;
+  padding-right: 0;
 }
 
 .box .job  {
@@ -390,13 +394,17 @@ HOBBIES
   margin-top: 0px;
 }
 #hobbies h2 {
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 8px;
 }
 #hobbies .col-xs-12 {
   padding-left: 0;
   padding-right: 30px;
 }
-
+#hobbies .col-xs-2 {
+  padding: 0;
+  text-align: center;
+}
 /*******************************************
 MEDIA
 *******************************************/

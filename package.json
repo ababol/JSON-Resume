@@ -2,7 +2,14 @@
   "name": "babol.me",
   "version": "0.0.1",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "cv": "cd packages/cv-pdf-deprecated && npm",
+    "website": "cd packages/website && npm",
+    "install": "npm run cv install && npm run website install",
+    "build": "npm run cv run build && npm run website run build",
+    "dev": "npm run cv run dev & npm run website run dev",
+    "prod": "npm run website start"
+  },
   "author": "Arnaud Babol",
   "license": "ISC",
   "dependencies": {}
