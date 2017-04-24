@@ -11,7 +11,7 @@ module.exports = function(grunt) {
    const resumeJSONFile = '../website/static/resume.json'
 
   function getPhantomCmd(lang) {
-    return `node_modules/phantomjs-prebuilt/bin/phantomjs ./rasterize.js ./cv_${lang}.html ../website/static/${about.cvName}_${lang}.pdf "827px*1169px"`;
+    return `node_modules/phantomjs-prebuilt/bin/phantomjs ./rasterize.js ./cv_${lang}.html ../website/static/cv/${about.cvName}_${lang}.pdf "827px*1169px"`;
   }
 
   grunt.initConfig({
