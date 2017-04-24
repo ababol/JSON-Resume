@@ -39,9 +39,9 @@ module.exports = function(grunt) {
       options: {
         stderr: false
       },
-      // cvEN: {
-      //   command: getPhantomCmd('en')
-      // },
+      cvEN: {
+        command: getPhantomCmd('en')
+      },
       cvENPhoto: {
         command: getPhantomCmd('en_photo')
       }

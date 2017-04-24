@@ -11,13 +11,6 @@ import {
 
 export default () => (
   <div>
-    <Head>
-      <title>🖐 Arnaud Babol</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <link rel="stylesheet" href="/static/css/fonts.css" />
-    </Head>
-
     <Header
       about={about}
       contact={contact}
