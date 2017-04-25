@@ -51,6 +51,7 @@ export default ({ about, contact }) => (
 
       h1 {
         margin: 0;
+        text-shadow: rgba(0, 0, 0, .6) 0px 1px 1px;
       }
 
       h2 {

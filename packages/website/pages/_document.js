@@ -28,9 +28,24 @@ export default class extends Document {
           <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicons/favicon-96x96.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicons/favicon-16x16.png" />
           <meta name="msapplication-TileImage" content="static/img/favicons/ms-icon-144x144.png" />
-
           <meta charSet='utf-8' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Arnaud Babol - Product Lover ❤️" />
+          <meta property="og:description" content="Product Lover • I am looking for freedom, innovation and challenges." />
+          <meta property="og:url" content="https://babol.me" />
+          <meta property="og:site_name" content="Arnaud Babol" />
+          <meta property="og:image" content="https://babol.me/static/img/meta/og.jpg" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@arbabol" />
+          <meta name="twitter:creator" content="@arbabol" />
+          <meta name="twitter:title" content="Arnaud Babol - Product Lover ❤️" />
+          <meta name="twitter:description" content="Product Lover • I am looking for freedom, innovation and challenges." />
+          <meta name="twitter:image" content="https://babol.me/static/img/meta/twitter.jpg" />
+
           <link rel="stylesheet" href="static/css/fonts.css" />
           <style>{`
             body {
