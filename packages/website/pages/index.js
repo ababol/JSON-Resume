@@ -19,7 +19,7 @@ export default () => (
     <Section
       title="I have worked for"
       innerStyle={{padding: '20px 0 60px'}}
-      style={{'box-shadow': '0 6px 15px 0 rgba(0, 0, 0, 0.08)'}}
+      style={{'boxShadow': '0 6px 15px 0 rgba(0, 0, 0, 0.08)'}}
     >
       <Companies
         companies={experiences.map(company => {
