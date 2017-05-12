@@ -30,5 +30,5 @@ npm run prod
 
 # Demo
 
-* [Portfolio](http://babol.me)
-* [PDF Résumé](http://babol.me/static/cv/arnaud_babol_en.pdf)
+* [Portfolio](http://babol.io)
+* [PDF Résumé](http://babol.io/static/cv/arnaud_babol_en.pdf)

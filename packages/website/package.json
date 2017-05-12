@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "now": {
-    "alias": ["babol.me", "www.babol.me"]
+    "alias": ["babol.me", "www.babol.me", "babol.io", "www.babol.io"]
   },
   "author": "Arnaud Babol",
   "license": "ISC",
