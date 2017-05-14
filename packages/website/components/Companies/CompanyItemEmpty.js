@@ -1,7 +1,7 @@
 export default () => (
   <li>
     <a
-      href="mailto:arnaud@babol.me"
+      href="mailto:a@babol.io"
       target="_blank"
     >
       <h5>
